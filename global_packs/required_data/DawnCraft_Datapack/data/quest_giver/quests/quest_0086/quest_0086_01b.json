@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "긴급한 요청"
+    },
+    "description": {
+      "text": "악의 기운이 몰려오고 있네. 철 주괴 16개만 구해다 줄 수 있겠나? 경비병들을 위한 무기를 더 만들어야 하는데... 아직 준비가 턱없이 부족하다네."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "화살 제작의 기술"
+    },
+    "description": {
+      "text": "화살대를 만드는 데는 가문비나무가 최고라는 사실을 알고 있는가? 뭐, 어찌 됐든 상관없네만. 그 통나무를 좀 구해다 줄 수 있겠나? 최소한 4개는 필요하다네."
+    }
+  }
+}

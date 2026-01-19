@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0123_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "스컬크"
+    },
+    "description": {
+      "text": "오, 돌아왔군! 부탁했던 $(red)스컬크 비명체$()는 벌써 구해왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "이거 참... 기괴하게 생겼구먼. 혹시 워든과 마주치기라도 했나? 뭐, 살아서 돌아온 걸 보니 만나지는 않은 모양이군. 어쨌든 여기 보상일세. 이 물건이 자네를 흔한 슬라임들로부터 지켜줄 게야."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "wildbackport:sculk_shrieker"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "dannys_expansion:gelatinous_diplomacy"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    }
+  ]
+}

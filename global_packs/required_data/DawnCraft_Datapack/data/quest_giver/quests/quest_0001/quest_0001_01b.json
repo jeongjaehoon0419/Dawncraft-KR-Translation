@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "물건 좀 가져다주게!"
+    },
+    "description": {
+      "text": "도움이 좀 필요하네! 혹시 $(red)철 주괴 4개$()만 좀 구해다 줄 수 있겠나? 갑옷을 만들 재료가 똑 떨어져서 말이네... 지금은 당장 보답할 게 없지만, 언젠가 꼭 은혜를 갚겠다고 약속함세!"
+    }
+  }
+}

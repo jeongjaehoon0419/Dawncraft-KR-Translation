@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능에 가까운 시련!"
+    },
+    "description": {
+      "text": "내가 명하는 두 가지 과업을 완수하게나. 그리해야만 강력한 '루인'을 하사하는 것을 고려해 보겠네. 호랑이에게 고기를 먹여 '호랑이의 축복'을 받고, 네더의 독성 더미(Toxic Heap)에서 '네더 반응로(Nether Reactor)'를 탈취해 오게."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "훌륭하군! 여기 있네. 이 검의 날카로운 칼날 속에는 수많은 지식이 봉인되어 있다네..."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "alexsmobs:alexsmobs/tigers_blessing"
+    },
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "incendium:toxic_heap/nuclear_fusion"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ruine"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

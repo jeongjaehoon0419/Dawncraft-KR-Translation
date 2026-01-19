@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이리 좀 와보게! 나랑 이야기 좀 하지 않겠나?"
+    }
+  }
+}

@@ -1,0 +1,606 @@
+{
+	id: "1A7295F32C7D70EA"
+	group: "0A520B482648497B"
+	order_index: 4
+	filename: "exploration"
+	title: "탐험"
+	icon: "supplementaries:globe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "오버월드"
+			icon: "minecraft:grass_block"
+			x: 0.0d
+			y: -4.0d
+			description: ["오버월드는 수많은 퀘스트, 자원, 보물 그리고 도전의 장입니다. 충분한 시간을 갖고 계획을 세워 살아남으십시오. 인내하는 자는 강대한 힘을 얻고 다른 차원으로 승천할 것입니다."]
+			size: 2.0d
+			id: "26B0E9F636E0AB36"
+			tasks: [{
+				id: "53A579D6FE317288"
+				type: "checkmark"
+				title: "읽음"
+			}]
+			rewards: [{
+				id: "26B60CBC196BB852"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "네더"
+			icon: "minecraft:nether_wart_block"
+			x: 4.5d
+			y: -4.0d
+			description: ["네더는 바닐라 마인크래프트와 동일한 방식으로 진입할 수 있지만, 그곳에 도사리고 있는 위험과 보상은 상상을 초월합니다..."]
+			size: 2.0d
+			id: "697846FDD5008134"
+			tasks: [{
+				id: "675BDFC245723D63"
+				type: "checkmark"
+				title: "읽음"
+			}]
+			rewards: [{
+				id: "530A2D340C3DFEFB"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "에버브라이트 (The Everbright)"
+			icon: "blue_skies:turquoise_cobblestone"
+			x: 9.0d
+			y: -4.0d
+			description: ["에버브라이트 차원에는 수많은 도전과 자원이 기다리고 있습니다. 새로운 장비를 제작하고, 보스를 처치하며 전설적인 아이템을 찾아내십시오."]
+			size: 2.0d
+			id: "278CAD60E4CC5A79"
+			tasks: [{
+				id: "369AD0EBD1632751"
+				type: "checkmark"
+				title: "더 알아보기"
+			}]
+			rewards: [{
+				id: "28C80E50688DB642"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "에버던 (The Everdawn)"
+			icon: "blue_skies:lunar_cobblestone"
+			x: 14.0d
+			y: -4.0d
+			description: ["에버던 차원은 새로운 보스와 자원들로 가득합니다. 위험을 감수하고 탐험을 시작하십시오."]
+			size: 2.0d
+			id: "1453090ED20C0271"
+			tasks: [{
+				id: "49E9F06E0F60FE9C"
+				type: "checkmark"
+				title: "더 알아보기"
+			}]
+			rewards: [{
+				id: "4C0727FAE6CD0011"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "디 엔드"
+			icon: "minecraft:end_stone"
+			x: 19.0d
+			y: -4.0d
+			description: [
+				"디 엔드는 요새에서 발견되는 포탈을 활성화해야만 진입할 수 있습니다. 바닐라 마인크래프트와 달리, 포탈을 열기 위해서는 12개의 고유한 눈이 필요합니다. 이 눈들은 매우 희귀하며, 종류에 상관없이 12개를 모으면 포탈이 활성화됩니다 (세상에는 12종류 이상의 눈이 존재합니다)."
+				"\\n길드 마스터 퀘스트 완료:\\n- 우민 10마리를 처치하여 더 자세한 정보를 얻으십시오."
+			]
+			size: 2.0d
+			id: "57EDE0CC1790AEBD"
+			tasks: [
+				{
+					id: "0345F1E8C53FAB99"
+					type: "checkmark"
+					title: "눈의 종류에 대해 알아보기"
+				}
+				{
+					id: "091E1B3C99615A7D"
+					type: "gamestage"
+					title: "길드 마스터 퀘스트 완료"
+					icon: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					stage: "guildmaster2"
+				}
+			]
+			rewards: [{
+				id: "367A62F3516B7495"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "에버브라이트 포탈"
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["278CAD60E4CC5A79"]
+			size: 1.3d
+			id: "757077E8AFBC40A2"
+			tasks: [{
+				id: "4AEDED909791CCF9"
+				type: "item"
+				item: {
+					id: "blue_skies:everbright_portal"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"§b에버브라이트 포탈\"}"
+							Lore: [
+								"{\"text\":\"활성화된 에버브라이트 포탈을 생성합니다.\"}"
+								"{\"text\":\"네더 포탈과 동일한 공간이\"}"
+								"{\"text\":\"필요합니다.\"}"
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "에버던 포탈"
+			x: 12.5d
+			y: -2.0d
+			dependencies: ["1453090ED20C0271"]
+			size: 1.3d
+			id: "23235D3C0E6F9435"
+			tasks: [{
+				id: "4B40BE7DAD113655"
+				type: "item"
+				item: {
+					id: "blue_skies:everdawn_portal"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"§b에버던 포탈\"}"
+							Lore: [
+								"{\"text\":\"활성화된 에버던 포탈을 생성합니다.\"}"
+								"{\"text\":\"네더 포탈과 동일한 공간이\"}"
+								"{\"text\":\"필요합니다.\"}"
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "잃어버린 눈"
+			x: 17.5d
+			y: -2.0d
+			description: [
+				""
+				"메인 퀘스트 진행 중 발견되는 타락한 오우거(Corrupt Ogre)가 소지하고 있습니다."
+			]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "2AE188E073009A12"
+			tasks: [{
+				id: "233E97A6EE80CFF0"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FC729F5FD4C7A15"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 3
+			}]
+		}
+		{
+			title: "부랑자의 눈"
+			x: 17.5d
+			y: -1.0d
+			description: ["메인 퀘스트 진행 중 발견되는 기사 로버(Knight Rober)가 소지하고 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "27E0894F6EC59E41"
+			tasks: [{
+				id: "6426AEB8DE5AED08"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2812DED3760567C7"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			title: "이국의 눈"
+			x: 17.5d
+			y: 0.0d
+			description: ["메인 퀘스트 진행 중 발견되는 구미호(Nine-Tails)가 소지하고 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "1DE383D583863F67"
+			tasks: [{
+				id: "3B6E4E07EE7DCDAD"
+				type: "item"
+				item: {
+					id: "endrem:exotic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47E8CAD14A50C427"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			title: "마법의 눈"
+			x: 17.5d
+			y: 1.0d
+			description: ["메인 퀘스트 진행 중 발견되는 스켈레톤 로드(Skeleton Lord)가 소지하고 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "1A00AA6649D04596"
+			tasks: [{
+				id: "0B86E97E8181301A"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "66FA5E21B84DA347"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 20
+			}]
+		}
+		{
+			title: "수호자의 눈"
+			x: 19.0d
+			y: -2.0d
+			description: ["이를 열기 위한 열쇠를 가진 센티넬(Sentinel)의 나무에 보관되어 있습니다. 메인 퀘스트 진행 중에 발견할 수 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "2124AE11DC610CC1"
+			tasks: [{
+				id: "2F546B6C8AF7668D"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F70C52B430C020D"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			title: "타락한 눈"
+			x: 19.0d
+			y: -1.0d
+			description: ["메인 퀘스트 진행 중 발견되는 화염 거인(Fire Giant)이 소지하고 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "0B132D9B1280D572"
+			tasks: [{
+				id: "24C55007E03F6501"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "200E3FB05E6462CA"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			title: "위더의 눈"
+			x: 19.0d
+			y: 0.0d
+			description: ["위더(Wither)가 소지하고 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "2813959518A55FA9"
+			tasks: [{
+				id: "2C06B3A8252AD155"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "688BD567F1B3BAFD"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "simple_mobs:withering_iii"
+					}
+				}
+			}]
+		}
+		{
+			title: "혹한의 눈"
+			x: 19.0d
+			y: 1.0d
+			description: ["추운 바이옴에서 발견되는 프로스트모(Frostmaw)가 소지하고 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "05624949F0147925"
+			tasks: [{
+				id: "1DA641E7DEBD6561"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "14D5D876F338053A"
+				type: "item"
+				item: "simple_mobs:ice_dragon_essence"
+			}]
+		}
+		{
+			title: "마녀의 눈"
+			x: 20.5d
+			y: -2.0d
+			description: ["마녀가 드물게 드롭하는 마녀의 눈으로 제작하거나, 마녀의 보물상자에서 발견할 수 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "2ED8F709AB0A1E66"
+			tasks: [{
+				id: "43485DC462973739"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A4CD08B48D8FA71"
+				type: "item"
+				item: {
+					id: "biomemakeover:witch_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "언데드의 눈"
+			x: 20.5d
+			y: -1.0d
+			description: ["100일 이후 어디에서나 스폰될 수 있는 언데드 군대(Undead Army)가 지키고 있는 언데드 영혼으로 제작합니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "2974355CE2A6BE98"
+			tasks: [{
+				id: "4678E42033FC2EAB"
+				type: "item"
+				item: {
+					id: "endrem:undead_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7932729BEF07A84C"
+				type: "item"
+				item: "minecraft:soul_torch"
+				count: 16
+			}]
+		}
+		{
+			title: "사악한 눈"
+			x: 20.5d
+			y: 0.0d
+			description: ["성직자 주민이 보관하고 있으며, 높은 레벨의 거래를 통해 드물게 획득할 수 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "2F938B98834890FF"
+			tasks: [{
+				id: "37ABC69EFC7E5276"
+				type: "item"
+				item: {
+					id: "endrem:evil_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4ECDB4D3583690F0"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "네더의 눈"
+			x: 20.5d
+			y: 1.0d
+			description: ["네더 던전에서 발견할 수 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "01521D24D1CA17D0"
+			tasks: [{
+				id: "4909E474B56A85F0"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33D1FC59F1127061"
+				type: "item"
+				item: "difficultraids:fireball_totem"
+			}]
+		}
+		{
+			title: "오래된 눈"
+			x: 17.5d
+			y: 2.0d
+			description: ["사막 피라미드에서 발견할 수 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "7E38E271D8341C63"
+			tasks: [{
+				id: "276536BAFE417178"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5793883CD2A789FB"
+				type: "item"
+				item: "dannys_expansion:sandy_clothes"
+			}]
+		}
+		{
+			title: "검은 눈"
+			x: 19.0d
+			y: 2.0d
+			description: ["바다 보물상자에서 발견할 수 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "645605CFF7A94936"
+			tasks: [{
+				id: "125F840426577EE3"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "65EBD739B85B7A8C"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+				count: 2
+			}]
+		}
+		{
+			title: "저주받은 눈"
+			x: 20.5d
+			y: 2.0d
+			description: ["네더 보루(Bastion)에서 발견할 수 있습니다."]
+			dependencies: ["57EDE0CC1790AEBD"]
+			hide: true
+			id: "57D9FF8914AB6540"
+			tasks: [{
+				id: "466E05746C90BE86"
+				type: "item"
+				item: {
+					id: "endrem:cursed_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "712A13CC1C2A64B3"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "푸른 일지"
+			x: 11.5d
+			y: -4.0d
+			subtitle: "게이트키퍼(GateKeeper)를 찾아 여정을 시작하십시오!"
+			id: "36E0F71703918811"
+			tasks: [{
+				id: "2A33CB2A044D0A89"
+				type: "item"
+				item: "blue_skies:blue_journal"
+				consume_items: false
+				only_from_crafting: false
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "35A44E1A4A3A5E48"
+				type: "xp"
+				xp: 5
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "소소한 담소"
+    },
+    "description": {
+      "text": "자네, 도마와 나이프를 함께 사용하면 대부분의 식재료를 더 작은 재료로 썰 수 있다는 사실을 알고 있는가? 음식뿐만 아니라 통나무나 장비 같은 다른 자원들도 도마 위에 올려두고 시험해볼 가치가 충분하다네!"
+    }
+  }
+}

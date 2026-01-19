@@ -1,0 +1,9 @@
+{
+  "parent": "quest_giver:quest_0053_04",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": { "text": "어찌 되었나?" },
+    "description": { "text": "흠... 왜 아직 여기 있는 건가? 설마 무슨 보상이라도 기대하는 건가?" }
+  }
+}

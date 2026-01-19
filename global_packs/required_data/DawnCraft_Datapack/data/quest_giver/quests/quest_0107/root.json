@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이보게, $(red)더스크 원목$() 하나만 구해다 줄 수 있겠나? 에버던 차원에 가면 찾을 수 있을 게야."
+    }
+  }
+}

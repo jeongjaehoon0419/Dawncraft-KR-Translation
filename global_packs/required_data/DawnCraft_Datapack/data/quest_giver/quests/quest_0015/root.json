@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "모험가여, 내게 엔더 진주 5개를 구해다 줄 수 있겠나?"
+    }
+  }
+}

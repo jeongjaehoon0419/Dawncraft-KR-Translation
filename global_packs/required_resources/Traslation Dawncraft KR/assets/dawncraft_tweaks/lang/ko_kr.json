@@ -1,0 +1,291 @@
+{
+	"itemGroup.dawncraft.DungeonBlocks": "DawnCraft 던전 블록",
+	"itemGroup.dawncraft.DungeonFunctionalBlocks": "기능성 던전 블록",
+	"itemGroup.dawncraft.DungeonItems": "DawnCraft 아이템",
+
+	"block.dawncraft.forest_brick": "숲 벽돌",
+	"block.dawncraft.forest_brick_stairs": "숲 벽돌 계단",
+	"block.dawncraft.forest_brick_slab": "숲 벽돌 반 블록",
+	"block.dawncraft.forest_brick_wall": "숲 벽돌 담장",
+	
+	"block.dawncraft.fire_brick": "화염 벽돌",
+	"block.dawncraft.fire_brick_stairs": "화염 벽돌 계단",
+	"block.dawncraft.fire_brick_slab": "화염 벽돌 반 블록",
+	"block.dawncraft.fire_brick_wall": "화염 벽돌 담장",
+	
+	"block.dawncraft.coral": "산호 블록",
+	"block.dawncraft.coral_stairs": "산호 계단",
+	"block.dawncraft.coral_slab": "산호 반 블록",
+	"block.dawncraft.coral_wall": "산호 담장",
+	
+	"block.dawncraft.magma_slate": "마그마 점판암",
+	"block.dawncraft.magma_slate_stairs": "마그마 점판암 계단",
+	"block.dawncraft.magma_slate_slab": "마그마 점판암 반 블록",
+	"block.dawncraft.magma_slate_wall": "마그마 점판암 담장",
+	
+	"block.dawncraft.moss_brick": "이끼 낀 벽돌",
+	"block.dawncraft.moss_brick_stairs": "이끼 낀 벽돌 계단",
+	"block.dawncraft.moss_brick_slab": "이끼 낀 벽돌 반 블록",
+	"block.dawncraft.moss_brick_wall": "이끼 낀 벽돌 담장",
+	
+	"block.dawncraft.mud_brick": "진흙 벽돌",
+	"block.dawncraft.mud_brick_stairs": "진흙 벽돌 계단",
+	"block.dawncraft.mud_brick_slab": "진흙 벽돌 반 블록",
+	"block.dawncraft.mud_brick_wall": "진흙 벽돌 담장",
+	
+	"block.dawncraft.rock": "바위",
+	"block.dawncraft.rock_stairs": "바위 계단",
+	"block.dawncraft.rock_slab": "바위 반 블록",
+	"block.dawncraft.rock_wall": "바위 담장",
+	
+	"block.dawncraft.sand_brick": "모래 벽돌",
+	"block.dawncraft.sand_brick_stairs": "모래 벽돌 계단",
+	"block.dawncraft.sand_brick_slab": "모래 벽돌 반 블록",
+	"block.dawncraft.sand_brick_wall": "모래 벽돌 담장",
+	
+	"block.dawncraft.sand_slate": "모래 점판암",
+	"block.dawncraft.sand_slate_stairs": "모래 점판암 계단",
+	"block.dawncraft.sand_slate_slab": "모래 점판암 반 블록",
+	"block.dawncraft.sand_slate_wall": "모래 점판암 담장",
+	
+	"block.dawncraft.shadow_brick": "그림자 벽돌",
+	"block.dawncraft.shadow_brick_stairs": "그림자 벽돌 계단",
+	"block.dawncraft.shadow_brick_slab": "그림자 벽돌 반 블록",
+	"block.dawncraft.shadow_brick_wall": "그림자 벽돌 담장",
+	
+	"block.dawncraft.water_brick": "물 벽돌",
+	"block.dawncraft.water_brick_stairs": "물 벽돌 계단",
+	"block.dawncraft.water_brick_slab": "물 벽돌 반 블록",
+	"block.dawncraft.water_brick_wall": "물 벽돌 담장",
+	
+	"block.dawncraft.moss_slate": "이끼 낀 점판암",
+	"block.dawncraft.moss_slate_stairs": "이끼 낀 점판암 계단",
+	"block.dawncraft.moss_slate_slab": "이끼 낀 점판암 반 블록",
+	"block.dawncraft.moss_slate_wall": "이끼 낀 점판암 담장",
+	
+	"block.dawncraft.fire_door": "화염 던전 문",
+	"block.dawncraft.rust_door": "녹슨 던전 문",
+	"block.dawncraft.sand_door": "모래 던전 문",
+	"block.dawncraft.stone_door": "석제 던전 문",
+	"block.dawncraft.wood_door": "나무 던전 문",
+	
+	"block.dawncraft.chest_spawner": "상자 소환 장치",
+	"block.dawncraft.redstone_activator": "레드스톤 활성기",
+	"block.dawncraft.redstone_trigger": "레드스톤 트리거",
+	
+	"item.dawncraft.red_key": "빨간색 열쇠",
+	"item.dawncraft.green_key": "초록색 열쇠",
+	"item.dawncraft.blue_key": "파란색 열쇠",
+	"item.dawncraft.yellow_key": "노란색 열쇠",
+	"item.dawncraft.orange_key": "주황색 열쇠",
+	"item.dawncraft.purple_key": "보라색 열쇠",
+	"item.dawncraft.silver_key": "은색 열쇠",
+	
+	"item.dawncraft.red_lock": "빨간색 잠금장치",
+	"item.dawncraft.green_lock": "초록색 잠금장치",
+	"item.dawncraft.blue_lock": "파란색 잠금장치",
+	"item.dawncraft.yellow_lock": "노란색 잠금장치",
+	"item.dawncraft.orange_lock": "주황색 잠금장치",
+	"item.dawncraft.purple_lock": "보라색 잠금장치",
+	"item.dawncraft.silver_lock": "은색 잠금장치",
+	
+	"item.dawncraft.dungeon_configurator": "던전 설정기",
+	"item.dawncraft.skeleton_key": "만능 열쇠",
+	"item.dawncraft.cursed_mask": "아토라의 가면",
+	"item.dawncraft.rebirth_staff": "환생의 지팡이",
+	"item.dawncraft.executioner": "처형자",
+	"item.dawncraft.slayers_blade": "살육자의 칼날",
+	"item.dawncraft.crystallized_xp": "결정화된 경험치",
+	
+	"map.dawncraft.cultist": "수상한 지도",
+	"map.dawncraft.cultist.lore": "쓰러진 모험가가 교회의 위치를 알리기 위해 남긴 지도입니다.",
+	"map.dawncraft.cultist_2": "이교도의 지도",
+	"map.dawncraft.cultist_2.lore": "개스코인 신부의 행방이 적혀 있습니다.",
+	
+	"waypoint.dawncraft.cultist": "이교도의 감옥",
+	"waypoint.dawncraft.cultist_2": "신부의 교회",
+	
+	"entity.dawncraft.fallen": "쓰러진 모험가",
+	"entity.dawncraft.quest_player": "모험가",
+	
+	"message.dawncraft.invasions_enabled_0": "시대착오적인 존재들이 감지되었습니다. 곧 침공이 시작됩니다...",
+	"message.dawncraft.invasions_enabled_1": "첫 번째 침공까지 %1$s초 남았습니다.",
+	"message.dawncraft.invasion": "%1$s에게 침공받고 있습니다!",
+	"message.dawncraft.spawn_npc": "%1$s NPC를 %2$s에 성공적으로 소환했습니다.",
+	"message.dawncraft.animal": "교감한 동물: %1$s/10",
+	
+	"message.dawncraft.singlepulse": "단일 틱 모드로 전환되었습니다.",
+	"message.dawncraft.toggle": "토글 모드로 전환되었습니다.",
+	"message.dawncraft.creative_required": "이 아이템을 사용하려면 크리에이티브 모드여야 합니다.",
+	
+	"message.dawncraft.select_functional_block": "기능성 블록 %1$s을(를) 선택했습니다.",
+	"message.dawncraft.link_triggerable_block": "기능성 블록 %1$s을(를) 트리거 %2$s에 연결했습니다.",
+	"message.dawncraft.unlink_triggerable_block": "기능성 블록 %1$s와(과) 트리거 %2$s의 연결을 해제했습니다.",
+	"message.dawncraft.reset_functional_block": "기능성 블록 %1$s을(를) 초기화했습니다.",
+	"message.dawncraft.no_mode": "경고: 설정 모드 %1$s에 지정된 기능이 없습니다.",
+	
+	"message.dawncraft.waypoint": "%1$s에 대한 웨이포인트를 지도에 추가했습니다.",
+	
+	"configuratormode.dawncraft.link_functional": "모드: 기능성 블록 연결",
+	"configuratormode.dawncraft.unlink_functional": "모드: 기능성 블록 연결 해제",
+	"configuratormode.dawncraft.reset_functional": "모드: 기능성 블록 초기화",
+	"configuratormode.dawncraft.rotate": "모드: 블록 회전",
+	
+	"tooltip.dawncraft.configuratormode": "Shift + 우클릭으로 모드 전환",
+	"tooltip.dawncraft.configuratormode.link_functional": "우클릭으로 기능성 블록을 선택하고, 다시 우클릭하여 트리거에 연결합니다.",
+	"tooltip.dawncraft.configuratormode.unlink_functional": "우클릭으로 기능성 블록을 선택하고, 다시 우클릭하여 트리거와의 연결을 해제합니다.",
+	"tooltip.dawncraft.configuratormode.reset_functional": "일회용 기능성 블록을 우클릭하여 초기화합니다.",
+	"tooltip.dawncraft.configuratormode.rotate": "블록을 우클릭하여 회전시킵니다.",
+	
+	"tooltip.dawncraft.chest_spawner": "연결된 블록이 트리거되면 내용물이 들어있는 상자를 소환합니다.",
+	"tooltip.dawncraft.redstone_activator": "연결된 블록이 트리거되면 레드스톤 신호를 출력합니다.",
+	"tooltip.dawncraft.redstone_trigger": "레드스톤 신호를 받으면 연결된 블록을 트리거합니다.",
+	
+	"tooltip.dawncraft.key_0": "우클릭하여 %1$s을(를) 엽니다.",
+	"tooltip.dawncraft.key_1": "사용 시 소모됩니다.",
+	
+	"tooltip.dawncraft.lock": "던전 문에 우클릭하여 잠금장치를 설치합니다.",
+	
+	"tooltip.dawncraft.skeleton_key_0": "우클릭하여 모든 잠긴 문을 엽니다.",
+	"tooltip.dawncraft.skeleton_key_1": "사용해도 소모되지 않습니다.",
+	
+	"tooltip.dawncraft.cursed_mask_0": "전설적인 맹수 아토라의 선물이라 믿어지던 가면입니다.",
+	"tooltip.dawncraft.cursed_mask_1": "착용 시 먼저 공격하지 않는 한 일부 몬스터들이 당신을 무시합니다.",
+	
+	"tooltip.dawncraft.mask": "가면 수집가들에게 가치 있는 물건일지도 모릅니다.",
+	
+	"tooltip.dawncraft.rebirth_staff.inert_0": "비활성화됨",
+	"tooltip.dawncraft.rebirth_staff.inert_1": "이 지팡이는 힘이 다해 쓸모가 없습니다.",
+	"tooltip.dawncraft.rebirth_staff.powered_0": "활성화됨",
+	"tooltip.dawncraft.rebirth_staff.powered_1": "이 마법 지팡이는 왕국을 재건할 힘을 품고 있습니다.",
+	
+	"tooltip.dawncraft.slayers_blade_0": "몬스터 살육자 길드에서 선택한 무기입니다.",
+	"tooltip.dawncraft.slayers_blade_1": "몹 전체 체력의 10%에 해당하는 피해를 입힙니다.",
+	
+	"tooltip.dawncraft.executioner_0": "전설적인 국왕의 거대한 검입니다.",
+	"tooltip.dawncraft.executioner_1": "체력이 15% 미만인 몹을 즉사시킵니다.",
+	
+	"tooltip.dawncraft.crystallized_xp_0": "%1$s의 경험치가 들어있습니다.",
+	"tooltip.dawncraft.crystallized_xp_1": "사망 전 사용하지 않으면 소멸합니다.",
+	
+	"tile.dawncraft.chest_spawner": "상자 소환 장치",
+	
+	"effect.dawncraft.immobilized": "속박됨",
+	"effect.dawncraft.tremor": "진동",
+	"effect.dawncraft.frogform": "개구리 변신",
+	"effect.dawncraft.fractured_soul": "부서진 영혼",
+	
+	"text.dawncraft.quest.no_text": "퀘스트 텍스트가 없습니다: %1$s",
+	"text.dawncraft.quest.lorem_ipsum": "로렘 입숨(생략)...",
+	
+	"text.dawncraft.quest.intro": "이보게, 드디어 눈을 떴군! 우리 세계에 온 것을 환영하네. 갑자기 이곳에 떨어진 데다 웬 낯선 이가 말을 거니 무척 혼란스럽겠지?¶...뭐, 어찌 됐든 간에 이곳에 소환된 다른 모험가들에게 그랬듯 나도 설명을 시작하겠네. ¶자네는 엔더 드래곤을 쓰러뜨리기 위해 소환되었네. 2년 전 겨울부터 거인, 늑대인간, 심지어 다른 드래곤 같은 전설 속 괴수들이 나타나기 시작해 우리 세계의 균형을 무너뜨리고 아수라장으로 만들었지! 우리 장로님들 말씀으론 엔더 드래곤이 어떤 사악한 신에게 오염되었다더군. 드래곤과 그 신을 모두 처단해야만 이 땅에 평화가 찾아올 것일세. 그러니 용맹한 모험가여, 부디 우리를 도와주게. ¶최소 12개의 신비로운 눈을 모아 '디 엔드'로 향하는 차원문을 찾고 열게나. 몇몇 눈은 제작할 수 있지만... 대부분은 강력한 존재들이 소유하고 있다네. 그들이 누구인지, 어디에 있는지는 우리도 모르지만 현지 주민들은 단서를 알고 있을지도 모르네. 길드 마스터들을 찾아가 보게. 그들이라면 이런 일에 가장 박식할 테니.¶지금보다 훨씬, 아주 훨씬 더 강해져야 할 거야. 원주민들은 자네에게 다양한 전투 기술을 가르쳐줄 수도 있네. 물론 자네가 그들을 정중히 대한다는 전제하에 말이지. 명심하게, 그들을 공격하거나 물건을 훔치지 말게나. 그들은 한 번 당한 건 절대 잊지 않는 이들이거든. 하지만 마을의 장부에 죄값을 치른다면 너그러이 용서해 주기도 하지. 아, 그리고 여기 스피릿 오브를 받게나. 4개를 모으면 체력이나 스테미나를 강화할 수 있을 거야. 만약 나와 같은 종족을 만나면, 자네의 기량과 지혜를 증명해 보이게. 분명 보답을 해줄 걸세.¶혹시 이 내용들을 잊어버린다면... 예전에 어떤 모험가가 '위키(Wiki)'라는 곳에 적어두었다고 하더군. 숙련된 모험가라면 그게 무슨 뜻인지 알 거라더군.¶자네의 여정에 축복이 있기를, 나의 친애하는 친구여. 험난한 장애물과 고난이 기다리고 있겠지만, 그것이 자네를 더욱 강하게 만들어줄 걸세. 신께서 자네와 함께하시길.",
+
+	"text.dawncraft.quest.werewolf1": "나를 사냥하러 왔나, 모험가여? 그래, 내가 사람들이 말하는 그 공포의 반인반수라네... 용기가 있다면 그 칼로 나를 베게나. 내가 변신하기 전에 끝낼 수 있기를 바랄 뿐이지, 하하. 아니면, 황금 사과를 하나 가져다줄 수도 있겠군. 오직 황금 사과만이 내 저주를 풀 수 있다고 들었네. 나를 위해 하나 구해다 줄 수 있겠나? 직접 가고 싶지만, 지금 내 상태로는 재료를 모을 수가 없다네.",
+    "text.dawncraft.quest.werewolf2": "황금 사과는 찾았나? 아니면 나를 처형하러 온 건가?",
+    "text.dawncraft.quest.werewolf3": "고맙네 모험가, 벌써 기분이 좀 나아지는군... 잠깐... 뭔가 이상해.... 내가 들은 것과는 다르잖아.... 아무래도 여기서 작별해야겠군.",
+	
+	"text.dawncraft.quest.ghost1":"좋은 날입니다, 여행자님. 동료 모험가를 만나는 건 언제나 즐거운 일이죠. 비록 지금의 전 이런 몰골이지만요.¶아, 보시다시피 유감스럽게도 저는 죽었습니다. 하지만 다시 한번 이 세상을 모험하며 곤경에 처한 이들을 돕고 싶군요.¶제게 철 주괴 6개를 가져다주신다면, 마법 종을 만들어 제 영혼을 그 안에 결속할 수 있습니다. 그렇게 되면 다시 이 세상을 걸으며 당신의 여정을 도울 수 있겠지요.",
+	"text.dawncraft.quest.ghost2":"다시 뵙는군요. 철 주괴 단 6개면 제가 당신의 여정을 도울 수 있습니다!",
+	"text.dawncraft.quest.ghost3":"오, 놀랍군요! 정말 가져오셨다니... 흥미진진한 모험의 전율이 그리웠습니다.¶잠시만 기다려 주십시오. 이런 건 처음이라서...¶아니, 그건 거기 두는 게 아닌데...¶아하, 찾았다! 흠, 작동을 안 하는 것 같군요...¶오, 됐습니다. 식을 시간이 좀 필요했나 보네요.",
+	
+	"text.dawncraft.quest.cult1": "오, 안녕 여행자… 뭘 찾고 있나?",
+	"text.dawncraft.quest.cult1b": "아, 마을 사람들이 자네를 보냈구먼… 그럼 종이 한 장만 가져와 보게. 이교도가 어디 있는지 알려주지.",
+	"text.dawncraft.quest.cult2": "지도를 그려줄 종이는 가져왔나?",
+	"text.dawncraft.quest.cult3": "여기 있네. 몸 조심하게, 친구.",
+	"text.dawncraft.quest.cult4": "이교도의 흔적은 좀 찾았나?",
+	"text.dawncraft.quest.cult5": "이교도를 잡았다고?¶듣기로는 교회 사람들이 개스코인 신부의 행방을 알아내려고 그를 심문했다던데, 알고 보니 줄곧 자기 가면 속에 숨기고 있었다더군, 하하…¶자, 그를 찾아가 고통을 끝내주게나.",
+	
+	"text.dawncraft.quest.barrel1": "세상에, 정말 감사합니다! 저 위에 있는 놈이 나를 이 강화된 통 안에 가두었어요... 당신이 아니었다면 숨이 막혀 죽었을 겁니다.¶복수를 해야겠는데, 혼자 싸우기엔 너무 약하군요... 저를 좀 도와주시겠습니까?",
+	"text.dawncraft.quest.barrel2": "저 위에 있는 놈에게 복수해야 합니다... 저를 좀 도와주시겠습니까?",
+	
+	"text.dawncraft.quest.alchemist": "안녕하신가, 모험가여. 특별한 포션에 대한 정보를 찾고 있나? 에메랄드 하나만 주면 내 전부 알려주지!",
+	"text.dawncraft.quest.alchemist.bloodthirst.title": "갈증의 포션",
+	"text.dawncraft.quest.alchemist.bloodthirst.text": "아, 갈증의 포션이라. 적을 공격해 체력을 회복할 수 있게 해주지. 검이나 도끼를 사용해야 효과가 나타난다는 점을 명심하게. 공격력이 높은 무기를 쓸수록 효과를 보기가 쉽지! 조제법은... 하급 버전에는 뱀파이어의 송곳니가 필요하고, 뱀파이어의 심장을 쓰면 더 높은 단계의 포션을 만들 수 있다네.",
+	"text.dawncraft.quest.alchemist.withering.title": "시듦의 포션",
+	"text.dawncraft.quest.alchemist.withering.text": "흠... 이건 꽤 직관적이지. 마시면 공격할 때 적을 시들게 하는 능력이 생긴다네. 이것 역시 공격력이 강할수록 효과가 잘 나타나지! 조제법은... 어디 보자... 아, 맞다, 위더 뼈가 필요해. 위더 데몬이나 하프 데몬에게서 얻을 수 있을 거야. 상대하기 꽤 까다로운 놈들이지...",
+	"text.dawncraft.quest.alchemist.endurance.title": "인내의 포션",
+	"text.dawncraft.quest.alchemist.endurance.text": "아하! 모험가에게 가장 유용한 포션이라고 할 수 있지. 이걸 마시면 일시적으로 전투 스테미나가 상승해, 스테미나가 바닥나기 전까지 더 많이 회피하고 막아낼 수 있다네! 조제법으로는 동굴 파편이 필요해. 동굴 블록헤드나 동굴 골렘을 처치하면 얻을 수 있을 걸세.",
+	
+	"text.dawncraft.quest.mask_ghost1":"실례지만 저 좀 도와주시겠습니까? 모험가님이시죠?¶보시다시피 저는 고향의 전설적인 가면에 얽매인 유령일 뿐입니다.¶이 가면은 착용자를 보호해 주지만, 안타깝게도 악마가 이 가면에 둥지를 틀어버렸습니다. 그 타락한 마법이 죽은 지 오래인 저를 이승에 붙잡아두고 있군요... 만약 서로 다른 4개의 독특한 가면을 가져다주신다면 악마를 달래고 제가 해방될 수 있을지도 모릅니다. 그렇게 해주신다면 이 가면을 드릴게요. 악마가 사라지면 원래의 보호 마법은 그대로 남아있을 테니까요.",
+	"text.dawncraft.quest.mask_ghost2":"가면들은 가져오셨나요?",
+	"text.dawncraft.quest.mask_ghost3":"오, 정말 해내셨군요!¶진심으로 감사드립니다. 이제 악마도 만족했을 테니 저도 평온히 떠날 수 있겠네요!¶부디 안녕히, 모험가님...",
+	
+	"text.dawncraft.quest.witch1":"거기 지나가는 이여, 나를 좀 도와주겠나?¬도와만 준다면 보상은 아주 넉넉히 주지.¶의식을 마치지 못하면 세상이 위험에 빠질지도 몰라.¬그러니 서둘러서 재료를 모아오게나.¶필요한 건 몇 가지 안 된다네:¬박쥐의 날개, 나무의 껍질,¬벌레의 눈알, 꿀벌의 밀랍,¬산토끼의 다리 하나,¬곰의 털 뭉치 조금,¬그리고 마지막으로 온통 초록빛인 보석이라네.",
+	"text.dawncraft.quest.witch2":"내가 말한 것들은 가져왔나?¬박쥐의 날개, 나무의 껍질,¬벌레의 눈알, 꿀벌의 밀랍,¬산토끼의 다리, 곰의 털 뭉치,¬그리고 마지막으로 온통 초록빛인 보석 말일세.",
+	"text.dawncraft.quest.witch3":"이제 리치를 추방할 시간이야.¬마녀인 내 피 한 방울만 있으면 되지.¶자, 이제 작별이네.¬이것들은 나보다 자네에게 더 쓸모가 있을 게야.",
+	
+	"text.dawncraft.quest.king1":"오, 이 가련한 신세여. 한때 세상을 지배했건만 이제 내 이름으로 남은 건 아무것도 없구나. 왕국은 무너졌고 가족들도 곁에 없도다.¶하지만 자네, 자네는 모험가이지 않은가?¬어쩌면 자네라면 나를 도울 수 있을지도 모르겠군...¶나의 왕국을 예전의 영광으로 되돌릴 수 있는 건 단 하나... '환생의 지팡이'뿐이라네!¶네더의 깊은 곳으로 가서 소울 벌쳐의 심장을 구해온다면 지팡이를 만들 수 있을 걸세.¬소울 벌쳐는 영혼 샌드 골짜기에서 발견된다더군.",
+	"text.dawncraft.quest.king2":"소울 하트는 찾았는가?¬소울 벌쳐는 영혼 샌드 골짜기에 있다고 하더군.",
+	"text.dawncraft.quest.king3":"오, 고맙네. 정말 가져왔군. 하지만 불행히도 내겐 마력이 없어서 지팡이를 완성할 수가 없다네.¶하지만 자네에겐 거대한 힘이 느껴지는군. 자네라면 이 지팡이에 힘을 불어넣을 수 있을 거야...¶내 지시를 따른다면 이 지팡이를 활성화할 수 있을 걸세.¶먼저 마법 부여대가 필요하네.¬그다음 마법 부여대에서 2칸 떨어진 동서남북 네 방향에 각각 제단을 놓게.¬마지막으로 각 제단 위에 블레이즈 가루를 하나씩 올리고, 비활성화된 지팡이를 마법 부여대에 사용하게나.",
+	"text.dawncraft.quest.king4":"먼저 마법 부여대를 준비하게.¬그다음 네 방향으로 2칸 거리에 제단을 설치하고,¬각 제단에 블레이즈 가루를 올린 뒤 지팡이를 마법 부여대에 사용하게나.",
+	"text.dawncraft.quest.king5":"자네가 정말 해냈군!¶이것만 있다면 의심의 여지 없이 왕국을 복구할 수 있을 걸세!¶자, 여기 내 국왕의 검을 받게. 자네에게 도움이 될 거야.¬이제 내겐 지팡이의 힘이 있으니 검은 필요 없겠지!",
+	
+	"text.dawncraft.quest.monster_slayer1":"이봐, 모험가!¶나는 몬스터 살육자 길드의 상급 단원이네. 우리는 지금 새로운 단원을 찾고 있는데, 자네는 꽤 강하고 유능해 보이는군.¶우리 길드에 가입해 볼 생각이 있나?",
+	"text.dawncraft.quest.monster_slayer1b":"정말 반가운 소식이군! 가입하면 당연히 우리 공식 장비를 지급하겠네...¶하지만 그전에 몇 가지 임무를 완수해야 하네. 보상은 톡톡히 챙겨주지. 자네 물건을 뺏지는 않을 테니, 그저 자네가 임무를 완수했다는 증거로 물건들을 보여주기만 하면 되네. ¶첫 번째 임무는 자네 같은 사람에겐 식은 죽 먹기일 거야. 다음 중 하나를 가져와 보게: 가디언의 파편, 블레이즈 막대기, 코볼트의 두개골, 임프의 비늘, 또는 미노타우로스의 고기.",
+	"text.dawncraft.quest.monster_slayer2": "첫 번째 임무로 다음 중 하나를 보여주게: 가디언의 파편, 블레이즈 막대기, 코볼트의 두개골, 임프의 비늘, 또는 미노타우로스의 고기.",
+	"text.dawncraft.quest.monster_slayer3":"잘했네. 그럼 다음 임무로는 뱀파이어의 심장, 동굴 블록헤드의 파편, 소환사의 토템, 혹은 위더 스켈레톤의 두개골 중 하나를 보여주게나.",
+	"text.dawncraft.quest.monster_slayer4":"다음 임무로 뱀파이어의 심장, 동굴 블록헤드의 파편, 소환사의 토템, 혹은 위더 스켈레톤의 두개골 중 하나를 보여주게.",
+	"text.dawncraft.quest.monster_slayer5":"진심으로 축하하네. 여기까지 온 사람은 그리 많지 않지.¶마지막 시험은 가장 어려울 수도 있겠지만, 완수한다면 자네는 우리 길드에 걸맞은 진정한 몬스터 살육자로 인정받게 될 걸세!¶마지막 시험을 끝내려면 다음 중 하나를 보여주게: 네더의 별, 드래곤의 심장, 동굴 골렘의 파편, 바라코아의 가면, 철의 기사(Ferrous Wroughtnaught)의 도끼, 또는 화성인의 보석.",
+	"text.dawncraft.quest.monster_slayer6":"마지막 시험을 끝내려면 다음 중 하나를 보여주게: 네더의 별, 드래곤의 심장, 동굴 골렘의 파편, 바라코아의 가면, 철의 기사의 도끼, 또는 화성인의 보석.",
+	"text.dawncraft.quest.monster_slayer7":"정말 대단하군! 자네를 믿길 잘했어.¶자, 이 보상들을 받게나. 자네는 그럴 자격이 충분해!",
+	
+	"text.dawncraft.quest.sage1":"여보게 모험가, 나 좀 도와줄 수 있나?¶내가 이 아름다운 세계의 야생 동물들에 관한 논문을 쓰고 있는데, 솔직히 몇몇 놈들은 좀 무섭거든.¶자네가 10종류의 서로 다른 동물들과 교감하고 관찰한 내용을 말해줄 수 있겠나? 보답으로 내 마법 열쇠를 주겠네.",
+	"text.dawncraft.quest.sage2":"벌써 돌아왔나? 정말 10마리의 동물과 교감한 게 맞나?",
+	"text.dawncraft.quest.sage3":"흠, 흥미롭군. 동물들이 그런 식으로 행동할 줄은 꿈에도 몰랐어...¶이 정보를 줘서 정말 고맙네. 내 연구에 큰 도움이 될 거야...¶오, 깜빡했군. 여기 이걸 받게. 자네가... 음, 자네가 하는 일에 도움이 될 걸세.",
+	
+	"text.dawncraft.quest.sorcerer1":"저기, 안녕... 모험가 맞으시죠?¬혹시 저 좀 도와주실 수 있을까요?¶그게... 제가 마법사 견습생인데, 훈련하다 실수로 지팡이를 부러뜨렸거든요...¶고치는 법은 아는데 재료를 도저히 못 찾겠어서요...¶프리즈머린 조각 하나만 가져다주시면 보답으로 스피릿 오브를 드릴게요.",
+	"text.dawncraft.quest.sorcerer2":"혹시 프리즈머린 조각 찾으셨나요?",
+	"text.dawncraft.quest.sorcerer3":"오, 정말 감사합니다...¶이것만 있으면 지팡이를 새것처럼 고칠 수 있을 거예요!¶여기 약속한 스피릿 오브예요. 저보단 모험가님께 더 도움이 될 것 같네요!",
+	
+	"text.dawncraft.next": ">>",
+	"text.dawncraft.back": "뒤로",
+	"text.dawncraft.close": "닫기",
+	"text.dawncraft.acknowledge1": "알겠습니다",
+	"text.dawncraft.acknowledge2": "그럼요",
+	"text.dawncraft.acknowledge3": "좋아요!",
+	"text.dawncraft.acknowledge4": "알았어요!",
+	"text.dawncraft.acknowledge5": "감사합니다!",
+	"text.dawncraft.deny1": "아직요...",
+	"text.dawncraft.deny2": "진행 중입니다",
+	"text.dawncraft.deny3": "죄송하지만, 안 되겠어요",
+	"text.dawncraft.deny4": "아니요",
+	"text.dawncraft.accept1": "제가 하죠!",
+	"text.dawncraft.accept2": "좋습니다",
+	"text.dawncraft.accept3": "네!",
+	"text.dawncraft.accept4": "알겠습니다!",
+	"text.dawncraft.accept5": "수락합니다!",
+	"text.dawncraft.decline1": "나중에요.",
+	"text.dawncraft.decline2": "지금은 바쁩니다.",
+	"text.dawncraft.decline3": "미안하지만, 안 됩니다.",
+	"text.dawncraft.decline4": "지금은 좀...",
+	"text.dawncraft.decline5": "거절하겠습니다!",
+	
+	"advancements.adventure.kill_a_creeper.title": "이런, 안돼(Aww man)",
+	"advancements.adventure.kill_a_creeper.description": "크리퍼를 처치하십시오.",
+	"advancements.adventure.fallenkingdom.title": "왕이었던 시절",
+	"advancements.adventure.fallenkingdom.description": "몰락한 국왕이 왕국을 재건하도록 도와주십시오.",
+	"advancements.end.root.title": "조각 찾기",
+	"advancements.end.root.description": "디 엔드로 입장하십시오...",
+	"advancements.story.enter_the_end.title": "조각 찾기",
+	"advancements.story.enter_the_end.description": "퍼즐 조각을 다시 맞추십시오...",
+	
+	"toasts.dawncraft.combatmode.title": "\"%1$s\" 키를 눌러 전투 모드로 전환하십시오",
+	"toasts.dawncraft.combatmode.text0": "비전투 모드에서는 근접 피해가 ",
+	"toasts.dawncraft.combatmode.text1": "절반으로 감소합니다.",
+	
+	"toasts.dawncraft.dodge.title": "\"%1$s\" 키를 눌러 회피하십시오",
+	"toasts.dawncraft.dodge.text0": "회피는 전투 모드에서만 가능합니다.",
+	"toasts.dawncraft.dodge.text1": "",
+	
+	"toasts.dawncraft.skills.title": "기술서 획득",
+	"toasts.dawncraft.skills.text0": "\"%1$s\" 키를 눌러 기술을 확인하십시오",
+	"toasts.dawncraft.skills.text1": "",
+	
+	"toasts.dawncraft.map.title": "지도에서 웨이포인트를 확인하십시오",
+	"toasts.dawncraft.map.text0": "\"%1$s\" 키를 눌러",
+	"toasts.dawncraft.map.text1": "월드 맵을 엽니다.",
+	
+	"toasts.dawncraft.stealing.title": "도둑질 금지!",
+	"toasts.dawncraft.stealing.text0": "물건을 훔치다 걸리면 마을 평판이",
+	"toasts.dawncraft.stealing.text1": "하락합니다."
+}

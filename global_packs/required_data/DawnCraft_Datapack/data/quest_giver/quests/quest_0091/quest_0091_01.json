@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0091_01b",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "$(red)드래곤 알$()을 얻게 되거든 부디 내게 보여주게나. 그걸 직접 보는 게 내 평생의 꿈이었다네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "오호, 이것이 바로 드래곤의 알이로구먼... 자네, 드래곤 알을 설치하면 새로운 드래곤이 태어난다는 걸 알고 있었는가? 자, 내가 길들이는 법을 가르쳐줌세. 그저 물고기를 최대한 많이 먹이면 된다네... 아주 간단하지 않은가?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_enderian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add taming level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

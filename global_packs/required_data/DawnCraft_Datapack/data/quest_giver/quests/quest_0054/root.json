@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이보게, 번거롭게 해서 미안하네! 혹시 몇 가지 좀 도와줄 수 있겠나?"
+    }
+  }
+}

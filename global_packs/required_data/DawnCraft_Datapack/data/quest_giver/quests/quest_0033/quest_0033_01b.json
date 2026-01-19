@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "진귀한 고기"
+    },
+    "description": {
+      "text": "우리 마을에서는 대개 평범한 종류의 고기만 다룬다네. 하지만 듣기로는 캥거루라는 짐승의 꼬리가 아주 연하고 육즙이 풍부하다더군. 그 고기를 한 점 구해다 줄 수 있겠나? 하는 김에 그놈들 가죽도 어떻게 생겼는지 구경 좀 하고 싶구먼."
+    }
+  }
+}

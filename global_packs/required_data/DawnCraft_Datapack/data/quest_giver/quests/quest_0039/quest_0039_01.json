@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "이방인 무법자"
+    },
+    "description": {
+      "text": "종이 한 장만 가져다주겠나? 지도를 그려줌세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "여기 있네. 이 이방인 무법자 놈들이 표시된 곳에 거처를 마련했다더군. 어서 가서 그들의 우두머리를 처단하게나."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+   "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:dojo \"이방인 무법자의 도장\"",
+      "id": "quest_giver:command"
+    },   
+    {
+      "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0115_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "제안 하나 하지"
+    },
+    "description": {
+      "text": "네더 차원의 그 끔찍한 괴물이 있는 곳을 알고 싶다면 에메랄드 6개를 내놓게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "자, 여기 있네. 즐거운 사냥 되게나! 기억하게, 이 지도는 네더 차원에서 열어야만 제대로 작동할 걸세. 참 묘하지 않은가?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 6
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_1"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

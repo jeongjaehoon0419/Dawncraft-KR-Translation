@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0001_02b",
+  "reputation": 5,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "다시 만났군!"
+    },
+    "description": {
+      "text": "다시 만났군! 부탁했던 종이는 가져왔나? 자네에게 지도를 그려주려 하네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "자, 여기 있네."
+    },
+    "description": {
+      "text": "자, 여기 있네. 저기에 광기에 사로잡힌 사냥꾼 놈들이 득실거리는 집이 하나 있네... 내 친한 친구 녀석이 그놈들의 위치를 알아내 이 지도에 표시해 두었지. 분명 놈들이 희생자들에게서 빼앗은 전리품을 잔뜩 쌓아두었을 게야... 그놈들을 처단하고 물건들을 챙기게나. 그리고 혹시 여유가 된다면, 놈들이 내게서 훔쳐간 목걸이도 좀 찾아봐 주게. 그놈들은 탁자 밑에 물건을 숨기는 버릇이 있거든. 만약 그 목걸이를 내게 되찾아 준다면, 내 정성을 다해 보답하겠다고 약속함세!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:armorer_dungeon \"갑옷 제작자의 의뢰\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p armorer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

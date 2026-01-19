@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0113_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "다시 만났군!"
+    },
+    "description": {
+      "text": "그 보석은 구했는가? 얻으려면 아무래도 그 괴물을 해치워야 할 게야."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "오호... 이건 정말 대단하군. 그야말로... 경이로워. 이걸 살펴보는 데 시간이 좀 필요하겠네. 나뭇가지 하나만 더 가져다주겠나? 자네에게 아주 특별한 것을 만들어 줄 수 있을 것 같구먼."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "simple_mobs:gem_item"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

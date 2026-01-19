@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0020_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "종이 한 장만 좀 가져다주겠나? 자네를 위해 지도를 그려줌세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "자, 여기 있네. 그에게 내 안부 좀 전해주게나."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p custom:cult_informer_ruin \"네더리안의 의뢰\"",
+    "id": "quest_giver:command"
+  }, 
+    {
+      "command": "/loot give @p loot minecraft:netherian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p netherian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0119_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "용의 심장"
+    },
+    "description": {
+      "text": "그 얼음룡들을 한 번 본 적이 있는데, 정말 공포스러운 존재들이었지... 하지만 그 정수는 참으로 장엄하고 매혹적이라네. 그 안에 담긴 원소들을 꼭 조사해봐야겠어."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "훌륭하구먼! 여기 보상일세. 이제 즉시 연구를 시작해야겠어."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:icedragon_heart"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

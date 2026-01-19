@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "무언가 배우고 싶은가? 이 근방에서 이 특별한 기술을 가르쳐줄 수 있는 자는 아마 나뿐일 걸세."
+    }
+  }
+}

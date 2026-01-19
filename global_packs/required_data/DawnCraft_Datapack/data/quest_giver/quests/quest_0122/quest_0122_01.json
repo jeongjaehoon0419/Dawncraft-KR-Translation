@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "조언"
+    },
+    "description": {
+      "text": "혹시 알고 있었나? 프로스트모가 그걸 지키고 있던 예티에게서 '차가운 눈'을 가로챘다더군! 이미 여러 여행자에게 이 이야기를 들었으니 분명 사실일 게야... 우리가 참으로 혼란스러운 세상에 살고 있구먼."
+    }
+  }
+}

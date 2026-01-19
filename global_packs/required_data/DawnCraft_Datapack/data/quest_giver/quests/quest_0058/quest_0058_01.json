@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0058_01b",
+  "reputation": 15,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "사냥 의뢰"
+    },
+    "description": {
+      "text": "(*자네는 상어가 실제로는 그런 식으로 공격하지 않는다는 사실과, 상어의 이빨은 $(red)귀상어$() 같이 가장 온순한 종들만 죽을 때 떨어뜨린다는 사실을 깨달았네. 하지만 그저 침묵하기로 했지.*)"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "하하하하... 이 이빨에 내 여동생의 이름을 새겨 펜던트로 걸고 다니겠네. 고맙네 모험가여, 여기 보상일세."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:shark_tooth"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:salmon"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

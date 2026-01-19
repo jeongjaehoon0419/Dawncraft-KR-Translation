@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가. 혹시 $(red)가스트의 눈물$() 하나만 구해다 줄 수 있겠나? 내 의학 연구에 꼭 필요한 재료라서 말이네."
+    }
+  }
+}

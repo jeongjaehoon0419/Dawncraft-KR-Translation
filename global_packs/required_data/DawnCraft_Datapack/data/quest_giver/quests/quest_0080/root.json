@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가, 혹시 가위 하나만 구해다 줄 수 있겠나? 내 것이 방금 막 부러져 버려서 말이야."
+    }
+  }
+}

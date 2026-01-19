@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:compass",
+  "start": {
+    "title": {
+      "text": "주인 없는 눈들"
+    },
+    "description": {
+      "text": "내가 알기로는, 현재 수호자 없이 방치된 눈이 7개나 된다네. 여러 구조물에서 발견할 수 있는 것들로는 '저주받은 눈(Cursed)'과 '고대의 눈(Old)'이 있지. 나머지는... 대부분 이 세계의 생명력을 모아 제작할 수 있겠지만, 몇몇은 지능을 가진 야수들이 훔쳐갔을지도 모른다네. 주변 마을 사람들이 나보다 더 자세히 알고 있을 게야. 다만, 성직자들이 현재 '사악한 눈(Evil Eye)'을 소지하고 있다는 사실만큼은 확실히 알고 있네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "주인 없는 눈들"
+    },
+    "description": {
+      "text": "이제 더는 그 눈들을 찾아 헤맬 필요가 없겠구먼, 그렇지 않은가?"
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

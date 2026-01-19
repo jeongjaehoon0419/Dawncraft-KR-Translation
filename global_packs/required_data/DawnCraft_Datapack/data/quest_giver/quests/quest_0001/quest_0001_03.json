@@ -1,0 +1,49 @@
+{
+  "parent": "quest_giver:quest_0001_02",
+  "reputation": 5,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "왔는가."
+    },
+    "description": {
+      "text": "왔는가. 펜던트는 찾았나? 그놈들은 보통 탁자 밑에 귀중품을 숨겨두곤 하지."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "드디어..."
+    },
+    "description": {
+      "text": "드디어, 후안... 되찾았어... 자네와의 맹세를 어기지 않았단다... 아, 여기 받게나. 정말 고맙네, 내겐 정말 큰 의미가 있는 물건이라네."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:armorers_pendant"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "type": "minecraft:item_nbt",
+        "item": "minecraft:iron_chestplate",
+        "nbt": "{display:{Name:'[{\"text\":\"맹세의 수호자\",\"italic\":false}]',Lore:['[{\"text\":\"갑옷 제작자가 자신의 용사를 위해 특별히 제작한 흉갑입니다.\",\"italic\":false}]']},Enchantments:[{id:mending,lvl:1},{id:protection,lvl:2}]}"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },    
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

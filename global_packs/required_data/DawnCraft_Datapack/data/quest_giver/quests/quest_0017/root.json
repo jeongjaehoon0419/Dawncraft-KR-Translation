@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "내게 $(red)영혼의 풀 1개$()를 좀 구해다 줄 수 있겠나? 네더 차원에 가야만 구할 수 있는 물건이라네."
+    }
+  }
+}

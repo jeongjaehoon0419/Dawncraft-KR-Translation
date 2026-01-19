@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이봐 젊은이, 전투 기술을 좀 배워보고 싶은가?"
+    }
+  }
+}

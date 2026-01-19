@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0110_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "케이브 델러는 처치했는가? 그렇다면 놈의 전리품을 보여주게."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "세상에... 이렇게 단단한 천연 갑옷을 두른 생물이 있다니 기이하구먼. 뭐, 죽었다니 다행일세. 보답으로 새로운 기술인 '이도류 대검(Dual GreatSword)'을 가르쳐줌세."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:dweller_armor_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"efdg:dualgreatsword\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

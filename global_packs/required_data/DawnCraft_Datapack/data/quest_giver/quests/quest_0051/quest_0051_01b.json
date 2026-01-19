@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "농부의 포부"
+    },
+    "description": {
+      "text": "야심 찬 농부로서, 내 일생의 목표는 온갖 다양한 작물을 키워내는 전문가가 되는 것이라네! 하지만 지금까지는 밀과 감자만 키워봤지... 혹시 $(red)호박 씨앗$()을 구하는 걸 도와주겠나? 거기서부터 나의 위대한 도전을 시작해볼까 하네!"
+    }
+  }
+}

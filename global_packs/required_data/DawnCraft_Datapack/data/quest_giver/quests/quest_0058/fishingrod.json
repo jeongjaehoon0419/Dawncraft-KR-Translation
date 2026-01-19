@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "낚시 기술 배우기"
+    },
+    "description": {
+      "text": "그래, 낚시하는 법을 가르쳐줄 수 있네만, 에메랄드 18개가 필요하다네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "그리 어렵지 않지? 하지만 낚싯대를 너무 휘두르지 말게나, 물고기들이 겁먹고 도망갈 테니 말이야."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 18
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add fishing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

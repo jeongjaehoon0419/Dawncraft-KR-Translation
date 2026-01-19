@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0027_01b",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "영혼 사냥"
+    },
+    "description": {
+      "text": "아직 $(red)빙의된 갑옷 5마리$()를 다 처리하지 못한 건가? 허허, 더 분발해보게나!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "하하, 정말로 해냈구먼! 정말 무모한 친구야, 하지만 아주 맘에 들어! 자, 여기 보상일세. 자네는 이걸 받을 자격이 충분해!"
+    }
+  },
+  "tasks": [ 
+    {
+      "entity": "dannys_expansion:hollow_armor",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

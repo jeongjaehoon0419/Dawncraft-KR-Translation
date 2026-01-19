@@ -1,0 +1,44 @@
+{
+    "parent": "quest_giver:quest_0014_01b",
+    "reputation": 5,
+    "icon": "minecraft:crossbow",
+    "start": {
+        "title": {
+            "text": "약탈자 야영지 수색"
+        },
+        "description": {
+            "text": "자네가 진짜 모험가인 줄 알았더니만... 뭐, 좋네. 종이 한 장만 가져오게나. 우리가 알고 있는 가장 가까운 약탈자 야영지의 위치를 알려주지."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "지도 확인"
+        },
+        "description": {
+            "text": "자, 여기 있네. 사실 이보다 더 가까운 곳에서도 약탈자 놈들을 마주칠지도 모르지. 그 골칫덩이 녀석들은 어디에나 들끓고 있으니까 말이야."
+        }
+    },
+    "tasks": [
+        {
+          "item": {
+             "item": "minecraft:paper"
+           },
+           "id": "quest_giver:gift",
+           "times": 1
+          }
+    ],
+    "rewards": [    
+    {
+      "command": "/dc addWaypoint @p #custom:pillager_camp \"메인 퀘스트 - 약탈자 야영지\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:pillager1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster1 true",
+      "id": "quest_giver:command"
+    }
+]
+}

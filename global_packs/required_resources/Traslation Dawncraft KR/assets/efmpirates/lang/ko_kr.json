@@ -1,0 +1,16 @@
+{
+    "item.epicfight.sanji": "상디의 담배",
+    "item.epicfight.sanji.tooltip": "\"바다의 요리사를 거스르는 건 죽음을 자초하는 길이지... 똑똑히 기억해 둬라.\"",
+    
+    "skill.epicfight.diablejambu": "디아블 잠브",
+    "skill.epicfight.diablejambu.tooltip": "\"요리는 신이 내린 선물, 조미료는 악마가 내린 선물... 너에겐 좀 과하게 매웠던 모양이군.\"",
+
+    "skill.epicfight.conqueror_haki": "패왕색 패기",
+    "skill.epicfight.conqueror_haki.tooltip": "\"어차피 제대로 서 있지도 못할 테니까.\"\n\n\"아이템 사용/블록 놓기\" 버튼을 누른 상태에서 \"웅크리기\" 버튼을 동시에 누르면 패왕색 패기를 활성화합니다. 넓은 범위 내의 모든 개체에게 10의 피해를 입히고 넘어뜨리지만, 20초의 재사용 대기시간이 있으며 기력의 절반을 소모합니다.",
+
+    "skill.epicfight.armement_haki": "무장색 패기",
+    "skill.epicfight.armement_haki.tooltip": "공격 중에 \"아이템 사용/블록 놓기\" 버튼을 길게 누르면 무장색 패기를 활성화합니다. 기력을 소모하여 입히는 피해량을 50% 증가시키고 받는 피해량을 50% 감소시킵니다.",
+
+    "entity.common.armement_haki": "무장색 패기",
+    "entity.common.conqueror_haki": "패왕색 패기"
+}

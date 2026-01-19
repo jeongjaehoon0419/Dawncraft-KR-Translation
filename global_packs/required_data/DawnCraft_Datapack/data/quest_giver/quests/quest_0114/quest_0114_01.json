@@ -1,0 +1,52 @@
+{
+  "parent": "quest_giver:quest_0114_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "벌써 잊어버린 건 아니겠지? 캡틴 코넬리아의 유령을 근접 전투로 처치하게나. 그러고 나서 보상을 받으러 오게."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "이런 무모한 사람 같으니! 정말로 해냈구먼! 자, 여기 약속한 보상일세. 자네 같은 이들이 다이아몬드를 아주 좋아한다고 들었네만, 맞지? 좀 챙겨가게나!"
+    }
+  },
+  "tasks": [
+    {
+      "entity": "aquamirae:captain_cornelia",
+      "id": "quest_giver:kill",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    },    
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

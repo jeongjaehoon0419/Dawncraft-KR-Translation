@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "원목 조달"
+    },
+    "description": {
+      "text": "부탁했던 $(red)진홍빛 나무 줄기$()는 가져왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙구먼! 지금은 에메랄드가 다 떨어져서 말이네... 대신 이 다이아몬드 곡괭이를 좀 받겠나? 몇 시간 전에 막 공들여 만든 물건이라네."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:crimson_stem"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    }
+  ]
+}

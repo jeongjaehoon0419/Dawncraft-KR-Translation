@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이보게! 아, 안녕하신가 낯선 이여. 자네의 도움이 좀 필요해서 말이네!"
+    }
+  }
+}

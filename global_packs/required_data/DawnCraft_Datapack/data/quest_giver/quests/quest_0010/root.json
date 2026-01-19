@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "석재 절단기 사용법을 배우고 싶은가? 에메랄드 10개면 충분하다네!"
+    }
+  }
+}

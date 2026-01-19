@@ -1,0 +1,12 @@
+{
+  "reputation": 7,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가, 자네 요리 솜씨가 제법 좋아 보이는구먼. 나를 위해 요리를 좀 해줄 수 있겠나?"
+    }
+  }
+}

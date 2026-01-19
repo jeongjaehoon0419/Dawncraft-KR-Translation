@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "에메랄드 25개면 새로운 기술을 전수해줄 수 있는데, 관심 있는가?"
+    }
+  }
+}

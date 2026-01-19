@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "약탈자들이 우리 마을의 아이를 납치해 갔다네... 부디 그 아이를 구해서 집으로 데려와 주게나. 이곳 경비병들은 순찰 업무로 눈코 뜰 새 없이 바빠서 말이네. 이제 자네가 우리의 유일한 희망일세."
+    }
+  }
+}

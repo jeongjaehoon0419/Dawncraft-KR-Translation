@@ -1,0 +1,42 @@
+{
+  "parent": "quest_giver:quest_0086_02b",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "토벌 계약"
+    },
+    "description": {
+      "text": "토벌 계약을 마치고 돌아오게. 목표는 $(red)우민 5마리 처치$()라네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙-... 이런, 때가 된 모양이군. 우민들이 들이닥쳤네! 동지, 이런 날을 위해 내가 이 대검을 벼려두었지. 부디 이걸 요긴하게 써서 우리를 도와주게나. 이제 우리 모두의 목숨이 자네 손에 달렸네."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:pillager",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/effect give @p minecraft:bad_omen 10 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/give @p epicfight:iron_greatsword{Enchantments:[{id:\"apotheosis:bane_of_illagers\",lvl:3}]}",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

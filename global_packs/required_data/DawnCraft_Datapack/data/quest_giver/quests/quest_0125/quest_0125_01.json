@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 15개를 준다면 '복수의 패링(Vengeful Parry)' 기술을 전수해줌세."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "자, 여기 있네."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 15
+    }],
+    "rewards": [{
+        "command": "/give @p epicfight:skillbook{skill:\"wom:vengeful_parry\"}",
+        "id": "quest_giver:command"
+    }]
+}

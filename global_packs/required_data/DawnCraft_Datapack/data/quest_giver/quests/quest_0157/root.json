@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "내 손안에는 전설 속의 검, '애고니(Agony)'가 있네. 하지만 그 위력을 휘두르기 위해서는 자네가 그럴 자격이 있음을 내게 증명해야 할 걸세."
+    }
+  }
+}

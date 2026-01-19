@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 13개를 준다면 '금지된 힘(Forbidden Strength)' 기술을 전수해줌세... 어떻게 하겠나?"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "여기 있네. 이 기술을 사용할 때는 부디 조심하게나!"
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 13
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"epicfight:forbidden_strength\"}",
+        "id": "quest_giver:command"
+    }]
+}

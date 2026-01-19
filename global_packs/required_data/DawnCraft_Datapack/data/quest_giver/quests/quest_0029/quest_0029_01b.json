@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:iron_chestplate",
+  "start": {
+    "title": {
+      "text": "버섯 스튜!"
+    },
+    "description": {
+      "text": "고맙네! 그저 잘 끓인 $(red)버섯 스튜$() 한 그릇을 맛보고 싶을 뿐이라네."
+    }
+  }
+}

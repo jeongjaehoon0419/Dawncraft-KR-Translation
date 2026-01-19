@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0008_01b",
+  "reputation": 13,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "어떻게 됐나?"
+    },
+    "description": {
+      "text": "음? 아, 잊어버린 모양이군. 내가 $(red)사자 가죽 4개$()를 구해달라고 부탁하지 않았나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙네. 자, 여기 보답이네. 자네와 거래하게 되어 아주 즐거웠네."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "untamedwilds:hide_bigcat_lion"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_leatherworker",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      },
+      "id": "quest_giver:item",
+      "times": 8
+    }
+  ]
+}

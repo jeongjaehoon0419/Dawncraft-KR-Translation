@@ -1,0 +1,12 @@
+{
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "이봐, 젊은이."
+    },
+    "description": {
+      "text": "안녕하신가, 모험가여. 내 이야기 좀 잠시 들어보겠나?"
+    }
+  }
+}

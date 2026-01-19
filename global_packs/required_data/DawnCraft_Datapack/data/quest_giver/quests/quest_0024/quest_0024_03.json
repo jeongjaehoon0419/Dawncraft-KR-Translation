@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 5,
+    "icon": "minecraft:crossbow",
+    "start": {
+        "title": {
+            "text": "자발적 유배"
+        },
+        "description": {
+            "text": "자네에게 줄 번외 도전이 하나 있네. 바로 약탈자 대장을 물리치는 것이지! 돌아오기 전에 꼭 우유를 마시는 걸 잊지 말게... 그 성가신 약탈자 놈들을 우리 마을로 끌고 왔다간 내 손에 죽을 줄 알게!"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "자발적 유배: 완료"
+        },
+        "description": {
+            "text": "잘해주었네. 잠깐... 우유는 제대로 마신 거겠지?"
+        }
+    },
+    "tasks": [{
+        "id": "dawncraft:advancement",
+        "advancement": "minecraft:adventure/voluntary_exile"
+    }],
+    "rewards": [{
+        "id": "quest_giver:item",
+        "item": {
+            "item": "minecraft:emerald",
+            "count": 2
+        }
+    }]
+}

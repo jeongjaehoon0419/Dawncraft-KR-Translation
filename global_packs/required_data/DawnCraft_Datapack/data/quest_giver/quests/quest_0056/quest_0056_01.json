@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0056_01b",
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "호기심 어린 의뢰"
+    },
+    "description": {
+      "text": "$(red)거대 가디언$()을 찾아냈는가? 그랬다면 가시를 내게 주게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "이건... 정말 놀랍구먼. 바다는 신비로 가득 차 있군... 대왕오징어에 관한 이야기도 들은 적이 있는데, 그것도 아마 사실일 것 같아. 어쨌든 여기 보상일세. 정말 고맙네."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "progressivebosses:elder_guardian_spike"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

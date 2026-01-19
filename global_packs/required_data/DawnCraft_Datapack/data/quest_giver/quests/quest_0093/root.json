@@ -1,0 +1,12 @@
+{
+  "reputation": 50,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가 모험가여, 나와 이야기 좀 나누지 않겠나?"
+    }
+  }
+}

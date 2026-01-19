@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0064_01b",
+  "reputation": 18,
+  "icon": "supplementaries:slingshot",
+  "start": {
+    "title": {
+      "text": "새총 제작"
+    },
+    "description": {
+      "text": "아직 $(red)새총$()을 만들지 못한 모양이군? 뭐, 이해하네... 제대로 된 물건을 만드는 게 생각보다 묘하게 어렵거든."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "그래, 바로 내가 상상했던 모습 그대로구먼! 흠... 그런데 생각만큼 그리 대단해 보이지는 않는군. 돌맹이를 탄환으로 쓰는 모양인데... 자, 여기 받게나. 사실 내게는 딱히 필요 없으니 말이야. 구경시켜주어 고맙네!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

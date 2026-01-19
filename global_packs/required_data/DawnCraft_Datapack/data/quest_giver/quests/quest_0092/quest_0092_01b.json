@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "좋구먼! 엔더 드래곤이 쓰러질 때 알을 남긴다는 사실을 알고 있었는가? 그저 자네가 구한 $(red)드래곤 알$()을 한 번만 구경시켜주면 좋겠는데, 그렇게 해줄 수 있겠는가?"
+    }
+  }
+}

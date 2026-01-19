@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "아무것도 아니네"
+    },
+    "description": {
+      "text": "주민이 마지막 순간에 마음을 바꿔 당신에게 말을 걸지 않기로 했습니다."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "현재 기사 로버의 상태에 대해서는 정보가 거의 없네만, 지난 전쟁 이후 꽤 약해졌을 걸세... 아, 엔더 진주를 챙기는 걸 잊지 말게나. 순간이동으로만 빠져나갈 수 있는 아주 고약한 공격을 구사하거든."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "오, 기사 로버를 정말 쓰러뜨렸군. 상대하기 버거웠나? 예전만 해도 그는 결투에서 만날 수 있는 가장 무시무시한 적 중 하나였는데, 결국 세월의 무게를 이기지 못한 모양이구먼. 자, 다음 눈의 수호자 역시 인간이라네. 지금은 어느 농가에서 평화롭게 살고 있다더군... 여기 그 위치가 담긴 지도일세."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p custom:ninetail_farm \"메인 퀘스트 - 구미호의 농장\"",
+    "id": "quest_giver:command"
+  }, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster5 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

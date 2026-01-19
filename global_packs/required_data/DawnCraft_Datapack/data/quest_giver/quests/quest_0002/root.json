@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "잠시 시간 좀 있나?"
+    },
+    "description": {
+      "text": "잠시 시간 좀 있나? 모험가여, 내게 필요한 물건을 좀 구해다 줄 수 있겠나?"
+    }
+  }
+}

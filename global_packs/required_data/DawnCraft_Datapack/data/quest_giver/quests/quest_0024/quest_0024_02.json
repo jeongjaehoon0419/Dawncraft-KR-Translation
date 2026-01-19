@@ -1,0 +1,33 @@
+{
+  "parent": "quest_giver:quest_0024_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "실종된 아이"
+    },
+    "description": {
+      "text": "부디 그 아이를 구해서 이곳으로 다시 데려와 주게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "실종된 아이: 완료"
+    },
+    "description": {
+      "text": "자네는 진정한 영웅일세, 모험가여. 우리를 위해 자네가 해준 일을 결코 잊지 않겠네. 자, 보답으로 새로운 전투 기술인 '죽음의 수확'을 가르쳐줌세."
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:follow_quest",
+       "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:death_harvest\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

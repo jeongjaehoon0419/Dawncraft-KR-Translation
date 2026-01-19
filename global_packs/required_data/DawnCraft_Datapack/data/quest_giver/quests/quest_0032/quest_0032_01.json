@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0032_01b",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "소소한 부탁"
+    },
+    "description": {
+      "text": "이보게, 나이프는 가져왔는가? 꼭 철로 만든 것이어야 하네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "수고했네"
+    },
+    "description": {
+      "text": "정말 잘 만들어진 나이프군! 고맙네, 아주 잘 쓰겠네."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:iron_knife"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_butcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

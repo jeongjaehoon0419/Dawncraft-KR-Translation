@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "시간 확인"
+    },
+    "description": {
+      "text": "시간을 확인하는 데 도움이 되는 물건이 있다고 들었네. 그게 이름이 뭐라더라... 아, 맞네 - $(red)모래시계$()! 혹시 그걸 하나 구해다 줄 수 있겠나?"
+    }
+  }
+}

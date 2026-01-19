@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "여보게, 젊은 모험가여!"
+    },
+    "description": {
+      "text": "반갑네, 젊은 모험가여! 혹시 내 일손을 좀 거들어줄 수 있겠나?"
+    }
+  }
+}

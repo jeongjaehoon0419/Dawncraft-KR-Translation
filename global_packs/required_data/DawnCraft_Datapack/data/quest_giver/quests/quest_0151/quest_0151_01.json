@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 15개를 내놓는다면 '명상(Meditation)' 기술을 전수해줌세. 어떻게 하겠나?"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "이제 물은 흐를 수도 있고, 모든 것을 부술 수도 있는 법... 물처럼 되게나, 나의 친구여."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 15
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"wom:meditation\"}",
+        "id": "quest_giver:command"
+    }]
+}

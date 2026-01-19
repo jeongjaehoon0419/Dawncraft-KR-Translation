@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "훌륭하구먼. 혹시 $(red)꿀을 바른 햄 요리$()를 좀 만들어 줄 수 있겠나? 나랑 내 친구들이 그 요리 맛을 다시 보고 싶어 아주 죽을 지경이라네."
+    }
+  }
+}

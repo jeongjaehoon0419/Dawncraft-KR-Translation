@@ -1,0 +1,24 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": { "text": "그래?" },
+    "description": { "text": "마녀의 모자를 하나만 구해다 주게나. 어떤 것이든 상관없네. 마녀들이 좀처럼 떨어뜨리지 않는 물건이라서 말이네." }
+  },
+  "complete": {
+    "title": { "text": "고맙네!" },
+    "description": { "text": "**이 어리석은 놈! 이제 이 마을에 파멸을 불러오리라! 내 희생으로 이 마을을 끝장낼 수만 있다면 기꺼이 영광으로 여기겠다!**" }
+  },
+  "tasks": [
+    {
+      "item": { "item": "biomemakeover:witch_hat" },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    { "command": "/advancement grant @p only custom:tricked/tricked", "id": "quest_giver:command" },
+    { "command": "/execute as @a[advancements={custom:tricked/tricked=true},sort=nearest,limit=1] run function witch:start_witch_raid", "id": "quest_giver:command" }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0055_01b",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "네더에 다녀와서 $(red)고스트 페퍼$()를 벌써 구해온 건가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "앗 뜨거워라, 손이 타 들어가는 것 같구먼! 역시 고스트 페퍼가 맞군, 하하! 여기 보상일세."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "nourished_nether:ghost_pepper"
+      },
+      "id": "quest_giver:gift",
+      "times": 3
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

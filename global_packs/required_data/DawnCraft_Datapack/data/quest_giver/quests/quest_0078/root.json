@@ -1,0 +1,12 @@
+{
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "혹시 엔드 차원에 가게 된다면, 내게 $(red)엔드 돌$()을 하나만 구해다 줄 수 있겠나?"
+    }
+  }
+}

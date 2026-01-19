@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "내가 '초월적 활력(Hypervitality)'이라는 기술을 알고 있지. 에메랄드 20개면 자네에게 전수해줌세."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "이 책에 그 기술의 비기가 담겨 있을 걸세."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 20
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"epicfight:hypervitality\"}",
+        "id": "quest_giver:command"
+    }]
+}

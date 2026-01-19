@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "전설의 무기, '스펠바운드 블래스터'가 내 손안에 있네. 하지만 이를 자네에게 하사하기 전, 자격이 있는지 먼저 증명해야 할 걸세."
+    }
+  }
+}

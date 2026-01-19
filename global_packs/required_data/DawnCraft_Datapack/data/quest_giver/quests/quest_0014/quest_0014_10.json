@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_09",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "여정의 끝"
+    },
+    "description": {
+      "text": "내 친구여, 이제 내게 더 전해줄 정보는 없다네. 자네의 소명을 따르게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "끝... 그것은 단지 시작일 뿐인가??"
+    },
+    "description": {
+      "text": "그래... 자네가 마침내 드래곤을 물리쳤군. 이로써 자네가 이 세계의 새로운 지배자가 된 셈이구먼. 축하하네, 용감한 정복자여. 자네는... 할 수 있는 모든 일을 다 해주었네. 그럼, 이제 실례함세."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

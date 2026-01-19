@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "시간 좀 있는가?"
+    },
+    "description": {
+      "text": "이보게, 나를 좀 도와줄 수 있겠나? 그리 오래 걸리진 않을 걸세."
+    }
+  }
+}

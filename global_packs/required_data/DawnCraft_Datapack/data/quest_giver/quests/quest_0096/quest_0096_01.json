@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "부탁했던 $(red)레드스톤 가루 10개$()는 가져왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙구먼, 자 여기 약속한 보상일세."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_engineer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

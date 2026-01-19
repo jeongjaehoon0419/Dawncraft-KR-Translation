@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0112_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "다시 만났군!"
+    },
+    "description": {
+      "text": "해치웠는가? 그 $(red)반인반수 늑대$()를 죽였느냐는 말일세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "고맙네. 자네 말을 믿음세. 이제 더는 그 끔찍한 괴물들에게 희생되는 사람이 없을 거라 생각하니 마음이 좀 놓이는구먼."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "simple_mobs:patronwerewolf",
+      "id": "quest_giver:kill",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    }
+  ]
+}

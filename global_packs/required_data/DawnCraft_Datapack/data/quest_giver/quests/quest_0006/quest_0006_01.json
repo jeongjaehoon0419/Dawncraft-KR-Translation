@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "낚싯대 사용법 익히기"
+    },
+    "description": {
+      "text": "낚시에 대해 배울 준비가 됐나? 에메랄드 15개만 가져오면 내 비법을 전수해주지!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "생각보다 별거 아니지? 하지만 낚싯대를 너무 거칠게 휘두르진 말게나, 물고기들이 다 겁먹고 도망갈 테니 말이야."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add fishing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

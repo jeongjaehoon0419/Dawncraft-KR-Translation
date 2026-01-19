@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "자네에게 가르쳐줄 고대 동방의 비기가 하나 있네만... 에메랄드 25개면 충분할 걸세."
+    }
+  }
+}

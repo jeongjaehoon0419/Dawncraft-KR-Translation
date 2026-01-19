@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 20개를 내놓는다면 '칼춤(dancing_blade)' 기술을 전수해줌세. 믿어보게나, 그만한 가치가 있는 기술이니!"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "탁월한 선택이네! 자네의 여정에 행운이 깃들길 빌겠네."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 20
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"wom:dancing_blade\"}",
+        "id": "quest_giver:command"
+    }]
+}

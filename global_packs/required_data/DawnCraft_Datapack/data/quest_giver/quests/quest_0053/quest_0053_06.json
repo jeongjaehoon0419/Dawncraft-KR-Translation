@@ -1,0 +1,9 @@
+{
+  "parent": "quest_giver:quest_0053_05",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": { "text": "어찌 되었나?" },
+    "description": { "text": "허, 참으로 뻔뻔하구먼. 내가 보상에 대해 한마디라도 했던가? 어서 가보게나, 젊은이. 경비병을 불러서 쫓아내기 전에 말이야." }
+  }
+}

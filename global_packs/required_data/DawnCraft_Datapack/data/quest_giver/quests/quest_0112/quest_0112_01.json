@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0112_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "종이 한 장만 구해다 줄 수 있겠나? 지도를 그려줌세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙네. 그 괴물은 이 주변에 살고 있다네. 몸조심하게나."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p custom:wolf_hideout \"광부의 의뢰 - 괴물 처단\"",
+    "id": "quest_giver:command"
+  },    
+    {
+      "command": "/loot give @p loot minecraft:miner2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p miner2 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

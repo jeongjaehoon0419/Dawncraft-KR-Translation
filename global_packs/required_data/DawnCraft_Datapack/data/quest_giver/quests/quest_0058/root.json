@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "모험가여, 제발 나를 좀 도와주게. 이렇게 간절히 부탁하네."
+    }
+  }
+}

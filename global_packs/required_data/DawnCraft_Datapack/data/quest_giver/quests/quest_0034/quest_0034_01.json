@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:pumpkin",
+  "start": {
+    "title": {
+      "text": "호박 속 채우기"
+    },
+    "description": {
+      "text": "부탁했던 $(yellow)호박 속 채우기$()는 벌써 다 만들었는가? 시간이 걸리는 일이라는 건 잘 알고 있으니 너무 재촉하지는 않겠네!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "완성했구먼"
+    },
+    "description": {
+      "text": "오, 냄새가 정말 기가 막히는구먼! 정말 고맙네. 덕분에 우리 가족이 며칠은 든든하게 먹을 수 있겠어."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:stuffed_pumpkin_block"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_butcher",
+      "id": "quest_giver:command"
+    }
+  ]
+}

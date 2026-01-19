@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능에 가까운 시련!"
+    },
+    "description": {
+      "text": "내가 만족할 수 있도록 두 가지 과업을 완수하여 '안티테우스'를 휘두를 권리를 증명하게나. 다른 탑승자 세 명과 함께 라비아탄(Laviathan)에 올라타고, 무블룸(Moobloom)의 꽃을 가위로 깎아 오게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "축하하네!"
+    },
+    "description": {
+      "text": "장하군! 여기 있네. 이 블래스터는 거대한 에너지원에서 뿜어져 나오는 강력한 한 방을 선사할 걸세."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "alexsmobs:alexsmobs/laviathan_four_passengers"
+    },
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "friendsandfoes:husbandry/shear_a_moobloom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:antitheus"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "소중한 물건"
+    },
+    "description": {
+      "text": "어떤 곳에 가서 내 철 도끼를 좀 찾아다 줄 수 있겠나? 그곳에 오크들이 우글거리는 바람에 어쩔 수 없이 버려두고 왔다네... 잠깐, 종이 한 장만 가져다주게. 지도를 그려줌세."
+    }
+  }
+}

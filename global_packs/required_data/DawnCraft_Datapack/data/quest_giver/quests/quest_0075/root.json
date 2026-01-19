@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "혹시 $(red)고대 잔해$()를 하나만 구해다 줄 수 있겠나? 나도 그렇게 고품질의 광물을 다뤄볼 기회는 좀처럼 없었다네... 대가는 넉넉히 치를 테니 부탁함세!"
+    }
+  }
+}

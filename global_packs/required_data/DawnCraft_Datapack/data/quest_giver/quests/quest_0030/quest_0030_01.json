@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0030_01b",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "용광로 제작"
+    },
+    "description": {
+      "text": "이보게. 용광로는 벌써 제작했는가? 어디서 가져오는 게 아니라 꼭 새로 제작한 것이어야 하네!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "훌륭하군!"
+    },
+    "description": {
+      "text": "훌륭하군! 이 새 시설이 있다면 분명 더 좋은 장비를 만들 수 있을 게야. 고맙네!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

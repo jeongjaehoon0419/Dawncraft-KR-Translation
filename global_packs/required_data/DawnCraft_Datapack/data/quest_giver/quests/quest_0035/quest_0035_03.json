@@ -1,0 +1,22 @@
+{
+    "parent": "quest_giver:quest_0035_03b",
+    "reputation": 35,
+    "icon": "minecraft:beef",
+    "start": {
+        "title": { "text": "인센디움" },
+        "description": { "text": "$(light_blue)냉기 서린 검$()일세. 잿빛 황무지 성에서 발견하면 내게 알려주게." }
+    },
+    "complete": {
+        "title": { "text": "완성" },
+        "description": { "text": "결국... 정말로 떠나버렸구먼. 덕분에 마음의 짐을 덜었네. 고맙네. 그 검은 자네가 가지게나. 이제 달리 보답할 길도 없으니 말이야." }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:diamond_sword",
+            "forge:nbt": "{CustomModelData:1450003,incendium:{item:'chilling_blade'}}"
+        },
+        "id": "quest_giver:item_pickup",
+        "times": 1
+    }],
+    "rewards": [{ "command": "/addreputation reputation:villager @p 3", "id": "quest_giver:command" }]
+}

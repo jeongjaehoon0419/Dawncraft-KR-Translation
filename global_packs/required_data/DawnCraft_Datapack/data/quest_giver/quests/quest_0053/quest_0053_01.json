@@ -1,0 +1,20 @@
+{
+  "parent": "quest_giver:quest_0053_01b",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": { "text": "어찌 되었나?" },
+    "description": { "text": "$(red)양파 2개$()는 가져왔는가?" }
+  },
+  "complete": {
+    "title": { "text": "고맙네!" },
+    "description": { "text": "잘했네, 젊은이. 내친김에 $(red)수박 씨앗 2개$()도 좀 가져다줄 수 있겠나?" }
+  },
+  "tasks": [
+    {
+      "item": { "item": "farmersdelight:onion" },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

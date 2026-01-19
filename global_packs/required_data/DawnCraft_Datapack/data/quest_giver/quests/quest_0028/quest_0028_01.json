@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0028_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_sapling",
+  "start": {
+    "title": {
+      "text": "헤이즈 산맥"
+    },
+    "description": {
+      "text": "이보게, 그 신비로운 지형인 $(red)헤이즈 산맥$()은 벌써 찾아보았는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "그랬단 말인가..."
+    },
+    "description": {
+      "text": "그랬단 말인가... 솔직히 말해서 좀 실망스럽구먼. 나는 헤이즈 산맥에 드래곤이라도 살고 있을 줄 알았거든... 뭐, 적어도 이제 그게 근거 없는 소문이었다는 건 알게 되었군. 고맙네."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "custom:magical_spring"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

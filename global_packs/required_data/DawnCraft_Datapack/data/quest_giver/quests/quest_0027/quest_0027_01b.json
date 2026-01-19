@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "영혼 사냥"
+    },
+    "description": {
+      "text": "영혼들은 이 세계에서 여러 가지 형태로 나타나지. 어떨 때는 도구나 검, 심지어 갑옷에 깃들기도 한다네! $(red)빙의된 갑옷... 혹은 빈 갑옷$()이라 불리는 놈들을 5마리만 사냥해와 보게나. 자네의 용기에 합당한 보상을 주겠네. 어떤가, 해보겠나?"
+    }
+  }
+}

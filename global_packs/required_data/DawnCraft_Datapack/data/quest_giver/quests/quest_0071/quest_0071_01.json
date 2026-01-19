@@ -1,0 +1,33 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "소중한 물건 되찾기"
+    },
+    "description": {
+      "text": "자네에게 지도를 그려줄 테니 종이 한 장만 가져다주게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "번거롭게 해서 미안하네. 자, 여기가 자네가 가줬으면 하는 곳이라네. 그곳에 예전에 내 소유였던 책 한 권이 있다네. 그곳은 한때 온 세계의 학자들이 모여들던 사원이었지만, 지금은 어떤 상태일지 모르겠구먼. 부디 조심해서 내 책을 되찾아와 주게나."
+    }
+  },
+  "tasks": [
+     {
+      "item": { "item": "minecraft:paper" },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    { "command": "/dc addWaypoint @p custom:librarian_ruin \"사서의 의뢰\"", "id": "quest_giver:command" },    
+    { "command": "/loot give @p loot minecraft:librarian1", "id": "quest_giver:command" },
+    { "command": "/gamestage add @p librarian1 true", "id": "quest_giver:command" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "제안 하나 하지"
+    },
+    "description": {
+      "text": "이보게, 동료 모험가여! 자네에게 제안할 것이 하나 있네."
+    }
+  }
+}

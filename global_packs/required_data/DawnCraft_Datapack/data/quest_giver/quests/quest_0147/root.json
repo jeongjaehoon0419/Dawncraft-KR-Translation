@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "자네가 흥미를 가질 만한 전투 기술을 하나 알고 있네... 어떻게 하겠나?"
+    }
+  }
+}

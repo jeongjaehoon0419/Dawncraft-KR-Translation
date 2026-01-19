@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0124_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능한 임무!"
+    },
+    "description": {
+      "text": "벌써 범고래의 축복을 받은 건가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "흥미롭구먼... 그런 식으로 이루어지는 것이었나. 자네 참 매력적인 친구로세. 자네를 만난 게 참 다행이야! 자, 이제 나는 가봐야겠군... 신의 가호가 있기를."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "alexsmobs:alexsmobs/orcas_might"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:rootless \"공중 궁전\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:hunter1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p hunter1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

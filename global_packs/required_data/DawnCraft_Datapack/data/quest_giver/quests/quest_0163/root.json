@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가, 모험가여. 전설의 무기인 '헤르셔(Herrscher)'와 '게제츠(Gesetz)'가 내 곁에서 자네의 자격을 기다리고 있네. 이를 하사받기 전, 자네가 그럴 자격이 있는지 먼저 확인해야겠네."
+    }
+  }
+}

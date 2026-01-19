@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "물자 조달 요청"
+    },
+    "description": {
+      "text": "먹물 주머니 4개를 구하는 걸 좀 도와줄 수 있겠나?"
+    }
+  }
+}

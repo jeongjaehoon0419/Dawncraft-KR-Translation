@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "새총 제작"
+    },
+    "description": {
+      "text": "정답일세, 바로 새총이라네! 제대로 작동하는 걸 하나 만들어보려 했네만, 실제로 쓸만한 복제품을 만들기에는 내 손재주가 좀 부족한 모양이야. 자네가 한번 시도해보지 않겠나?"
+    }
+  }
+}

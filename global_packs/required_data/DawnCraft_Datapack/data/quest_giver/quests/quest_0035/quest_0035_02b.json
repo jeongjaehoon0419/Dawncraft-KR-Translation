@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0035_01",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "인센디움" 
+    },
+    "description": {
+      "text": "아, 벌써 돌아왔는가? 혹시 네더에는 가보았나? 네더에는 '잿빛 황무지'라는 곳이 있다네. 거기서 성을 찾을 수 있는지 한번 봐주게나. 찾지 못하더라도 일단 돌아와서 그곳이 어떤지 내게 들려주게." 
+    }
+  }
+}

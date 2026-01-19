@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_02",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "내가 준 지도가 보이나? 자네의 첫 번째 임무는 $(red)고블린 왕$()을 토벌하는 것이네. 녀석들은 자신들의 성 꼭대기에서 발견할 수 있을 게야."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "잘해주었네. 이제 $(red)타락한 오우거$()를 상대할 준비가 된 모양이군. 자, 표시된 지점에 서식하는 괴물이 눈 중 하나를 가지고 있다네."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "goblinsanddungeons:goblin_crown"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p custom:ogre_dwelling \"메인 퀘스트 - 타락한 오우거의 서식지\"",
+    "id": "quest_giver:command"
+  }, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster1",
+      "id": "quest_giver:command"
+    },
+     {
+      "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

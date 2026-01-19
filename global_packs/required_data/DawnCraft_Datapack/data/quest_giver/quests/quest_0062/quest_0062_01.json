@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "깃털 조달"
+    },
+    "description": {
+      "text": "부탁했던 $(red)로드러너 깃털 2개$()는 벌써 구해왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "흠... 품질이 기대했던 것만큼 아주 뛰어나지는 않은 것 같구먼. 다른 용도로 쓸 수 있을지 한번 봐야겠어. 어쨌든 수고했으니 여기 보상을 받게나."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:roadrunner_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fletcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    }
+  ]
+}

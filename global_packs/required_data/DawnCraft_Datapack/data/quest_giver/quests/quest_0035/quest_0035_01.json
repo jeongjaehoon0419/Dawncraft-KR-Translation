@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": { 
+      "text": "칼날 연마" 
+    },
+    "description": { 
+      "text": "$(red)심층암 5개$()는 벌써 구해왔는가? 칼날이 아주 무뎌졌다네." 
+    }
+  },
+  "complete": {
+    "title": { 
+      "text": "완성" 
+    },
+    "description": { 
+      "text": "수고했네! 역시 이 돌은 입자가 거친 부분과 고운 부분이 골고루 섞여 있구먼. 정말 고맙네! 자, 여기 보상이라네." 
+    }
+  },
+  "tasks": [ { 
+    "item": { "item": "minecraft:deepslate" }, "id": "quest_giver:gift", "times": 5 
+    } ],
+  "rewards": [ { 
+    "item": { "item": "minecraft:emerald" }, "id": "quest_giver:item", "times": 2 
+    }, { 
+      "command": "/addreputation reputation:villager @p 1", "id": "quest_giver:command" 
+      } ]
+}

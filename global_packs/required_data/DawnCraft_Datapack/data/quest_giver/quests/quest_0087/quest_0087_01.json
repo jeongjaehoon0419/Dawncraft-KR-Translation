@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "요리 의뢰"
+    },
+    "description": {
+      "text": "\"$(red)양갈비 파스타$()\"라는 요리를 하나만 만들어 줄 수 있겠나?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "음! 정말 기막힌 냄새로군. 나중에 먹으려고 아껴둬야겠어. 고맙네."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "farmersdelight:pasta_with_mutton_chop"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_weaponsmith",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

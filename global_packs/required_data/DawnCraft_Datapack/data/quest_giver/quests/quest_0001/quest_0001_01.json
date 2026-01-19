@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "물건 좀 가져다주게!"
+    },
+    "description": {
+      "text": "오, 왔는가! 내가 부탁한 $(red)철 주괴 4개$()는 벌써 구해왔나?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "정말 고맙네!"
+    },
+    "description": {
+      "text": "고맙군! 이제야 그 경비병 녀석에게 줄 갑옷을 만들 수 있겠어... 어찌나 쉴 새 없이 재촉하며 떠들어대던지 아주 귀에 딱지가 앉을 뻔했다네! 지금 당장은 보답할 게 없지만, 언젠가 꼭 이 은혜를 갚겠다고 약속함세!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

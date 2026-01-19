@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "보트 제작에 대해 좀 아는가? 어찌 됐든, 나를 좀 도와줄 생각이 있나?"
+    }
+  }
+}

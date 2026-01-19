@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가. 혹시 네더 차원에서 $(red)블레이즈 막대 5개$()만 좀 구해다 줄 수 있겠나?"
+    }
+  }
+}

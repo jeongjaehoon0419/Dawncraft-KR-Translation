@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0098_01b",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "대지의 골렘을 쓰러뜨리고 $(red)골렘의 눈$()을 손에 넣었는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "세상에나! 내 평생 본 물건 중 가장 흥미로운 것이로구먼. 상상했던 것 그 이상이야. 자, 여기 보상으로 레드스톤을 좀 받게나. 지금 당장은 수중에 에메랄드가 없어서 미안하구먼."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "ba_bt:guardian_eye_land"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:item",
+      "times": 32
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

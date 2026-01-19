@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0061_01b",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "화살 제작"
+    },
+    "description": {
+      "text": "부탁했던 $(red)깃털 2개$()는 벌써 구해왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙네. 여기, 약속했던 화살일세."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fletcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

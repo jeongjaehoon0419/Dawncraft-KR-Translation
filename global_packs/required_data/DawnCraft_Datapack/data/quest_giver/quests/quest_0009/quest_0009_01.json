@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0009_01b",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "물자 조달 요청"
+    },
+    "description": {
+      "text": "$(red)먹물 주머니 4개$()를 모두 모으면 다시 와주게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "정말 고맙네. 그런데 유감스럽게도 종이 재고마저 바닥이 났지 뭔가... 혹시 우리를 도와 종이 10장만 구해다 줄 수 있겠나? 곧 물자를 채워넣을 예정이라네만, 자네가 도와준다면 정말 큰 힘이 될 게야."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

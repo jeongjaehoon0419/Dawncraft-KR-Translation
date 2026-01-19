@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "꿀 한 병이 마시고 싶어 아주 죽을 지경이라네! 나를 위해 하나만 구해다 줄 수 있겠나?"
+    }
+  }
+}

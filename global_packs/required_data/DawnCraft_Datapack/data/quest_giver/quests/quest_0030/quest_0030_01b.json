@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "들어줘서 고맙네"
+    },
+    "description": {
+      "text": "내 이야기를 들어줘서 고맙네. 내가 쓰던 용광로가 수명이 다했는지 망가지고 있어서 말이네... 새 용광로를 하나 $(red)제작$()해서 내게 가져다줄 수 있겠나?"
+    }
+  }
+}

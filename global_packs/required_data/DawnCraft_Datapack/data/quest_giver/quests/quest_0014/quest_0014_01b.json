@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:enchanted_book",
+  "start": {
+    "title": {
+      "text": "모험의 기본 소양"
+    },
+    "description": {
+      "text": "아... 자네의 현재 상태로는 '눈'들을 찾아내기란 무리일 것 같구먼. 우선 $(red)약탈자 10명$()을 처치하고 다시 돌아오게나. 자네의 여정에 보탬이 될 만한 선물을 준비해 두겠네."
+    }
+  }
+}

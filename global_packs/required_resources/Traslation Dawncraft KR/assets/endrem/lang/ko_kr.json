@@ -1,0 +1,112 @@
+{
+  "item.endrem.old_eye": "오래된 눈",
+  "item.endrem.old_eye.description": "§7§o전설에 따르면 이 눈은 한때 위대한 샌드웜 중 한 마리의 것이었다고 합니다.",
+
+  "item.endrem.rogue_eye": "부랑자의 눈",
+  "item.endrem.rogue_eye.description": "§7§o우리 조상들에게 레드스톤에 관한 지식을 전해준 눈이라고 믿어집니다.",
+
+  "item.endrem.nether_eye": "네더의 눈",
+  "item.endrem.nether_eye.description": "§7§o천상과 지옥 사이의 전쟁 중에 어느 악마가 잃어버린 눈입니다.",
+
+  "item.endrem.cold_eye": "혹한의 눈",
+  "item.endrem.cold_eye.description": "§7§o빙결술사들이 세상에서 갑자기 사라지기 전 남긴 마지막 유물 중 하나입니다.",
+
+  "item.endrem.magical_eye": "마법의 눈",
+  "item.endrem.magical_eye.description": "§7§o이 눈이 없다면 소환사는 아무런 힘도 쓰지 못합니다.",
+
+  "item.endrem.black_eye": "검은 눈",
+  "item.endrem.black_eye.description": "§7§o해적들은 이 눈이 전설적인 블랙 펄을 보게 해주었다고 말합니다.",
+
+  "item.endrem.lost_eye": "잃어버린 눈",
+  "item.endrem.lost_eye.description": "§7§o태초의 대장장이들이 제련했다고 전해집니다.",
+
+  "item.endrem.wither_eye": "위더의 눈",
+  "item.endrem.wither_eye.description": "§7§o파괴의 현장을 지켜봐 왔습니다. 어쩌면 당신의 아이템들이 사라지는 것도 지켜봤을지 모릅니다.",
+
+  "item.endrem.guardian_eye": "수호자의 눈",
+  "item.endrem.guardian_eye.description": "§7§o수많은 전사들이 바다 깊은 곳으로 가라앉는 것을 지켜보았습니다.",
+
+  "item.endrem.cursed_eye": "저주받은 눈",
+  "item.endrem.cursed_eye.description": "§7§o강력하면서도 파괴적인 유물입니다. 피글린들은 목숨을 바쳐 이것을 지키기로 맹세했습니다.",
+
+  "item.endrem.exotic_eye": "이국의 눈",
+  "item.endrem.exotic_eye.description": "§7§o이 눈을 쫓던 자들은 다시는 보이지 않았습니다. 소문에 따르면 그들은 위대한 도시 아틀란티스를 찾았거나, 찾는 도중에 길을 잃었다고 합니다.",
+
+  "item.endrem.evil_eye": "사악한 눈",
+  "item.endrem.evil_eye.description": "§7§o불운으로부터 주인을 지켜준다고 전해지는 신성한 부적입니다.",
+
+  "item.endrem.undead_eye": "언데드의 눈",
+  "item.endrem.undead_eye.description": "§7§o죽음 속에 사는 자들의 과거 삶에 대한 기억입니다.",
+
+  "item.endrem.cryptic_eye": "신비로운 눈",
+  "item.endrem.cryptic_eye.description": "§7§o§khttps://www.youtube.com/watch?v=dQw4w9WgXcQ",
+
+  "item.endrem.corrupted_eye": "타락한 눈",
+  "item.endrem.corrupted_eye.description": "§7§o고독 속에서 사라진 탐욕스러운 왕의 눈입니다. 전설에 따르면 주인에게 무한한 부를 가져다준다고 합니다.",
+
+  "item.endrem.witch_eye": "마녀의 눈",
+  "item.endrem.witch_eye.description": "§7§o이 눈동자는 시간 속에 사라진 고대의 양조 비법을 보았다고 믿어집니다.",
+  "item.endrem.witch_pupil": "마녀의 눈동자",
+
+  "item.endrem.undead_soul": "언데드의 영혼",
+
+  "block.endrem.ancient_portal_frame": "고대 포탈 틀",
+
+  "block.endrem.ender_eye.warning": "이 눈은 사용되기를 거부합니다",
+  "block.endrem.custom_eye.place": "이 눈은 이미 설치되었습니다",
+  "block.endrem.custom_eye.frame_has_eye": "이 틀에는 이미 눈이 끼워져 있습니다",
+
+
+  "itemGroup.endremTab": "End Remastered",
+
+  "block.portal_open_sound": "포탈 열림",
+  "block.portal_open_sound.sub": "포탈이 열림",
+
+  "advancements.main.root.title": "모험의 시작",
+  "advancements.main.root.description": "첫 번째 눈을 획득하십시오",
+
+  "advancements.main.old_eye.title": "운을 쫓는 자",
+  "advancements.main.old_eye.description": "첫 번째 오래된 눈을 획득하십시오",
+
+  "advancements.main.rogue_eye.title": "밀림에 오신 것을 환영합니다",
+  "advancements.main.rogue_eye.description": "첫 번째 부랑자의 눈을 획득하십시오",
+
+  "advancements.main.nether_eye.title": "절망을 응시하라",
+  "advancements.main.nether_eye.description": "첫 번째 네더의 눈을 획득하십시오",
+
+  "advancements.main.cold_eye.title": "서늘한 시선",
+  "advancements.main.cold_eye.description": "첫 번째 혹한의 눈을 획득하십시오",
+
+  "advancements.main.corrupted_eye.title": "에메랄드로 나를 감싸줘",
+  "advancements.main.corrupted_eye.description": "첫 번째 타락한 눈을 획득하십시오",
+
+  "advancements.main.magical_eye.title": "타락한 마술사",
+  "advancements.main.magical_eye.description": "첫 번째 마법의 눈을 획득하십시오",
+
+  "advancements.main.black_eye.title": "어이쿠, 내 배는 어디 있지?",
+  "advancements.main.black_eye.description": "첫 번째 검은 눈을 획득하십시오",
+
+  "advancements.main.lost_eye.title": "지도가 필요한가?",
+  "advancements.main.lost_eye.description": "첫 번째 잃어버린 눈을 획득하십시오",
+
+  "advancements.main.wither_eye.title": "당신이 원하든 말든",
+  "advancements.main.wither_eye.description": "첫 번째 위더의 눈을 획득하십시오",
+
+  "advancements.main.guardian_eye.title": "이제 누가 신전을 지키지?",
+  "advancements.main.guardian_eye.description": "첫 번째 수호자의 눈을 획득하십시오",
+
+  "advancements.main.cursed_eye.title": "새로운 수호자...",
+  "advancements.main.cursed_eye.description": "첫 번째 저주받은 눈을 획득하십시오",
+
+  "advancements.main.evil_eye.title": "진정한 축복",
+  "advancements.main.evil_eye.description": "첫 번째 사악한 눈을 획득하십시오",
+
+  "advancements.main.exotic_eye.title": "아틀란티스는 어디에?",
+  "advancements.main.exotic_eye.description": "첫 번째 이국의 눈을 획득하십시오",
+
+  "advancements.main.undead_eye.title": "영혼의 거울",
+  "advancements.main.undead_eye.description": "첫 번째 언데드의 눈을 획득하십시오",
+
+  "advancements.main.cryptic_eye.title": "인내는 지혜로 가는 길",
+  "advancements.main.cryptic_eye.description": "첫 번째 신비로운 눈을 획득하십시오"
+}

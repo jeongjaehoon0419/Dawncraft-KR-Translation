@@ -1,0 +1,386 @@
+{
+	id: "3FBF22A12EB77153"
+	group: "0A520B482648497B"
+	order_index: 2
+	filename: "magic"
+	title: "마법"
+	icon: "irons_spellbooks:mana_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "주문과 주문서"
+			icon: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: 0.0d
+			description: ["이곳에서 마법 능력을 얻어 신체 능력을 강화하거나, 생명체를 소환하고, 적에게 파괴적인 주문을 외우는 방법을 배울 수 있습니다! "]
+			size: 2.0d
+			id: "43BE75F09C4043F8"
+			tasks: [{
+				id: "089777A5C1B95D8D"
+				type: "checkmark"
+				title: "이해했습니다!"
+			}]
+		}
+		{
+			title: "마법 구조물 약탈"
+			icon: {
+				id: "irons_spellbooks:magehunter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.25d
+			y: 1.5d
+			description: [
+				"마법 여정의 초기 단계는 마법 구조물을 찾고, 상자를 약탈하며 그곳에 거주하는 마법사들을 처치하는 것에서 시작됩니다. "
+				"\\n이곳은 실제 주문을 영창할 수 있게 해주는 주문서(Scroll)를 얻을 수 있는 주요 공급처가 될 것입니다! "
+			]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			size: 1.5d
+			id: "0614C37C1534939E"
+			tasks: [{
+				id: "21D7529F64458A1B"
+				type: "checkmark"
+				title: "확인했습니다!"
+			}]
+		}
+		{
+			title: "주문서 보관함"
+			icon: {
+				id: "irons_spellbooks:legendary_spell_book"
+				Count: 1b
+				tag: {
+					ISB_spellbook: {
+						spells: [ ]
+						spellSlots: 12
+						activeSpellIndex: -1
+					}
+				}
+			}
+			x: -2.5d
+			y: -2.0d
+			description: ["일반 주문서는 한 번 사용하면 사라집니다. 주문서를 온전히 활용하려면 주문서 보관함(Spellbook)에 저장하는 것이 좋습니다. '조잡한 일지'를 제작하는 것부터 시작해 보십시오! \\n\\n(점술가 클래스라면 이 단계를 건너뛰어도 좋습니다) "]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "1F327242C2CCCF3C"
+			tasks: [{
+				id: "5AFA2C0E12D601FD"
+				type: "checkmark"
+				title: "알겠습니다!"
+			}]
+		}
+		{
+			title: "각인의 탁자"
+			x: 2.0d
+			y: -2.0d
+			description: ["각인의 탁자를 사용하면 주문서를 주문서 보관함에 장착할 수 있습니다. 단, 주문서는 해당 등급과 같거나 더 높은 등급의 주문서 보관함에만 장착할 수 있다는 점에 유의하십시오! "]
+			dependencies: ["1F327242C2CCCF3C"]
+			id: "39BD15E37DD2B01C"
+			tasks: [{
+				id: "069021CAEE611130"
+				type: "item"
+				item: "irons_spellbooks:inscription_table"
+				consume_items: false
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "364D3C4B4475BC0D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "주문 단조대"
+			x: -7.5d
+			y: 1.0d
+			description: ["구조물을 약탈하는 것 외에도, 주문 단조대를 제작하는 것은 주문서를 얻는 훌륭한 대안입니다. 주문 단조대 제작에 필요한 재료는 네더에서 찾을 수 있습니다. \\n\\n인벤토리의 검색창을 사용하여 다양한 주문서 제작법을 확인해 보십시오! 단, 제작으로는 1레벨 주문서만 만들 수 있으며, 주문서 레벨 업그레이드는 추후에 가능합니다. "]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			id: "5178B560C8B827E3"
+			tasks: [{
+				id: "56950BA8A3BB0936"
+				type: "item"
+				item: "irons_spellbooks:scroll_forge"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "초급 마법사 장비"
+			icon: {
+				id: "irons_spellbooks:wandering_magician_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			description: ["마법사를 위한 최적의 초반 장비는 방랑 마법사 세트입니다. 제작하려면 대장장이 작업대가 필요합니다. "]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "4E54C208CEF187D1"
+			tasks: [{
+				id: "63C62CE5AFA476B1"
+				type: "checkmark"
+				title: "확인했습니다!"
+			}]
+		}
+		{
+			title: "상급 마법사 장비"
+			icon: {
+				id: "irons_spellbooks:pyromancer_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"방랑 마법사 장비를 넘어서면, 마법사는 특정 원소의 주문 영창 능력을 강화해 주는 원소별 전용 장비를 제작할 수 있습니다. "
+				"\\n이러한 클래스 전용 장비를 제작하려면 원소 룬석(Runestone)을 획득해야 합니다. 룬석 재료 중 일부는 의식을 완료해야 얻을 수 있는 것도 있습니다. 제작법 검색 기능을 활용하여 연구해 보십시오! "
+			]
+			dependencies: ["4E54C208CEF187D1"]
+			id: "1EE082F0F108BFBA"
+			tasks: [{
+				id: "21F74BED3827CB09"
+				type: "checkmark"
+				title: "멋지네요!"
+			}]
+		}
+		{
+			title: "비전 정수"
+			x: -5.0d
+			y: 3.0d
+			description: ["마법 제작에 있어 가장 중요한 재료 중 하나입니다. 오직 약탈이나 마법사들을 처치함으로써만 얻을 수 있습니다. "]
+			dependencies: ["0614C37C1534939E"]
+			id: "4CEED19552F9272D"
+			tasks: [{
+				id: "04C0D0354D3DFBA3"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "장비 업그레이드"
+			icon: {
+				id: "irons_spellbooks:pumpkin_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"장비를 업그레이드하려면 업그레이드 보주와 비전 모루가 필요합니다. 업그레이드 보주의 제작법은 꽤 비싼 편이며, 특히 비전 파편(Arcane Salvage)과 불씨 정수(Cinder Essence)가 가장 구하기 어렵습니다. "
+				"\\n마법사 장비는 최대 3번까지 업그레이드할 수 있습니다. 각기 다른 업그레이드 보주는 원소 피해 증가나 마나 증가와 같이 서로 다른 능력치 보너스를 제공합니다. "
+			]
+			dependencies: [
+				"1EE082F0F108BFBA"
+				"5C76F132FD8587F9"
+				"607E8D1ADA6ED3A0"
+			]
+			id: "37B5F30D3F4B99F6"
+			tasks: [{
+				id: "3BE9AFC332C9476E"
+				type: "checkmark"
+				title: "알겠습니다!"
+			}]
+			rewards: [{
+				id: "56DD80B6574EC6C2"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				count: 3
+			}]
+		}
+		{
+			title: "빈 룬"
+			x: -4.0d
+			y: 2.5d
+			description: ["다른 모든 룬을 제작하기 위한 기초 재료입니다. 마법 구조물이나 그곳에 거주하는 마법사들로부터 찾을 수 있습니다. "]
+			dependencies: ["0614C37C1534939E"]
+			id: "49B1AA2C35454C74"
+			tasks: [{
+				id: "1B902538D23196EB"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "데드 킹 추적"
+			x: -0.7d
+			y: 1.4d
+			description: [
+				"데드 킹(Dead King)은 지하 깊은 곳의 카타콤에 거주하는 강력한 언데드입니다. 그를 찾을 수 있는 유일한 방법은 방황의 나침반(Wayward Compass)을 제작하여 따라가는 것입니다. "
+				"\\n이 스켈레톤은 도굴꾼들을 퇴치하기 위해 강력한 주문을 사용합니다. 준비를 완벽히 마치기 전에는 도전하지 마십시오! 하지만 그를 안식에 들게 한다면, 그 보상은 매우 만족스러울 것입니다... 당신의 마법 여정을 새로운 차원으로 끌어올려 줄지도 모릅니다! "
+			]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.4d
+			id: "73A2334F5E27719A"
+			tasks: [{
+				id: "45DD5B0FAD17B43A"
+				type: "item"
+				item: {
+					id: "irons_spellbooks:wayward_compass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "고대 전장"
+			icon: {
+				id: "mutantmonsters:mutant_skeleton_skull"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.3d
+			y: 2.6d
+			description: ["고대 전장은 네더에서 발견할 수 있습니다. 곡괭이로 갑옷 더미를 채굴하여 고대 기사들을 부활시킬 수 있습니다. "]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.3d
+			id: "28F664AE3CBA9E87"
+			tasks: [{
+				id: "04B7F97553E6079A"
+				type: "checkmark"
+				title: "으스스하네요..."
+			}]
+		}
+		{
+			title: "불씨 정수"
+			x: 3.0d
+			y: 2.0d
+			description: ["업그레이드 보주 제작에 필요한 핵심 부품입니다. 오직 고대 전장에서 고대 기사들을 처치해야만 얻을 수 있습니다. "]
+			dependencies: ["28F664AE3CBA9E87"]
+			id: "0CFC93A854B6EBE1"
+			tasks: [{
+				id: "3727B06E2FE205B4"
+				type: "item"
+				item: "irons_spellbooks:cinder_essence"
+			}]
+			rewards: [{
+				id: "155E77020EC84993"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				count: 4
+			}]
+		}
+		{
+			title: "주문서 획득 방법"
+			icon: "ob_core:scroll_primitive_rites"
+			x: -5.25d
+			y: 0.0d
+			description: ["주문서를 획득하는 방법에는 크게 두 가지가 있습니다. "]
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.5d
+			id: "5D6F2EF2A0FABB1E"
+			tasks: [{
+				id: "4DB549B82B05387F"
+				type: "checkmark"
+				title: "보여주세요!"
+			}]
+		}
+		{
+			title: "비전 모루"
+			x: 6.0d
+			y: -2.0d
+			description: ["주문서 업그레이드, 장비 강화, 그리고 무기에 마법을 부여하는 데 사용됩니다. "]
+			dependencies: ["39BD15E37DD2B01C"]
+			id: "5C76F132FD8587F9"
+			tasks: [{
+				id: "65079F0A627BA537"
+				type: "item"
+				item: "irons_spellbooks:arcane_anvil"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "업그레이드 보주"
+			x: 6.0d
+			y: 2.0d
+			description: ["장비 업그레이드를 위한 기초 보주입니다. 사용하려면 룬을 주입해야 합니다. "]
+			dependencies: ["0CFC93A854B6EBE1"]
+			id: "607E8D1ADA6ED3A0"
+			tasks: [{
+				id: "450C6924ABAA82D0"
+				type: "item"
+				item: "irons_spellbooks:upgrade_orb"
+			}]
+		}
+		{
+			title: "고유 유물과 주문서"
+			icon: "irons_spellbooks:emerald_stoneplate_ring"
+			x: -6.8d
+			y: -2.55d
+			description: ["모험의 매 단계에서 반지, 고유한 주문서 보관함, 이름이 붙은 주문서, 그리고 마법 자원들을 주의 깊게 살펴보십시오! "]
+			hide_dependency_lines: true
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.7d
+			id: "142D6C7E522A3208"
+			tasks: [{
+				id: "128B025C180FB6B2"
+				type: "checkmark"
+				title: "최고예요!"
+			}]
+		}
+		{
+			title: "잉크"
+			x: -6.0d
+			y: 3.0d
+			description: ["주문서를 제작하는 데 필요한 재료입니다. 마법 구조물이나 강력한 마법 생명체로부터 찾을 수 있습니다. "]
+			dependencies: ["0614C37C1534939E"]
+			id: "4200E32F0492E2E3"
+			tasks: [{
+				id: "58DEDE820A0E14A3"
+				type: "item"
+				item: "irons_spellbooks:common_ink"
+			}]
+		}
+		{
+			title: "첫 주문서 제작하기"
+			icon: {
+				id: "irons_spellbooks:scroll"
+				Count: 1b
+				tag: {
+					ISB_spell: {
+						type: 1
+						level: 1
+					}
+				}
+			}
+			x: -7.5d
+			y: 4.0d
+			description: ["잉크와 주문 단조대가 모두 준비되었다면, 첫 주문서를 제작할 준비가 된 것입니다! "]
+			dependencies: [
+				"5178B560C8B827E3"
+				"4200E32F0492E2E3"
+			]
+			id: "55DE5FDCFC67E4A2"
+			tasks: [{
+				id: "454D6DA7C5585A1B"
+				type: "checkmark"
+				title: "감사합니다!"
+			}]
+			rewards: [{
+				id: "62DD7A9F0FD11783"
+				type: "item"
+				item: "irons_spellbooks:magic_cloth"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

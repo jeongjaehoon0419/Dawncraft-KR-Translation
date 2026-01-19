@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "화살 제작자에게 $(red)화살 16개$()는 받아왔는가? 대가는 잊지 않고 치름세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙네, 정말 살았구먼! 내가 이 마을 화살 제작자랑은 사이가 좀 서먹해서 말이야... 직접 가서 부탁하기가 영 껄끄러웠거든."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:arrow"
+      },
+      "id": "quest_giver:item_stack",
+      "amount": 16
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_hunter",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

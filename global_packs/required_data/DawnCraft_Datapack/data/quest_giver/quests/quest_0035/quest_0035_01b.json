@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": { 
+      "text": "칼날 연마" 
+    },
+    "description": { 
+      "text": "칼을 갈 숫돌로 쓸만한 걸 찾고 있네. 지하 깊은 곳에 있는 심층암이라는 게 숫돌로 쓰기에 아주 제격이라더군. 그 $(red)심층암 5개$()만 좀 가져다줄 수 있겠나?" 
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "quest_giver:quest_0053_01",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": { "text": "어찌 되었나?" },
+    "description": { "text": "$(red)수박 씨앗 2개$()는 가져왔는가?" }
+  },
+  "complete": {
+    "title": { "text": "고맙네!" },
+    "description": { "text": "달콤한 열매 4개도 좀 가져다주겠나? 나 같은 주민들은 그런 걸 따러 위험한 숲속까지 들어갈 용기가 없어서 말이야. *주민이 말을 마치며 낄낄거리는 소리가 들립니다.*" }
+  },
+  "tasks": [
+    {
+      "item": { "item": "minecraft:melon_seeds" },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

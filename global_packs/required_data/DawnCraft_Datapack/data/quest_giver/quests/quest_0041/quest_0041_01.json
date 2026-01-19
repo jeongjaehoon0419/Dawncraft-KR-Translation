@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "그리운 햄버거의 맛"
+    },
+    "description": {
+      "text": "부탁했던 햄버거를 준비할 시간은 좀 있었는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "정말 훌륭하군! 나중에 아껴서 먹도록 하겠네. 정말 고맙네."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:hamburger"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

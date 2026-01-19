@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "혹시 돌아다니다가 $(red)라플레시아$()를 발견하면 내게 하나만 줄 수 있겠나?"
+    }
+  }
+}

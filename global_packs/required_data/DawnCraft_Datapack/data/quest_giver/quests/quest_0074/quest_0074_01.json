@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "기묘한 부탁"
+    },
+    "description": {
+      "text": "자네가 가진 $(red)스피릿 오브$() 하나만 내게 줄 수 있겠나?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "이것의 구조가 생각보다 너무 복잡하구먼... 미안하네만 하나만 더 빌려줄 수 있겠나?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+   "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

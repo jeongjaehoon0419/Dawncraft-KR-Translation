@@ -1,0 +1,45 @@
+{
+    "parent": "quest_giver:quest_0014_01b",
+    "reputation": 5,
+    "icon": "minecraft:enchanted_book",
+    "start": {
+        "title": {
+            "text": "첫 번째 임무"
+        },
+        "description": {
+            "text": "조건을 모두 달성한 뒤에 다시 돌아오게나. $(red)약탈자 10명 처치$() 말일세."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "첫 번째 임무"
+        },
+        "description": {
+            "text": "자, 이것들을 사용해서 $(green)여신상$()으로부터 첫 번째 강화를 받게나! 새로운 기술을 배우고 싶다면 여기 있는 경비병들에게 말을 걸어보는 것을 추천하네. 자네의 여정에 행운이 함께하기를."
+        }
+    },
+    "tasks": [{
+        "entity": "minecraft:pillager",
+        "id": "quest_giver:kill",
+        "times": 10
+    }],
+    "rewards": [{
+        "item": {
+            "item": "paraglider:spirit_orb"
+        },
+        "id": "quest_giver:item",
+        "times": 4
+        },
+        {
+            "command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"메인 퀘스트 - 고블린 왕의 요새\"",
+            "id": "quest_giver:command"
+        }, 
+        {
+          "command": "/loot give @p loot minecraft:guildmaster0",
+          "id": "quest_giver:command"
+        },
+        {
+            "command": "/gamestage add @p guildmaster2 true",
+            "id": "quest_giver:command"
+        }]
+}

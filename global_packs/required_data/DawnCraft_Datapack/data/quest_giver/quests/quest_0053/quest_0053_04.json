@@ -1,0 +1,20 @@
+{
+  "parent": "quest_giver:quest_0053_03",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": { "text": "어찌 되었나?" },
+    "description": { "text": "안녕하신가, $(red)비트 2개$()는 가져왔는가?" }
+  },
+  "complete": {
+    "title": { "text": "고맙네!" },
+    "description": { "text": "고맙네." }
+  },
+  "tasks": [
+    {
+      "item": { "item": "minecraft:beetroot" },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "좋네, 에메랄드 20개를 내놓는다면 '엔더 옵스쿠리스(Ender Obscuris)' 기술을 전수해줌세. 준비는 되었는가?"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "자, 여기 있네. 명심하게나, 이 기술로 주변 주민들을 놀라게 하는 데 쓰지는 말게!"
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 20
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"wom:ender_obscuris\"}",
+        "id": "quest_giver:command"
+    }]
+}

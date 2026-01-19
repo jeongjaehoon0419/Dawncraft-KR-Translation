@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "나침반을 제작하게!"
+    },
+    "description": {
+      "text": "그리 어려운 일은 아니지 않은가? 나침반 하나만 만들어 보게."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "잘해주었네. 이제 가보게나. 설마 보상이라도 기대한 건 아니겠지?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:compass"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

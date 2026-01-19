@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능에 가까운 시련!"
+    },
+    "description": {
+      "text": "자네의 준비성을 증명할 두 가지 과업을 내리겠네. 먼저 가위개미 번데기(Leafcutter Ant Pupa)를 구해오게나. 이를 흙 위에 놓으면 가위개미 군락을 시작할 수 있지. 그리고 거북 알을 보호하기 위한 모래성을 쌓게나. 오직 이 과업들을 마쳐야만 무기를 하사함세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "축하하네! 여기 있네. 셜커(Shulk)의 영향력이 무기를 알아볼 수 없을 정도로 변형시켜, 본래의 형상을 완전히 집어삼켜 버렸지."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "ecologics:husbandry/sandcastle"
+    },
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:moonless"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "quest_giver:quest_0046_01",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": { "text": "토벌 임무" },
+    "description": { "text": "다시 보게나. 자네에게 줄 다음 계약은 우리 땅을 배회하는 오크들을 토벌하는 것이네. 이 인간형 괴물들은 곳곳에 진지를 구축해두었지. 자네도 몇 번 마주친 적이 있을 게야. 토벌의 증거로 $(red)오크의 이빨 5개$()를 내게 가져다주게." }
+  }
+}

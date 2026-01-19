@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "내게 $(red)레드스톤 가루 10개$()만 좀 빌려줄 수 있겠나? 대가는 당연히 넉넉히 치르지."
+    }
+  }
+}

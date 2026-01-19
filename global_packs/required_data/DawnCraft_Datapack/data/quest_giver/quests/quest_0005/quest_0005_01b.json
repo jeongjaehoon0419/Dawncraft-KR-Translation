@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "조언을 구하네"
+    },
+    "description": {
+      "text": "요즘 내 소중한 작물들이 영 잘 자라질 않아서 고민이라네... 비료를 좀 만들 수 있게 $(red)뼈 8개$()만 구해다 줄 수 있겠나?"
+    }
+  }
+}

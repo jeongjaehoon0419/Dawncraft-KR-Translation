@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가, 나 대신 농장에서 다 자란 밀 2개만 좀 가져다줄 수 있겠나? 우리 울리백들을 번식시키려면 꼭 필요해서 말이야."
+    }
+  }
+}

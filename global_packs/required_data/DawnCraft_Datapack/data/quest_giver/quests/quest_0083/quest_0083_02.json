@@ -1,0 +1,49 @@
+{
+    "parent": "quest_giver:quest_0083_01",
+    "reputation": 13,
+    "icon": "minecraft:iron_axe",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "내 철 도끼는 아직인가? 부디 서둘러 주게."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "그래! 바로 이 도끼라네... 이만한 작품을 다시는 만들지 못할 것 같았거든. 어쨌든 여기 보상일세. 도와주어서 정말 고맙구먼."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:iron_axe",
+            "forge:nbt": "{tag:\"toolsmith\"}"
+        },
+        "id": "quest_giver:gift",
+        "times": 1
+    }],
+    "rewards": [{
+            "item": {
+                "item": "minecraft:emerald"
+            },
+            "id": "quest_giver:item",
+            "times": 2
+        },
+        {
+            "command": "/addreputation reputation:villager @p 2",
+            "id": "quest_giver:command"
+        },
+        {
+            "command": "/give @p iron_axe{Enchantments:[{id:efficiency,lvl:2}]}",
+            "id": "quest_giver:command"
+        },
+        {
+            "command": "/advancement grant @p only custom:trade_toolsmith",
+            "id": "quest_giver:command"
+        }
+    ]
+}

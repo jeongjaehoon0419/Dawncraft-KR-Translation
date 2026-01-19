@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:grindstone",
+  "start": {
+    "title": {
+      "text": "숫돌 사용법 배우기"
+    },
+    "description": {
+      "text": "다소 별난 요청이구먼... 그건 에메랄드 15개를 받아야겠네. 괜찮겠는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "자, 여기 있네! 아주 쉽지 않은가?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add excavation level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

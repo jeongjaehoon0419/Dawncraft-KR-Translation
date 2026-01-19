@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "토벌 임무"
+    },
+    "description": {
+      "text": "모험가여... 혹시 토벌 임무에 관심이 있는가?"
+    }
+  }
+}

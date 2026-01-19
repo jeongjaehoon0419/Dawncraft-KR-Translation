@@ -1,0 +1,319 @@
+{
+	id: "7F8D9817A4A5C1AE"
+	group: "0A520B482648497B"
+	order_index: 6
+	filename: "reforging_and_socketing"
+	title: "재연마와 소켓"
+	icon: "apotheosis:gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "재연마와 소켓"
+			icon: "apotheosis:gem"
+			x: 0.0d
+			y: 0.0d
+			description: ["던크래프트(DawnCraft)의 장비는 품질을 재연마하거나 보석을 소켓에 장착하여 업그레이드할 수 있습니다. 이 퀘스트 라인에서는 장비에서 재료를 분해하는 법, 장비 재연마, 그리고 보석의 장착 및 제거 메커니즘에 대해 설명합니다."]
+			size: 2.0d
+			id: "2E51B03DF4811F84"
+			tasks: [{
+				id: "2993D7B3A7687926"
+				type: "checkmark"
+				title: "읽음"
+			}]
+			rewards: [{
+				id: "6AC0B8DDA084A591"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "대장장이 작업대"
+			x: 0.0d
+			y: -2.0d
+			description: ["보석을 장비 소켓에 장착할 때 사용합니다. 보석을 박으려면 장비에 비어 있는 소켓 슬롯이 있어야 합니다."]
+			dependencies: ["2E51B03DF4811F84"]
+			size: 1.5d
+			id: "12C0F6007CB35919"
+			tasks: [{
+				id: "05BD00D176F287FD"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+			rewards: [{
+				id: "510CA775E95F7CC5"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "재연마 작업대"
+			x: 2.0d
+			y: 0.0d
+			description: ["분해 작업대에서 얻은 등급 재료와 보석을 부숴서 얻은 보석 가루를 사용하여 장비를 재연마합니다. 재연마를 통해 동일한 등급 내에서 장비의 능력치를 무작위로 변경하거나, 장비의 등급 자체를 변경할 수 있습니다(등급이 없는 장비에도 등급을 부여할 수 있습니다)."]
+			dependencies: ["2E51B03DF4811F84"]
+			size: 1.5d
+			id: "682B2B244574C666"
+			tasks: [{
+				id: "74A116EDF1FAFD4F"
+				type: "item"
+				item: "apotheosis:reforging_table"
+			}]
+			rewards: [{
+				id: "1AFEE7035150A752"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "분해 작업대"
+			x: -2.0d
+			y: 0.0d
+			description: ["장비에서 재연마에 필요한 등급 재료를 추출할 때 사용합니다. 획득하는 재료의 양은 무작위이며, 재료의 종류는 분해한 장비의 등급에 따라 결정됩니다."]
+			dependencies: ["2E51B03DF4811F84"]
+			size: 1.5d
+			id: "719B2897D9858A1F"
+			tasks: [{
+				id: "52813161EBA7BB86"
+				type: "item"
+				item: "apotheosis:salvaging_table"
+			}]
+			rewards: [{
+				id: "7CDA8FDC8F6FFADF"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "소켓의 인장"
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"대장장이 작업대에서 아이템에 사용하여 추가 소켓을 뚫을 수 있습니다 (최대 3개)."
+				"제작을 통해 얻거나, 퀘스트 및 보물 상자에서 드물게 획득할 수 있습니다."
+			]
+			dependencies: ["2E51B03DF4811F84"]
+			id: "22978B8A8D62A2A6"
+			tasks: [{
+				id: "3A7A389A9EBD4AA0"
+				type: "item"
+				item: "apotheosis:sigil_of_socketing"
+			}]
+			rewards: [{
+				id: "49AF0E101D95BC61"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "상급 소켓의 인장"
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"주입(Infusion)을 통해 획득하는 강화된 소켓의 인장입니다 (자세한 내용은 마법 부여 퀘스트 탭 참조)."
+				"아이템에 소켓을 추가하여 최대 4개까지 확장할 수 있습니다."
+			]
+			dependencies: ["22978B8A8D62A2A6"]
+			id: "54D504E6734D9B70"
+			tasks: [{
+				id: "2E02FAD0AD62647B"
+				type: "item"
+				item: "apotheosis:superior_sigil_of_socketing"
+			}]
+			rewards: [{
+				id: "6192ADA58D23484C"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "보석 가루"
+			x: 3.5d
+			y: 0.0d
+			description: ["보석을 부숴서 획득합니다. 보석 가루를 만들려면 보석을 바닥에 던진 후, 그 위 최소 한 칸 높이에 모루를 설치하여 떨어뜨리십시오. 모루가 떨어지면서 보석을 가루로 짓이깁니다. 이 방법으로 한 번에 많은 보석을 부술 수 있지만, 떨어질 때마다 모루의 내구도가 약간씩 소모됩니다."]
+			dependencies: ["682B2B244574C666"]
+			id: "2CCE38B89AB683B8"
+			tasks: [{
+				id: "3DC6710BD468209A"
+				type: "item"
+				item: "apotheosis:gem_dust"
+			}]
+			rewards: [{
+				id: "1D98087FDB4988BC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "일반 등급 재료"
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["719B2897D9858A1F"]
+			id: "3E0F33C5ABF2ECE8"
+			tasks: [{
+				id: "2C1615B13AE0AD04"
+				type: "item"
+				item: "apotheosis:common_material"
+			}]
+			rewards: [{
+				id: "1A86A91D92E2659C"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "고급 등급 재료"
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["3E0F33C5ABF2ECE8"]
+			id: "125B4FADD8BA4CAD"
+			tasks: [{
+				id: "1520900CFAD2F170"
+				type: "item"
+				item: "apotheosis:uncommon_material"
+			}]
+			rewards: [{
+				id: "3FE60FF5694FBFDF"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "희귀 등급 재료"
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["125B4FADD8BA4CAD"]
+			id: "4C4998B8BC343DC9"
+			tasks: [{
+				id: "2EADA33D95550D5E"
+				type: "item"
+				item: "apotheosis:rare_material"
+			}]
+			rewards: [{
+				id: "16A18EEFF93EDF78"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "서사 등급 재료"
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["4C4998B8BC343DC9"]
+			id: "2F07E8985E2204DB"
+			tasks: [{
+				id: "12B6867239E76D6B"
+				type: "item"
+				item: "apotheosis:epic_material"
+			}]
+			rewards: [{
+				id: "290E16E14A765F9C"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "신화 등급 재료"
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["2F07E8985E2204DB"]
+			id: "607EDB2F3E7EE94E"
+			tasks: [{
+				id: "7933064576FA5ECB"
+				type: "item"
+				item: "apotheosis:mythic_material"
+			}]
+			rewards: [{
+				id: "41416CA43B08A12C"
+				type: "item"
+				item: "plushies:warden"
+			}]
+		}
+		{
+			title: "추출의 병"
+			x: -1.0d
+			y: -3.5d
+			description: ["대장장이 작업대에서 장비와 결합하면 장착된 보석을 추출합니다. 이 과정에서 장비는 파괴됩니다."]
+			dependencies: ["12C0F6007CB35919"]
+			id: "0036F6587BAA1FA6"
+			tasks: [{
+				id: "4A8C71967AD1D4A5"
+				type: "item"
+				item: "apotheosis:vial_of_extraction"
+			}]
+			rewards: [{
+				id: "6AAD81F19C63CE57"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "방출의 병"
+			x: 1.0d
+			y: -3.5d
+			description: ["대장장이 작업대에서 장비와 결합하여 보석을 제거합니다. 이 과정에서 보석은 파괴되지만 장비는 보존됩니다."]
+			dependencies: ["12C0F6007CB35919"]
+			id: "653AFC11D8BA880E"
+			tasks: [{
+				id: "696A798201736794"
+				type: "item"
+				item: "apotheosis:vial_of_expulsion"
+			}]
+			rewards: [{
+				id: "0C9AA2DFA7EBE4F3"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "포션 양조"
+			x: -7.0d
+			y: 2.1d
+			description: ["양조 시스템은 대부분 바닐라 마인크래프트와 동일하게 작동합니다. 하지만 JEI를 통해 확인할 수 있는 훨씬 더 다양한 포션들이 추가되었습니다. 또한, 플레이어는 포션 부적(Potion Charm)을 제작하여 강력한 포션 효과를 평소보다 훨씬 길게 누릴 수 있으며, 주입을 통해 이러한 효과를 영구적으로 유지할 수도 있습니다."]
+			hide_dependency_lines: true
+			dependencies: ["2E51B03DF4811F84"]
+			size: 1.4d
+			id: "188EB7B36A79592B"
+			tasks: [{
+				id: "57D014107A8D7499"
+				type: "item"
+				title: "양조기 제작"
+				item: "minecraft:brewing_stand"
+				consume_items: false
+				match_nbt: false
+			}]
+		}
+		{
+			title: "포션 부적"
+			icon: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:leaping"
+				}
+			}
+			x: -5.0d
+			y: 2.0d
+			description: [
+				"플레이어는 여러 개의 포션을 블레이즈 가루와 결합하여 포션 부적을 만들 수 있습니다. 부적을 우클릭하여 활성화/비활성화할 수 있으며, 활성화된 상태로 부적 슬롯에 장착되어 있는 동안 해당 포션 효과가 지속됩니다. 이 부적에 내구도 증가나 수선 마법을 부여하여 지속 시간을 늘릴 수 있습니다."
+				"&b&l파괴 불가 부적"
+				"부적을 마법 부여대에서 주입하면 파괴 불가 버전으로 변환할 수 있습니다. 파괴 불가 부적은 효과를 영구적으로 제공하지만, 여전히 온오프 기능을 사용할 수 있습니다. 주입에는 최대 에테르나(Eterna), 8.5%~13.5% 사이의 콴타(Quanta), 85%~95% 사이의 아르카나(Arcana)가 필요합니다. 주입에 대한 자세한 정보는 '마법 부여' 퀘스트 탭을 확인하십시오."
+			]
+			dependencies: ["188EB7B36A79592B"]
+			id: "1DCFE07555CD7B60"
+			tasks: [{
+				id: "6CA0CFF4D1C04472"
+				type: "checkmark"
+				title: "확인했습니다!"
+			}]
+			rewards: [{
+				id: "2FFCD351BCA58063"
+				type: "item"
+				item: "plushies:sheep"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

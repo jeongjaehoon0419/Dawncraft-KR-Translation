@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "반갑네. 번거롭게 하고 싶지는 않네만, 혹시 내 일을 좀 도와줄 수 있겠나?"
+    }
+  }
+}

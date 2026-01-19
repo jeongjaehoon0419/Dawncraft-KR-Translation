@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "전설의 무기, '문리스(Moonless)'는 현재 내 손에 있네만, 자네가 그럴 자격이 있음을 증명한 뒤에야 비로소 자네에게 넘겨줄 수 있을 걸세."
+    }
+  }
+}

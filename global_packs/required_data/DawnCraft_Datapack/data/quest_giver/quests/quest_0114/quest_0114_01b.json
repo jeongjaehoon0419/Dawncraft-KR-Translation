@@ -1,0 +1,11 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 16,
+    "icon": "minecraft:iron_pickaxe",
+    "start": {
+        "title": {
+            "text": "도움 요청"
+        },
+        "description": "하하, 그럴 줄 알았네! 용감한 모험가여, 혹시 미로 같은 얼음 지대를 지나게 된다면 $(red)캡틴 코넬리아의 유령$()을 찾아보게나. 만약 자네가 그자를 근접 전투로 쓰러뜨리는 데 성공한다면, 내 거금을 내어줌세."
+    }
+}

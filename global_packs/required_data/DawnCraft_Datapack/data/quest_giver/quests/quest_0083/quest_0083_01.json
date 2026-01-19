@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0083_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "소중한 물건"
+    },
+    "description": {
+      "text": "$(red)종이$() 한 장만 좀 구해주게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "여기 있네, 부디 내가 아끼는 도끼를 찾아다 주게. 내 생애 최고의 역작이었다네."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:toolsmith_ruin \"도구 제작자의 의뢰\"",
+      "id": "quest_giver:command"
+    },   
+    {
+      "command": "/loot give @p loot minecraft:toolsmith1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p toolsmith1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:heart_of_the_sea",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가, 모험가여. 바다에서 무언가 좀 가져다줄 수 있겠나?"
+    }
+  }
+}

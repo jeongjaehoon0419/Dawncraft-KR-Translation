@@ -1,0 +1,12 @@
+{
+  "reputation": 3,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가! 기계를 수리하려는데 부품이 몇 개 부족해서 말이네. 내게 $(red)레버 하나와 구리 렌치 하나$()를 좀 구해다 줄 수 있겠나?"
+    }
+  }
+}

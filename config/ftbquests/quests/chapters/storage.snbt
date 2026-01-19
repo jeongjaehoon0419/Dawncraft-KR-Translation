@@ -1,0 +1,349 @@
+{
+	id: "7FB6749A5C23A010"
+	group: "0A520B482648497B"
+	order_index: 1
+	filename: "storage"
+	title: "저장소"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["기본적인 상자만으로는 이 모드팩의 방대한 아이템을 감담하기 어렵습니다. 수천 종류의 고유 아이템들이 쏟아져 나오기 때문에, 금세 상자의 바다에 빠져 정리하느라 고생하게 될 것입니다. 다행히 이 모드팩에는 보물(과 쓰레기)을 훨씬 쉽게 정리할 수 있게 도와주는 모드들이 포함되어 있습니다."]
+			size: 2.0d
+			id: "4D1B105EE54EDEAF"
+			tasks: [{
+				id: "3B86BA54AA15287D"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "40A712D85762E768"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "저장고 서랍 (Storage Drawers)"
+			x: 2.25d
+			y: 0.0d
+			description: ["저장고 서랍은 한 종류의 아이템을 대량으로 보관해야 할 때 완벽한 해결책이 됩니다. 넘쳐나는 아이템을 간편하게 넣고 빼거나 처리하고 싶을 때 매우 유용합니다. 한 블록에 여러 칸의 서랍을 가진 변형을 제작하여 서로 다른 아이템을 보관할 수도 있으며, 업그레이드를 통해 보관 용량을 대폭 늘릴 수 있습니다."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "15C8700EFE52353A"
+			tasks: [{
+				id: "6FC7DD9A5732C9B4"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "36BF6F96178BAC7D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "클라우드 저장소 (Cloud Storage)"
+			icon: "cloudstorage:cloud_chest"
+			x: 0.0d
+			y: -2.0d
+			description: ["클라우드 저장소는 필요한 재료를 구하는 데 시간이 좀 걸리지만, 매우 유연한 저장 시스템을 제공합니다. 하나의 거대한 저장 네트워크를 원하시나요? 아니면 여러 개의 작은 네트워크? 클라우드 저장소는 그 모든 것이 가능합니다. 다만 고소공포증이 없어야 할 겁니다!"]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "6578C82B120DE0EA"
+			tasks: [{
+				id: "7F2BD0E1BBFBF5C1"
+				type: "checkmark"
+				title: "읽음"
+			}]
+			rewards: [{
+				id: "6529B7B6EEBBFEB9"
+				type: "item"
+				item: "cloudstorage:guide_book"
+			}]
+		}
+		{
+			title: "하늘 위의 재료"
+			x: 0.0d
+			y: -3.5d
+			description: ["클라우드 저장소를 시작하려면 풍선을 제작할 풍선 조각과 구름 블록이 필요합니다. 풍선 몹과 구름 몹은 Y=196 이상의 높이에서 스폰되니 높은 산을 찾아보십시오! 공중에 플랫폼을 건설하면 전투가 수월해지며, 활을 사용하는 것도 큰 도움이 됩니다. 풍선 몹은 실과 조합해 풍선을 만들 수 있는 조각을 떨어뜨리고, 구름 몹은 클라우드 상자를 제작하는 데 쓰이는 구름 블록을 떨어뜨립니다."]
+			dependencies: ["6578C82B120DE0EA"]
+			id: "34A5470646A4CE63"
+			tasks: [{
+				id: "24C6540B62EB8438"
+				type: "item"
+				item: "cloudstorage:balloon"
+			}]
+			rewards: [{
+				id: "381FB78BCB25EFCD"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			title: "네트워크 동기화"
+			x: 0.0d
+			y: -5.0d
+			description: ["클라우드 저장소 설정의 마지막 단계는 하늘이 직접 보이는 곳(실내 불가!)에 클라우드 상자를 배치하는 것입니다. 풍선을 들고 상자를 우클릭하면, 해당 풍선의 색상과 동일한 모든 클라우드 상자와 인벤토리가 동기화됩니다. 같은 색상의 풍선을 사용하는 상자들은 모두 하나의 저장 네트워크로 연결됩니다."]
+			dependencies: ["34A5470646A4CE63"]
+			id: "5209737ECC6EC599"
+			tasks: [{
+				id: "7FF35AF151CD8866"
+				type: "item"
+				item: "cloudstorage:cloud_chest"
+			}]
+			rewards: [{
+				id: "4F9D60196696D136"
+				type: "item"
+				item: "minecraft:cookie"
+				count: 2
+			}]
+		}
+		{
+			title: "공용 저장소"
+			x: 0.0d
+			y: -6.5d
+			description: ["정전기 풍선과 정전기 상자를 사용하면 모든 플레이어가 접근할 수 있는 클라우드 인벤토리를 만들 수 있습니다. 인벤토리를 공유하려는 그룹에게 적합합니다. 정전기 구름 블록은 뇌우가 칠 때 구름 몹과 싸워 얻을 수 있습니다. 정전기 구름 블록을 배치하고 풍선으로 우클릭하여 풍선을 충전하십시오. 이후 정전기 구름 블록으로 정전기 클라우드 상자를 제작할 수 있습니다."]
+			dependencies: ["5209737ECC6EC599"]
+			id: "34ABF0F5257443E6"
+			tasks: [
+				{
+					id: "33C6E3483B23CF98"
+					type: "item"
+					item: {
+						id: "cloudstorage:balloon"
+						Count: 1b
+						tag: {
+							static: 1b
+						}
+					}
+				}
+				{
+					id: "678B002C4D1F8897"
+					type: "item"
+					item: "cloudstorage:static_cloud_chest"
+				}
+			]
+			rewards: [{
+				id: "0479D333C18E8CDD"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "흑요석 저장 업그레이드"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["15C8700EFE52353A"]
+			id: "6FD59A149FE6F418"
+			tasks: [{
+				id: "3E3F18BC2D0ABD54"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6B0892B3374394B0"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "철 저장 업그레이드"
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "23DC4D6E70E1091B"
+			tasks: [{
+				id: "7A41BCB24FB670A9"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0D98ACD81721DA04"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "금 저장 업그레이드"
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["23DC4D6E70E1091B"]
+			id: "10F1F3EE7889A104"
+			tasks: [{
+				id: "0164BB76D1530FF3"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "3A6CDC0B496DDE3A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "다이아몬드 저장 업그레이드"
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["10F1F3EE7889A104"]
+			id: "4D9FF3E44947668F"
+			tasks: [{
+				id: "1D5A13D0B94B358C"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0B6CB1C244B83877"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "에메랄드 저장 업그레이드"
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["4D9FF3E44947668F"]
+			id: "7EA6B2AC631D999B"
+			tasks: [{
+				id: "7ECEED4FDCDC4207"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "4FEECDB57A7D0881"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "조명 업그레이드"
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "5D0AAAB1C81D93FE"
+			tasks: [{
+				id: "5B08046B1D94ED72"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "285FE0FC1227A653"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "충만도 업그레이드"
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "41BD563E10B1AB25"
+			tasks: [{
+				id: "753B857BD925D870"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+			rewards: [{
+				id: "4F9606161F063677"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "세련된 배낭 (Sophisticated Backpacks)"
+			x: -1.7999999999999998d
+			y: 0.0d
+			description: ["기본적으로 'B' 키를 눌러 열 수 있습니다. 큐리오(Curios) 메뉴의 배낭 슬롯에 장착할 수 있습니다."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.2d
+			id: "31FF51CECF71BD12"
+			tasks: [{
+				id: "18D2ED50E69DD56E"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "33C3CA210D92BE3E"
+				type: "item"
+				item: {
+					id: "magistuarmory:iron_pike"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "철 배낭"
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["31FF51CECF71BD12"]
+			id: "50C80EA544AF9A52"
+			tasks: [{
+				id: "5AF5BA1AFCB59BC6"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "152D37AEDA50B4C0"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			title: "금 배낭"
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["50C80EA544AF9A52"]
+			id: "0B6F5DE85FF4D3D7"
+			tasks: [{
+				id: "4D5A2790DD9BA7A3"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "0F3DF4CEA2C74515"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			title: "다이아몬드 배낭"
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["0B6F5DE85FF4D3D7"]
+			id: "403035C8DC095962"
+			tasks: [{
+				id: "001E09CBCD7C498F"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "00DAF7B21BA69BCE"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			title: "네더라이트 배낭"
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["403035C8DC095962"]
+			id: "7CE65DEF92EE89EA"
+			tasks: [{
+				id: "65F64EF3ED2783F3"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "65DCCAAFAC3FABCB"
+				type: "item"
+				item: "plushies:cow"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "안녕하신가!"
+    },
+    "description": {
+      "text": "이보게, 친구. 이 따분한 곳에 계속 있자니 죽을 맛이구먼... 나랑 대화나 좀 나누지 않겠나? 자네에게도 꽤 도움이 될 걸세."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 15개를 준다면 '고통 예견(Pain Anticipation)' 기술을 전수해주지."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "여기 있네. 다가올 고통을 기꺼이 받아들여 보게나!"
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 15
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"wom:pain_anticipation\"}",
+        "id": "quest_giver:command"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "모험가여, 준비가 되었다면 자네에게 맡길 작은 일이 하나 있네."
+    }
+  }
+}

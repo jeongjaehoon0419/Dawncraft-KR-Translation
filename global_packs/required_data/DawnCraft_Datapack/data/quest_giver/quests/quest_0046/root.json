@@ -1,0 +1,8 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": { "text": "이보게!" },
+    "description": { "text": "반갑네. 모험가여, 자네에게 맡길 토벌 계약건이 몇 가지 있네." }
+  }
+}

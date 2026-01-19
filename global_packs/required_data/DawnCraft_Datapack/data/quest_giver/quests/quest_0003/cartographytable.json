@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "지도 제작대 사용법 익히기"
+    },
+    "description": {
+      "text": "오... 흠, 좋네. 에메랄드 15개만 가져오면 내 그 사용법을 전수해주지."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "자, 여기 있네."
+    },
+    "description": {
+      "text": "탁자 위에 놓인 도구들이 복잡해 보인다고 너무 겁먹을 것 없네. 금방 익숙해질 게야!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

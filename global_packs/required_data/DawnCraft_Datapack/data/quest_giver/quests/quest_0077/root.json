@@ -1,0 +1,12 @@
+{
+  "reputation": 24,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "에버브라이트 차원에서 $(red)터쿼이즈 스톤$() 하나만 구해다 줄 수 있겠나? 그게 어떻게 생겼는지 아주 궁금하구먼."
+    }
+  }
+}

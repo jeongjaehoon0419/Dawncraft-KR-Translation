@@ -1,0 +1,574 @@
+{
+	id: "4434057299FB0D69"
+	group: "0A520B482648497B"
+	order_index: 5
+	filename: "enchanting"
+	title: "마법 부여"
+	icon: "apotheosis:blazing_hellshelf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "던크래프트의 마법 부여"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"던크래프트의 마법 부여 방식은 바닐라 마인크래프트와 매우 다릅니다. 우선, **마법 부여 지식 레벨 2**가 필요합니다. 이는 길드 마스터의 메인 퀘스트 라인(특히 구미호 보스를 처치하는 퀘스트)을 통해 획득할 수 있습니다. "
+				""
+				"마법 부여의 품질에 영향을 주는 세 가지 새로운 수치가 추가되었습니다: **에테르나(Eterna)**, **콴타(Quanta)**, **아르카나(Arcana)**. 마법 부여 단서의 개수 또한 영향을 받을 수 있습니다. 각 수치에 대한 설명은 아래를 참조하십시오. "
+				""
+				"&b&l에테르나 (Eterna)"
+				"마법 부여의 강도를 나타내며, 레벨 비용을 증가시킵니다. 마법 부여대에서 한 칸 떨어져 있고 높이가 두 칸인 주변 블록들만 수치에 영향을 줍니다. 마법 부여 레벨은 (바닐라의 30을 넘어) 최대 100까지 도달할 수 있으며, 이를 통해 평소보다 더 희귀하고 높은 레벨의 마법 부여가 가능해집니다. "
+				""
+				"&b&l콴타 (Quanta)"
+				"마법 부여의 잠재적인 위력과 변동성에 영향을 줍니다. 콴타 수치가 높으면 품질이 크게 향상될 수 있지만, 운이 나쁘면 낮은 레벨의 마법이 부여되거나 저주가 붙을 위험도 있습니다. 특정 블록을 통해 추가되는 **'보정(Rectification)'** 수치는 콴타의 잠재적인 부정적 효과를 줄여주어 콴타를 순수하게 이로운 능력치로 만들어줍니다. 보정이 없더라도 일정량의 콴타를 확보하는 것은 항상 도움이 됩니다. "
+				""
+				"&b&l아르카나 (Arcana)"
+				"마법 부여의 개수를 늘리고 희귀한 마법이 부여될 확률을 높입니다. "
+			]
+			size: 2.0d
+			id: "72D5F73986EBD718"
+			tasks: [{
+				id: "3515201403BC7C5D"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "4DE8909426DA9AB8"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+				{
+					id: "02A29C74CD06454E"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "책장"
+			x: 1.5d
+			y: -1.0d
+			description: ["가장 기본적인 마법 부여용 아이템입니다. 최대 15의 에테르나를 제공하여 최대 30레벨까지의 마법 부여를 가능하게 합니다. 콴타나 아르카나 보너스는 제공하지 않습니다. 바닐라보다 적은 수로도 최대치에 도달하므로, 더 높은 등급의 책장을 사용하기 전까지는 다른 아이템과 섞어서 콴타와 아르카나 수치를 보완하는 것이 좋습니다. "]
+			dependencies: ["72D5F73986EBD718"]
+			size: 1.5d
+			id: "4E7331F85C954C6F"
+			tasks: [{
+				id: "61DA9A6454D137C4"
+				type: "item"
+				item: "minecraft:bookshelf"
+			}]
+			rewards: [{
+				id: "0115038BD869C2BC"
+				type: "xp"
+				xp: 2
+			}]
+		}
+		{
+			title: "양초"
+			x: 2.0d
+			y: -2.0d
+			description: ["마법 부여대 주변에 배치하여 소량의 아르카나를 추가할 수 있습니다. 배치 공간이 허용하는 한 개수 제한은 없지만, 같은 블록에 여러 개를 배치한다고 해서 추가 혜택이 주어지지는 않습니다. "]
+			dependencies: ["4E7331F85C954C6F"]
+			id: "6ADFD817111E5435"
+			tasks: [{
+				id: "11F4FEA5CEBD6ED6"
+				type: "item"
+				item: "minecraft:candle"
+			}]
+			rewards: [{
+				id: "72A593EAD84ECE70"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			title: "스켈레톤 해골"
+			x: 1.0d
+			y: -2.0d
+			description: ["마법 부여대 주변에 배치하여 소량의 콴타를 추가할 수 있습니다. 초반에 책장이나 양초와 혼합하여 마법 부여의 잠재력을 높이는 데 유용합니다. "]
+			dependencies: ["4E7331F85C954C6F"]
+			id: "51262C602F3BEF9E"
+			tasks: [{
+				id: "6528B25B98B0C298"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+			}]
+			rewards: [{
+				id: "54808A2FE71EA2A9"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			title: "위더 스켈레톤 해골"
+			x: 1.0d
+			y: -3.0d
+			description: ["일반 해골보다 더 많은 양의 콴타를 제공하지만, 획득하기가 다소 어렵습니다. "]
+			dependencies: ["51262C602F3BEF9E"]
+			id: "033C72478F243B7F"
+			tasks: [{
+				id: "448DA2DC944D400A"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [{
+				id: "300B90F60640BB83"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "지옥 책장"
+			x: 2.0d
+			y: 0.5d
+			description: [
+				"에테르나와 약간의 콴타를 추가해 주는 강화된 책장입니다. 최대 에테르나 수치를 높여줍니다. "
+				"바다 책장과 혼합하여 균형 잡힌 마법 부여 환경을 조성할 수 있습니다. "
+			]
+			dependencies: ["72D5F73986EBD718"]
+			size: 1.5d
+			id: "3E869581140512FE"
+			tasks: [{
+				id: "0E5761AB5E31041D"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+			rewards: [{
+				id: "0C07F89AD67417D9"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "바다 책장"
+			x: 1.0d
+			y: 1.5d
+			description: [
+				"강력한 에테르나와 약간의 아르카나를 제공하는 강화된 책장입니다. "
+				"최대 에테르나 수치를 높여줍니다. "
+				"지옥 책장과 혼합하여 균형 잡힌 마법 부여 환경을 조성할 수 있습니다. "
+			]
+			dependencies: ["72D5F73986EBD718"]
+			size: 1.5d
+			id: "580AF20D915596F0"
+			tasks: [{
+				id: "55B464EC4E95A117"
+				type: "item"
+				item: "apotheosis:seashelf"
+			}]
+			rewards: [{
+				id: "490CFA53F396BED6"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "엔드 책장"
+			x: 2.5d
+			y: 2.0d
+			description: ["가장 높은 등급의 책장입니다. 균형 잡힌 매우 높은 능력치를 제공합니다. "]
+			dependencies: [
+				"580AF20D915596F0"
+				"3E869581140512FE"
+			]
+			id: "33DCA1E150BE1ADB"
+			tasks: [{
+				id: "31E8CD40160E7BED"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+			rewards: [{
+				id: "3AFD0863E877CBDA"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 20
+			}]
+		}
+		{
+			title: "통찰의 책장"
+			x: -1.5d
+			y: 3.0d
+			description: ["마법 부여대에서 더 많은 마법 부여 결과물을 미리 보여줍니다. "]
+			dependencies: ["72D5F73986EBD718"]
+			size: 1.5d
+			id: "269C3BC39A0E74FD"
+			tasks: [{
+				id: "06F30F1087A31827"
+				type: "item"
+				item: "apotheosis:sightshelf"
+			}]
+			rewards: [{
+				id: "0861BEC23005B430"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "벌 책장"
+			x: -0.5d
+			y: -3.0d
+			description: ["특이한 책장으로, 에테르나를 감소시키지만 혼돈(콴타) 수치를 극대화합니다. "]
+			dependencies: ["72D5F73986EBD718"]
+			id: "7D66E73514323E51"
+			tasks: [{
+				id: "77D97C8E628D5FEC"
+				type: "item"
+				item: "apotheosis:beeshelf"
+			}]
+			rewards: [{
+				id: "27D8BA92DFA73876"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "멜론 책장"
+			x: -1.5d
+			y: -2.5d
+			description: ["특이한 책장입니다. 에테르나를 약간 감소시키지만, 마법 부여의 무작위성을 줄여줍니다. "]
+			dependencies: ["72D5F73986EBD718"]
+			id: "60852BB9DAB419FA"
+			tasks: [{
+				id: "4A8A89A878A71101"
+				type: "item"
+				item: "apotheosis:melonshelf"
+			}]
+			rewards: [{
+				id: "4A629C260E989D74"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "마법 부여 도서관"
+			x: -3.5d
+			y: 1.5d
+			description: [
+				"방대한 양의 마법 부여된 책을 한곳에 저장할 수 있습니다. 마법 부여된 책들을 자동으로 결합하며, 원하는 레벨의 책을 쉽게 꺼낼 수 있습니다. 보관 공간 부족으로 고민하는 마법 부여가들에게 필수적인 아이템입니다. "
+				"마법 부여를 결합할 때 상당한 양의 경험치를 절약할 수 있습니다. "
+			]
+			dependencies: ["72D5F73986EBD718"]
+			size: 1.3d
+			id: "39A6BA59CA48DA92"
+			tasks: [{
+				id: "4439CD790769370A"
+				type: "item"
+				item: "apotheosis:library"
+			}]
+			rewards: [{
+				id: "18C9189A18441D57"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "통찰의 책장 T2"
+			x: -2.5d
+			y: 4.0d
+			description: ["마법 부여 단서를 훨씬 더 많이 보여줍니다. "]
+			dependencies: ["269C3BC39A0E74FD"]
+			id: "05D97F244E928ACE"
+			tasks: [{
+				id: "13A348CF0D1EDDFD"
+				type: "item"
+				item: "apotheosis:sightshelf_t2"
+			}]
+			rewards: [{
+				id: "3D2FE1F71F9FEAF2"
+				type: "item"
+				item: "plushies:llama"
+			}]
+		}
+		{
+			title: "엔더 도서관"
+			x: -5.0d
+			y: 1.5d
+			description: ["궁극의 마법 부여 저장 및 결합 솔루션입니다. "]
+			dependencies: ["39A6BA59CA48DA92"]
+			id: "13D8F6001BE3FC5C"
+			tasks: [{
+				id: "74B831351364252F"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+			rewards: [{
+				id: "31189BBD326F7311"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "주입된 바다 책장"
+			x: 1.0d
+			y: 3.0d
+			description: ["바다 책장의 주입된 버전입니다. 책장을 주입하려면 필요한 레벨과 마법 부여 능력치를 갖춘 상태에서 마법 부여대에 책장을 넣어야 합니다. 요구 사항을 확인하려면 여기의 아이템 이미지를 클릭하거나 JEI에서 검색하십시오. "]
+			dependencies: ["580AF20D915596F0"]
+			id: "3571E087401DC67E"
+			tasks: [{
+				id: "489C70F3C6B11A6F"
+				type: "item"
+				item: "apotheosis:infused_seashelf"
+			}]
+			rewards: [{
+				id: "3EE57F9964A93B5D"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			title: "주입된 지옥 책장"
+			x: 3.5d
+			y: 0.0d
+			description: ["지옥 책장의 주입된 버전입니다. 주입하려면 필요한 레벨과 마법 부여 능력치를 갖춘 상태에서 책장을 마법 부여대에 넣으십시오. (여기나 JEI에서 주입된 지옥 책장을 클릭하여 요구 사항 확인 가능) "]
+			dependencies: ["3E869581140512FE"]
+			id: "10DBEF685353A185"
+			tasks: [{
+				id: "113726397ACFC424"
+				type: "item"
+				item: "apotheosis:infused_hellshelf"
+			}]
+			rewards: [
+				{
+					id: "293292C8B8C31601"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "4718FC84E32AA7D0"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			title: "불타는 지옥 책장"
+			x: 5.0d
+			y: 0.0d
+			description: ["더욱 혼란스럽지만, 더 높은 잠재력을 가지고 있습니다. "]
+			dependencies: ["10DBEF685353A185"]
+			id: "220063A9A8F1D260"
+			tasks: [{
+				id: "1CA9DE1EDBE02F78"
+				type: "item"
+				item: "apotheosis:blazing_hellshelf"
+			}]
+			rewards: [{
+				id: "37B609D9B507F22E"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			title: "빛나는 지옥 책장"
+			x: 4.5d
+			y: -1.0d
+			description: ["주입된 지옥 책장의 업그레이드 버전입니다. 향상된 능력치를 제공합니다. "]
+			dependencies: ["10DBEF685353A185"]
+			id: "328702B1D4999C5F"
+			tasks: [{
+				id: "228B37A43B41DE3A"
+				type: "item"
+				item: "apotheosis:glowing_hellshelf"
+			}]
+			rewards: [{
+				id: "48688B35395DCA68"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			title: "수정 바다 책장"
+			x: 0.0d
+			y: 4.0d
+			description: ["주입된 바다 책장의 업그레이드 버전입니다. 더 높은 능력치를 제공합니다. "]
+			dependencies: ["3571E087401DC67E"]
+			id: "624FD51FE060AADC"
+			tasks: [{
+				id: "20517933852CEE50"
+				type: "item"
+				item: "apotheosis:crystal_seashelf"
+			}]
+			rewards: [{
+				id: "11E582069B08DC53"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "심장 바다 책장"
+			x: 1.0d
+			y: 4.5d
+			description: ["더욱 혼란스럽지만, 더 높은 잠재력을 가지고 있습니다. "]
+			dependencies: ["3571E087401DC67E"]
+			id: "12344C141B7E1FEB"
+			tasks: [{
+				id: "1C1632B65A455FD8"
+				type: "item"
+				item: "apotheosis:heart_seashelf"
+			}]
+			rewards: [{
+				id: "3AB27ABD336581E9"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "드라코닉 엔드 책장"
+			x: 3.0d
+			y: 3.5d
+			description: ["다른 능력치는 없지만 상당한 양의 에테르나를 추가해 줍니다. 다른 책장들과 섞어서 최대 에테르나 수치에 빠르게 도달하는 데 유용합니다. "]
+			dependencies: ["33DCA1E150BE1ADB"]
+			id: "08D4C071292F7B94"
+			tasks: [{
+				id: "12DFAF68F29262AE"
+				type: "item"
+				item: "apotheosis:draconic_endshelf"
+			}]
+			rewards: [{
+				id: "0034AE2A9D3BA685"
+				type: "item"
+				item: "plushies:enderman"
+			}]
+		}
+		{
+			title: "진주 엔드 책장"
+			x: 4.0d
+			y: 2.5d
+			description: ["개선된 능력치를 가진 강화된 엔드 책장입니다. "]
+			dependencies: ["33DCA1E150BE1ADB"]
+			id: "583AA3AED6ADAD73"
+			tasks: [{
+				id: "75F107B50CAD8842"
+				type: "item"
+				item: "apotheosis:pearl_endshelf"
+			}]
+			rewards: [{
+				id: "201EB2B552EE9CE6"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "보정기"
+			x: -2.5d
+			y: 0.0d
+			description: ["마법 부여 환경에 '보정' 수치를 추가합니다. 보정은 콴타로 인해 아이템에 저주가 붙거나 낮은 레벨의 마법이 부여될 잠재적 위험을 감소시킵니다. 보정 수치가 최대라면 콴타를 순수하게 이로운 능력치로 활용할 수 있습니다. 보정 레벨은 마법 부여 화면에서 마법 항목에 마우스를 올리면 확인할 수 있습니다. "]
+			dependencies: ["72D5F73986EBD718"]
+			size: 1.5d
+			id: "6BD42073B410FD59"
+			tasks: [{
+				id: "46E209807DE7AFF9"
+				type: "item"
+				item: "apotheosis:rectifier"
+			}]
+			rewards: [{
+				id: "58088637C72701F8"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "보정기 T2"
+			x: -4.0d
+			y: 0.0d
+			description: ["보정 수치를 더욱 향상시킵니다. "]
+			dependencies: ["6BD42073B410FD59"]
+			id: "637B8123F0E769C6"
+			tasks: [{
+				id: "0A68E61ACA92E943"
+				type: "item"
+				item: "apotheosis:rectifier_t2"
+			}]
+			rewards: [{
+				id: "4CFEF747FB26A00D"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "보정기 T3"
+			x: -5.5d
+			y: 0.0d
+			description: ["매우 높은 수준의 보정 수치를 제공합니다. "]
+			dependencies: ["637B8123F0E769C6"]
+			id: "73D14FE0FE249386"
+			tasks: [{
+				id: "6189A5A12AC01D13"
+				type: "item"
+				item: "apotheosis:rectifier_t3"
+			}]
+			rewards: [{
+				id: "346FDFDCDEB7A347"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "마법서"
+			icon: "apotheosis:pickaxe_tome"
+			x: -2.5d
+			y: -1.5d
+			description: ["'광부의 서', '투구의 서' 등 다양한 마법서를 제작할 수 있습니다. JEI에서 모든 종류의 마법서와 제작법을 검색해 보십시오. 일반 책과 유사하게 마법을 부여할 수 있지만, 해당 서적의 종류에 맞는 마법만 부여됩니다. (예: 투구의 서에는 투구에 가능한 마법만 부여됨) "]
+			dependencies: ["72D5F73986EBD718"]
+			id: "78123CEA9B11D861"
+			tasks: [{
+				id: "689ACCA742B5217A"
+				type: "checkmark"
+				title: "읽음"
+			}]
+			rewards: [{
+				id: "5326DC92B5A8D359"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "추출의 서"
+			x: -3.5d
+			y: -2.0d
+			description: ["아이템을 소모하여 해당 아이템의 마법 부여 중 일부를 추출하여 자신에게 전이시킵니다. 모루에서 사용합니다. 한 아이템에서 다른 아이템으로 마법 부여를 옮기는 유용한 방법이지만, 정확히 어떤 마법이 추출될지는 알 수 없습니다... "]
+			dependencies: ["78123CEA9B11D861"]
+			id: "7FDA72264E869611"
+			tasks: [{
+				id: "2E945F8F9D764819"
+				type: "item"
+				item: "apotheosis:scrap_tome"
+			}]
+			rewards: [{
+				id: "72EAA58E7BC0C157"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "무지갯빛 거미줄"
+			x: -1.5d
+			y: 1.5d
+			description: ["아이템에서 저주를 제거할 수 있습니다. 모루에서 저주받은 아이템과 함께 사용하며, 사용 시 레벨을 소모합니다. "]
+			dependencies: ["72D5F73986EBD718"]
+			id: "47450E3E6F80ED9F"
+			tasks: [{
+				id: "3EA763F40240EEA7"
+				type: "item"
+				item: "apotheosis:prismatic_web"
+			}]
+			rewards: [{
+				id: "7B7D77693243FD80"
+				type: "item"
+				item: "minecraft:torch"
+				count: 3
+			}]
+		}
+	]
+	quest_links: [ ]
+}

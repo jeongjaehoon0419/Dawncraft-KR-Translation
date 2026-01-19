@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이보게 모험가, 몰골이 아주 지옥이라도 다녀온 것 같구먼, 하하! 농담일세. 나를 좀 도와줄 수 있겠나?"
+    }
+  }
+}

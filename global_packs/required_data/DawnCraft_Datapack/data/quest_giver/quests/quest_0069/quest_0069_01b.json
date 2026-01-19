@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "토끼 가죽 한 장만 좀 구해다 줄 수 있겠나?"
+    }
+  }
+}

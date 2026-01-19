@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "모험가여, 수집할 물건이 좀 있는데 도움을 좀 줄 수 있겠나?"
+    }
+  }
+}

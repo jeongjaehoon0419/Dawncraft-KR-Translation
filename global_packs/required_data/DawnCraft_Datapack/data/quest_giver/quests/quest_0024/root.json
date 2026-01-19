@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "모험가여! 우리 마을에 자네의 도움이 간절히 필요하네!"
+    }
+  }
+}

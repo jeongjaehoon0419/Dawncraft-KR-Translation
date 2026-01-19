@@ -1,0 +1,12 @@
+{
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이봐 젊은이! 가벼운 도전 하나 해보지 않겠나?"
+    }
+  }
+}

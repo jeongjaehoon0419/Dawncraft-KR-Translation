@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "안녕하신가"
+    },
+    "description": {
+      "text": "나랑 내 친구의 모자가 좀 낡아서 말이네. 새 모자를 좀 만들고 싶은데... 혹시 $(red)볏짚 묶음$() 하나만 구해다 줄 수 있겠나?"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0057_01b",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "낚싯대 제작"
+    },
+    "description": {
+      "text": "부탁했던 $(red)낚싯대$()는 챙겨왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙네, 내 줄 수 있는 게 그리 많지는 않구먼. 음... 여기 싱싱한 대구라도 한 마리 받게나."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:fishing_rod"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:cod"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

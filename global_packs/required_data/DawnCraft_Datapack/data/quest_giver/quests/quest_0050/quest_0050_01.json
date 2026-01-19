@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "충고"
+    },
+    "description": {
+      "text": "그저 충고 하나만 함세... 여기 사람들은 대부분 친절하네만, 개중에는... 그렇지 못한 이들도 있다네. 사람들이 하는 말을 모두 곧이곧대로 믿지는 말게나, 알겠는가?"
+    }
+  }
+}

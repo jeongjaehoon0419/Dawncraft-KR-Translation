@@ -1,0 +1,12 @@
+{
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": { 
+      "text": "이보게" 
+    },
+    "description": { 
+      "text": "거기 자네! 일손 좀 거들어주지 않겠나?" 
+    }
+  }
+}

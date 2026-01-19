@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가, 화살 제작자에게 가서 $(red)화살 16개$()만 좀 대신 구해다 줄 수 있겠나? 비용은 당연히 내가 넉넉히 챙겨줌세."
+    }
+  }
+}

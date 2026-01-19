@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능에 가까운 시련!"
+    },
+    "description": {
+      "text": "자네에게 '엔더 블래스터'를 맡기기 전, 자격을 증명할 두 가지 과업을 내리겠네. 네더의 인페르날 듄(Infernal Dunes)에서 파이프라인 센트리(Pipeline Sentry)를 처단하고, 완전히 자란 버섯 군락을 가위로 채집해 오게나. 이를 위해서는 먼저 비옥한 흙(Rich Soil)을 일궈야 한다는 점을 명심하게."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "축하하네!"
+    },
+    "description": {
+      "text": "장하군! 여기 있네. 이 블래스터는 거대한 에너지원에서 뿜어져 나오는 강력한 한 방을 선사할 걸세."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "incendium:infernal_dunes/pipeline/kill_sentry"
+    },
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "farmersdelight:main/get_mushroom_colony"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ender_blaster"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

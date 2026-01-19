@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 50,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "신비로운 존재"
+    },
+    "description": {
+      "text": "엔드 차원의 저 깊은 심연에는 숨겨진 생명체가 살고 있다네. 바로 '보이드 웜'이지. 이 존재를 불러내려면 유충을 엔드의 심연으로 던져야 한다네. 그 유충은 엔더리오파지의 캡시드 안에 진홍빛 모기 유충을 던져 넣으면 만들어낼 수 있지."
+    }
+  }
+}

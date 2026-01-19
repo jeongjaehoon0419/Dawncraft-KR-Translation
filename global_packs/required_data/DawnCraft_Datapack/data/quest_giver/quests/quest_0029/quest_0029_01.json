@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0029_01b",
+  "reputation": 0,
+  "icon": "minecraft:mushroom_stew",
+  "start": {
+    "title": {
+      "text": "버섯 스튜!"
+    },
+    "description": {
+      "text": "부탁했던 $(red)버섯 스튜$()는 벌써 다 만들었는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "정말인가..."
+    },
+    "description": {
+      "text": "음, 맛있구먼! 고맙네, 낯선 이여!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:mushroom_stew"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0111_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "다시 만났군!"
+    },
+    "description": {
+      "text": "종이 한 장만 가져오게나. 그 위에 위치를 그려줌세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "여기 지도를 보게나. 근처에 가기만 하면 발견하기는 꽤 쉬울 게야. 행운을 빌겠네. 그놈을 쓰러뜨리고 얻은 전리품이 있다면 내게 가져오게."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p quest_giver:giant_hideout \"토벌 요청 - 거인\"",
+    "id": "quest_giver:command"
+  },   
+    {
+      "command": "/loot give @p loot minecraft:guard4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

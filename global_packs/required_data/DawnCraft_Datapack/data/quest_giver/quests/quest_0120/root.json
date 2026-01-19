@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "모험가들이 강력한 존재를 소환하기 위해 찾는 장소를 알고 있다네. 그곳이 어디인지 알고 싶은가?"
+    }
+  }
+}

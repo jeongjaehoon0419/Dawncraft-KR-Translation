@@ -1,0 +1,44 @@
+{
+    "parent": "quest_giver:quest_0071_01",
+    "reputation": 40,
+    "icon": "minecraft:book",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "그 책을 찾거든 부디 내게 돌아와 주게나."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "이 책은 내게... 아주 각별한 의미가 있다네. 자네의 노고에 어떻게 감사를 표해야 할지 모르겠구먼. 자, 이걸 받게나. 모험가들도 마법을 부린다는 이야기를 들었는데, 그게 사실인가?"
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:written_book",
+            "forge:nbt": "{tag:\"librarian\"}"
+        },
+        "id": "quest_giver:gift",
+        "times": 1
+    }],
+    "rewards": [{
+            "command": "/addreputation reputation:villager @p 1",
+            "id": "quest_giver:command"
+        },
+        {
+            "item": { "item": "irons_spellbooks:arcane_ingot" },
+            "id": "quest_giver:item",
+            "times": 3
+        },
+        {
+            "item": { "item": "minecraft:emerald" },
+            "id": "quest_giver:item",
+            "times": 8
+        }
+    ]
+}

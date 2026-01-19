@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "얼마 전 자네 같은 모험가 한 명이 내게 부탁을 하나 했다네. 난 그를 제대로 도와줄 수 없었지만... 자네라면 가능할지도 모르겠군. 종이 한 장만 가져다주게나. 그가 있는 곳을 지도로 그려주겠네."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "엔더 가디언이 아주 중요한 물건을 지키고 있다네. 그곳이 어디인지 알고 싶은가?"
+    }
+  }
+}

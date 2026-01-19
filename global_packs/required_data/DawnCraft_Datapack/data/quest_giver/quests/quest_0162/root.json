@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "내게 전설의 무기, '하나후부키(Hanafubuki)'가 있네. 하지만 이를 자네에게 하사하는 것은 오로지 자네가 자격을 증명하느냐에 달려 있지."
+    }
+  }
+}

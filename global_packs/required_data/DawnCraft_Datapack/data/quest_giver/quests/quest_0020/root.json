@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:dirt",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이보게. 자네 모험가 아닌가? 잠시 시간 좀 내줄 수 있겠나?"
+    }
+  }
+}

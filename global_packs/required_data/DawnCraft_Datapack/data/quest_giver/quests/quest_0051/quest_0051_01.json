@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0051_01b",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "부탁했던 $(red)호박 씨앗$()은 벌써 구해왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "정말 고맙네. 이제 집 뒤편에 작은 호박 밭을 가꾸며 연구를 시작할 수 있겠구먼, 하하!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

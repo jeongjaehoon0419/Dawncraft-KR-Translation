@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "$(red)백곰 가죽 2장$()을 구해다 주게나. 다른 종류의 곰들보다 상대하기가 조금 더 까다로울 수 있으니 주의하게. 물건을 챙기면 다시 돌아오게나."
+    }
+  }
+}

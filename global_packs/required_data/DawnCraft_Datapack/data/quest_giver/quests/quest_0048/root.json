@@ -1,0 +1,8 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": { "text": "이보게!" },
+    "description": { "text": "나를 좀 도와줄 수 있겠나?" }
+  }
+}

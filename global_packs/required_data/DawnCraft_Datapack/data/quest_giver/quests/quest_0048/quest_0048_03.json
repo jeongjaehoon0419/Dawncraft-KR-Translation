@@ -1,0 +1,19 @@
+{
+  "parent": "quest_giver:quest_0048_03b",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": { "text": "그래?" },
+    "description": { "text": "평범한 마을 경비병 3명을 죽이고 돌아오게나. 다른 이들에게 들키지 않게 주의하고. 자네 평판이 너무 떨어지면 나도 자네와 대화하지 않을 걸세... 이유는 뻔하지 않겠나." }
+  },
+  "complete": {
+    "title": { "text": "고맙네!" },
+    "description": { "text": "하하하... 이 사악한 인간 같으니. 여기, 약속한 사용법일세. 앞으로도 계속 못되게 굴어보라고." }
+  },
+  "tasks": [
+    { "entity": "guardvillagers:guard", "id": "quest_giver:kill", "times": 3 }
+  ],
+  "rewards": [
+    { "command": "/pmmo admin @p add slayer level 1", "id": "quest_giver:command" }
+  ]
+}

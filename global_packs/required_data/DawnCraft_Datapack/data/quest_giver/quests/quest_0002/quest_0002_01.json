@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0002_01b",
+  "reputation": 0,
+  "icon": "minecraft:rabbit_foot",
+  "start": {
+    "title": {
+      "text": "부탁 하나만 함세"
+    },
+    "description": {
+      "text": "그래, 부탁했던 토끼 발은 가져왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "아주 잘됐군!"
+    },
+    "description": {
+      "text": "정말 잘됐군! 보답으로 줄 게 그리 많지는 않네만... 대신 이 양고기라도 좀 받게나. 방금 갓 구워낸 것이라 아주 맛이 좋을 게야!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:rabbit_foot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cooked_mutton"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

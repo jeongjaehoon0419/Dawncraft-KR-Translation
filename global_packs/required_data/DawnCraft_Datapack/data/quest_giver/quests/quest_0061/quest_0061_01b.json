@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "화살 제작"
+    },
+    "description": {
+      "text": "화살을 만들려는데 깃털이 좀 부족하구먼. 혹시 $(red)깃털 2개$()만 좀 구해다 줄 수 있겠나? 화살을 다 만들면 자네에게도 몇 개 나누어주겠네."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능에 가까운 시련!"
+    },
+    "description": {
+      "text": "이 무기를 얻고 싶다면 먼저 두 가지 과업을 완수하게나. 마녀의 오두막을 찾아가 마녀의 의뢰를 완수하고, 푸카(Pooka) 한 마리를 무리에서 유인해낸 뒤 황금 당근으로 진정시키게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "훌륭하군! 여기 그 무기가 있네. 가벼운 무게와 달리, 실로 가공할 만한 살상력을 품고 있지."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "habitat:husbandry/fae_whisperer"
+    },
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "biomemakeover:biomemakeover/witch_quest"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:satsujin"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

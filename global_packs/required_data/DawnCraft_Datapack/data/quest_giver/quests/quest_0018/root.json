@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "내게 $(red)활 하나$()를 좀 만들어줄 수 있겠나? 요즘 우리 마을 무기 대장장이가 워낙 바빠서 말이네."
+    }
+  }
+}

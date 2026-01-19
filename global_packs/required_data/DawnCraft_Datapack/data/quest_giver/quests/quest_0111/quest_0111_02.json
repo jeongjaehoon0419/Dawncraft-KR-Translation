@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0111_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "거인은 처치했는가? 그렇다면 놈의 전리품을 보여주게."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "수고했네! 이건 그놈의 눈 조각이 확실하구먼... 자 보게나, 보답으로 전투 기술인 '파쇄 도약(Demolition Leap)'을 가르쳐줌세. 이 기술은 전투 중에 자네의 기동성을 크게 높여줄 게야!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:giant_eye_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:demolition_leap\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "토벌 요청"
+    },
+    "description": {
+      "text": "요새 밤만 되면 이 근처에 크리퍼들이 자주 나타난다네... 우리에게 직접 해를 끼치지는 않지만, 불쌍한 내 양들이 겁을 먹고 도망가 버린다네. 밤에 나가서 녀석들을 좀 처치해주겠나? 6마리를 잡으면 보수를 줌세."
+    }
+  }
+}

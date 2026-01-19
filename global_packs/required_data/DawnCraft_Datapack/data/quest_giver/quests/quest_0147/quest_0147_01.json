@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 25개를 내놓는다면 '그림자 걸음(Shadow Step)' 기술을 전수해줌세. 어떻게 하겠나?"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "참으로 무시무시한 기술이지 않나?"
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 25
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"wom:shadow_step\"}",
+        "id": "quest_giver:command"
+    }]
+}

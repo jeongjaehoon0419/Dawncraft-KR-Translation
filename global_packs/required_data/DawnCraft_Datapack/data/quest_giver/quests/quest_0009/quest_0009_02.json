@@ -1,0 +1,46 @@
+{
+    "parent": "quest_giver:quest_0009_01",
+    "reputation": 14,
+    "icon": "minecraft:book",
+    "start": {
+        "title": {
+            "text": "어떻게 됐나?"
+        },
+        "description": {
+            "text": "$(red)종이 10장$()을 구해올 기회가 좀 있었는가?"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "정말 고맙네. 지금 당장은 보답으로 줄 에메랄드가 없어서 말이네... 대신 이걸 주면 어떻겠나?"
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:paper"
+        },
+        "id": "quest_giver:gift",
+        "times": 10
+    }],
+    "rewards": [{
+            "item": {
+                "type": "minecraft:item_nbt",
+                "item": "minecraft:enchanted_book",
+                "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+            },
+            "id": "quest_giver:item",
+            "times": 1
+        },
+        {
+            "command": "/advancement grant @p only custom:trade_librarian",
+            "id": "quest_giver:command"
+        },
+        {
+            "command": "/addreputation reputation:villager @p 1",
+            "id": "quest_giver:command"
+        }
+    ]
+}

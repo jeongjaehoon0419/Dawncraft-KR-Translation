@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "물약 화살"
+    },
+    "description": {
+      "text": "물약 효과가 깃든 화살을 좀 만들어 보려고 하네. 혹시 발광석 가루 12개만 구해다 줄 수 있겠나?"
+    }
+  }
+}

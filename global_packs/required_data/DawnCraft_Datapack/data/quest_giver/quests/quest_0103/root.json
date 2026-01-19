@@ -1,0 +1,12 @@
+{
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "나를 도와 동물을 유인할 미끼 재료를 좀 모아다 줄 수 있겠나?"
+    }
+  }
+}

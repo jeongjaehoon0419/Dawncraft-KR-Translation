@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "$(red)바다의 심장$()이라 불리는 물건을 찾는 데 자네의 도움이 필요하네. 주로 묻힌 보물에서 발견되곤 하지만, 내게는 그걸 찾아낼 모험가들 같은 풍부한 경험과 전문 지식이 부족해서 말이네. 혹시 나를 위해 그것을 좀 구해다 줄 수 있겠나?"
+    }
+  }
+}

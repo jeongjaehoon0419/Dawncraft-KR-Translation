@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:honey_bottle",
+  "start": {
+    "title": {
+      "text": "꿀은 가져왔나?"
+    },
+    "description": {
+      "text": "부탁했던 $(red)꿀이 든 병$()은 가져왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "오호, 최근 마셔본 꿀 중에 단연 최고로구먼! 고맙네!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:honey_bottle"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_weaponsmith",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

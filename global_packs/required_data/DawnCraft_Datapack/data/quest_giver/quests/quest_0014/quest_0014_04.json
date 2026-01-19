@@ -1,0 +1,64 @@
+{
+  "parent": "quest_giver:quest_0014_03",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "오우거는 자네가 상대했던 고블린 왕과는 격이 다른 존재라네. 부디 조심해서 가게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "잘해주었네. 이제는 $(red)기사 로버$()와도 대면할 수 있겠구먼. 비록 전성기에 비하면 몰라보게 약해졌다고는 하나, 여전히 그가 가진 눈의 힘을 억누르고 있는 만큼 매우 위험한 상대일세. 여기 그가 머무는 곳이 담긴 지도일세."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:lost_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p custom:arena \"메인 퀘스트 - 기사 로버의 투기장\"",
+    "id": "quest_giver:command"
+  }, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/dc enableInvasions @p",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add endurance level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add cooking level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p AdvancedSmelting true",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

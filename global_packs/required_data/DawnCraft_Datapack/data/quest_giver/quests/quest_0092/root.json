@@ -1,0 +1,12 @@
+{
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가 모험가여... 자네가 엔더 드래곤을 물리치게 된다면, 나를 위해 일 좀 하나 해줄 수 있겠나? 아주 사소한 일이라네."
+    }
+  }
+}

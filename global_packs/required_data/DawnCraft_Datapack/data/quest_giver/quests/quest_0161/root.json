@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "전설의 무기, '안티테우스(Antitheus)'를 소유한 자로서 자네와 같은 전사에게 이를 물려주는 것이 나의 책무라네. 하지만 이를 넘겨주기 전, 자네가 그럴 자격이 있는지 확인해야겠네."
+    }
+  }
+}

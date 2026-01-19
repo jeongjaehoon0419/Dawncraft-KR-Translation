@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "떠돌이 여행자들에게 들었는데, 얼마 전에 등에 보석 가시가 돋친 거대한 괴물을 목격했다더군. 흑요석 기둥들이 솟아 있는 곳에 자리 잡고 있다던데... 그 괴물이 가진 보석이 아주 궁금하구먼. 종이 한 장만 가져다주겠나? 어디인지 지도를 그려주겠네."
+    }
+  }
+}

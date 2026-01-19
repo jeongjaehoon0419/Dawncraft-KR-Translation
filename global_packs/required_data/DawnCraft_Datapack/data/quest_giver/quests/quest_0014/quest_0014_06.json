@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "흠... 구미호는 정확히 말하자면 인간이 아니라네. 뭐, 직접 보면 무슨 뜻인지 알게 되겠지."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "흥... 이제는 놀랍지도 않구먼. 잘해주었네. 구미호는 원래 악명 높을 정도로 난폭한 영물이었지... 왜 하필 그런 버려진 헛간에서 은둔하기로 했는지는 도무지 알 길이 없네만. 어쨌든, 다음 눈의 수호자가 있는 곳일세. 조심하게나, 이번 상대는 자네가 지금까지 상대해 온 자들과는 차원이 다를 테니 말이야."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p custom:floating_island \"메인 퀘스트 - 하늘 섬\"",
+    "id": "quest_giver:command"
+  }, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster6 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

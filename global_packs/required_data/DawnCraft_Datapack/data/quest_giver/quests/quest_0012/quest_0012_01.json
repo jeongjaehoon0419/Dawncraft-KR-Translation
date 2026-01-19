@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 3,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "우유 한 양동이!"
+    },
+    "description": {
+      "text": "서둘러 주게나. 지금 $(red)우유 한 양동이$()가 너무나도 마시고 싶구먼!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "꿀꺽꿀꺽... 크으, 살 것 같군! 정말 고맙네, 친구."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:milk_bucket"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/playsound minecraft:entity.generic.drink ambient @p ~ ~ ~ 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:bucket"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

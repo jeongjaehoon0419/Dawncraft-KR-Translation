@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이보게, 모험가여. 내게 $(red)썩은 고기 5개$()를 좀 가져다줄 수 있겠나? 포션을 조제하는 데 필요해서 말이네."
+    }
+  }
+}

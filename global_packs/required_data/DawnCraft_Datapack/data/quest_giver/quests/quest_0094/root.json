@@ -1,0 +1,12 @@
+{
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가 모험가여, 자네라면 내게 만들어 줄 수 있을 법한 요리가 하나 있다네. 대가는 톡톡히 치를 테니, 어떤가?"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "다음 눈의 수호자는 언데드라네. 정확히 말하면 잔재주가 아주 많은 언데드지... 수많은 추종자에게 둘러싸여 있으니, 그에게 접근하는 것조차 쉽지 않을 게야."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "스켈레톤 군주는 내가 본 언데드 중 단연 가장 강력한 존재였네. 자네가 그를 쓰러뜨릴 줄이야, 정말 놀랍군. 좋네, 어디 보자... 다음 눈은 명성 높은 성기사가 지키고 있다네. 자네라 할지라도 과연 승산이 있을지 모르겠구먼. 어쨌든 위치를 알려주겠네. 부디 조심해서 가게나."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p custom:sentinel_tree \"메인 퀘스트 - 수호의 나무\"",
+    "id": "quest_giver:command"
+  },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster7 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

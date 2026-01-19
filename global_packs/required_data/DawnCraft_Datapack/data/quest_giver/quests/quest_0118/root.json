@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "조금 이따가 광산으로 떠날 참인데... 대화할 시간 좀 있나?"
+    }
+  }
+}

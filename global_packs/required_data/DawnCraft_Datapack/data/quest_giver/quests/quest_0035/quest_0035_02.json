@@ -1,0 +1,15 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": { "text": "인센디움" },
+    "description": { "text": "잊지 말게, 네더의 잿빛 황무지라네. 그곳에 다녀오면 다시 말을 걸어주게." }
+  },
+  "complete": {
+    "title": { "text": "완성" },
+    "description": { "text": "그거 참 놀랍구먼... 그곳에 대해 말해주어 고맙네. 여기 보상일세. 자, 이제 가보게나... 나도 내려야 할 중요한 결정이 있어서 말이야." }
+  },
+  "tasks": [ { "id": "dawncraft:advancement", "advancement": "custom:scarlet_rot" } ],
+  "rewards": [ { "item": { "item": "minecraft:emerald" }, "id": "quest_giver:item", "times": 5 } ]
+}

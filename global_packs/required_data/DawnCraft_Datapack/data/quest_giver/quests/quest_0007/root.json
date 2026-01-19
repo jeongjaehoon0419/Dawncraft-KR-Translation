@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "단돈 에메랄드 10개에 화살 작업대 사용법을 가르쳐주고 있네. 어떤가, 한번 배워보겠나?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "제안 하나 하지"
+    },
+    "description": {
+      "text": "흥미로운 기술을 하나 가르쳐줄 수 있는데... 바로 '스텝(Step)'이라네. 다만 에메랄드 15개가 필요할 걸세."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": { "text": "안녕하신가" },
+    "description": { "text": "좋군, 혹시 $(red)양파 2개$()만 좀 구해다 줄 수 있겠나?" }
+  }
+}

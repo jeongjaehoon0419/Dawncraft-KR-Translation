@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0113_02",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "다시 만났군!"
+    },
+    "description": {
+      "text": "아직 작업 중이라네! 나뭇가지는 챙겨왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "자, 여기 있네. 지금까지 만든 것 중 최고의 역작이 될 것 같군, 허허."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:stick"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:gem_sword"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

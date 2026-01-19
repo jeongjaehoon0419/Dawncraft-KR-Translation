@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "내 손에는 전설의 무기, '토먼트(Torment)'가 있네. 허나 이 무기의 충성을 얻고 싶다면, 자네의 용맹함과 자격을 내게 증명해야 할 걸세."
+    }
+  }
+}

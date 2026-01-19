@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "이세계의 석재"
+    },
+    "description": {
+      "text": "부탁했던 $(red)루나 스톤$()은 벌써 가져왔는가? 에버던 차원에서 찾을 수 있다고 말해주었을 텐데."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙구먼. 그런데 품질이... 영 기대 이하로군. 다른 용도로 쓸 수 있을지 고민 좀 해봐야겠어."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "blue_skies:lunar_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:village @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

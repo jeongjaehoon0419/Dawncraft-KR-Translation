@@ -1,0 +1,12 @@
+{
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "원시 시대 주민들은 사냥할 때 활 말고 다른 도구를 쓰기도 했다더군... 그게 무엇인지 맞혀볼 수 있겠나?"
+    }
+  }
+}

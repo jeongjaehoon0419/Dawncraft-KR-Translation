@@ -1,0 +1,12 @@
+{
+  "reputation": 19,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이보게 모험가여. 나를 위해 조사해 줄 일이 하나 있는데 도와주겠는가?"
+    }
+  }
+}

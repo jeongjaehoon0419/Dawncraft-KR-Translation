@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "엔더 가디언 지도"
+    },
+    "description": {
+      "text": "친구여, 세상에 공짜는 없는 법이라네. 에메랄드 5개를 내놓으면 엔더 가디언이 있는 방향을 알려줌세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "아주 좋구먼, 여기 있네. 명심하게나, 이 지도는 반드시 '디 엔드'에 도착한 뒤에 펼쳐야 하네. 나중에 경고하지 않았다고 원망하지 말게나."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_3"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p enderian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

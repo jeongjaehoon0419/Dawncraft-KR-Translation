@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0001_01",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "그러고 보니..."
+    },
+    "description": {
+      "text": "그러고 보니... 자네에게 보답할 방법이 하나 생각났네. 종이 한 장만 구해다 주겠나? 자네에게 도움이 될 지도를 하나 그려주려 하네."
+    }
+  }
+}

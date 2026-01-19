@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "이세계의 석재"
+    },
+    "description": {
+      "text": "엔드에 가거든 내게 줄 $(red)엔드 돌$()을 챙겨오는 것을 잊지 말게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "흠... 품질이... 나쁘지 않구먼. 요긴하게 잘 쓰겠네, 고맙네!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:end_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

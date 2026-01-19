@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "적의 허점을 찌르는 비책을 배우고 싶다면, 내게 아주 좋은 기술이 하나 있네만..."
+    }
+  }
+}

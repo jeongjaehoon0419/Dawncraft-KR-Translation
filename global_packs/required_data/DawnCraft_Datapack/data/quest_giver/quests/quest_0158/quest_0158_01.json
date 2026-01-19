@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능에 가까운 시련!"
+    },
+    "description": {
+      "text": "자네 앞엔 두 가지 과업이 있네. 후드를 쓴 독수리와 함께 100블록 밖에서 생명체를 처치하고, 돼지에게 발효된 거미의 눈을 먹인 뒤 '케미컬 X'를 던지게나. 이를 완수한다면 '토먼트'를 자네에게 맡기는 것을 고려해보겠네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "훌륭하군! 여기 있네. 이 무기의 전 주인은 무시무시한 피글린 전사였다네."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "alexsmobs:alexsmobs/bald_eagle_challenge"
+    },
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "mutantmonsters:spider_pig_spider_pig"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:tormented_mind"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

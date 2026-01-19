@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0086_01b",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "긴급한 요청"
+    },
+    "description": {
+      "text": "부탁했던 $(red)철 주괴 16개$()는 가져왔는가? 부디 서둘러 주게."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "고맙네. 모험가에게 자원 채집까지 부탁해서는 안 된다는 걸 알지만... 지금은 선택의 여지가 없구먼. 우민 군대가 압박해오고 있네. 곧 이 마을까지 들이닥칠 게야... 혹시 토벌 계약을 맡고 싶다면 말해주게, 기꺼이 제안함세."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 16
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

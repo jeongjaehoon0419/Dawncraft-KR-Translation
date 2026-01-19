@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "반갑네 여행자여, 자네 물건 하나는 기막히게 잘 찾아온다고 들었네! 나를 좀 도와줄 수 있겠나?"
+    }
+  }
+}

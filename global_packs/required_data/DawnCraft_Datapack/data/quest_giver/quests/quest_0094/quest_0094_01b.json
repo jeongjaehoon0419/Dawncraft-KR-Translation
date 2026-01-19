@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "엔네겔 파스타라는 요리가 있다네. 오직 엔드 차원에서만 구할 수 있는 재료들로만 만들어지는 음식이지... 부디 재료들을 모아 나를 위해 요리 하나만 만들어 주겠나?"
+    }
+  }
+}

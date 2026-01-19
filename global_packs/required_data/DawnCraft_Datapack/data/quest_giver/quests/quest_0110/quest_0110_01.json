@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "다시 만났군!"
+    },
+    "description": {
+      "text": "용감한 친구구먼. 그놈이 어디 있는지 알려줄 테니 종이 한 장만 내어주게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "여기 지도를 보게나. 사실 이 정보는 성직자가 준 것이라 완전히 정확한지는 나도 확신할 수 없네. 어찌 됐든 그 괴물을 찾아 처치하고, 놈이 떨어뜨리는 전리품을 가져오게."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p quest_giver:cave_dwelling \"토벌 요청 - 케이브 델러\"",
+    "id": "quest_giver:command"
+  },
+    {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard3 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

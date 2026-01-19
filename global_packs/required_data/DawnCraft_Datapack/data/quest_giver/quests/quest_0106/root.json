@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "자네, 도구 제작자에게 가서 새 도끼 하나만 대신 구해다 줄 수 있겠나? 비용은 나중에 꼭 챙겨줄 테니 약속하겠네!"
+    }
+  }
+}

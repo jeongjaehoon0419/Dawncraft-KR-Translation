@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "제안 하나 하지"
+    },
+    "description": {
+      "text": "에메랄드 15개를 준다면, '스텝' 기술을 사용하는 법을 가르쳐주지."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "자, 여기 있네. 진흙탕에서 구르는 것보다는 이쪽이 훨씬 낫지 않겠나!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 15
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:step\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

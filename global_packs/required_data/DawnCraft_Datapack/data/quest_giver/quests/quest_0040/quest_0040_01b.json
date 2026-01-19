@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "불가능한 임무!"
+    },
+    "description": {
+      "text": "사바나 지대에 코끼리라는 거대한 생물이 살고 있다는 사실을 알고 있는가? 우리 중 누군가는 그놈들을 길들이는 데 성공했다더군. 자네도 할 수 있겠나? 그 거대한 코끼리를 길들이는 일 말일세."
+    }
+  }
+}

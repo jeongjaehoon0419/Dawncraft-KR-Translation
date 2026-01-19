@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "요즘 우리 마을에 매운맛 열풍이 부는 모양이야... 세상에서 가장 매운 고추를 키워서 한밑천 챙겨볼까 하네, 하하! 네더에서 발견되는 '고스트 페퍼'라는 고추에 대해 들어본 적 있는가? 자네가 그 $(red)고스트 페퍼 3개$()만 좀 구해서 가져다주게나."
+    }
+  }
+}

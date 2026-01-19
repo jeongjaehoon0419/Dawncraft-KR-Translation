@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "바다에 나가 낚시를 하다 보면 시간 가는 줄을 모르겠구먼... 이보게 친구, 나를 좀 도와줄 수 있겠나?"
+    }
+  }
+}

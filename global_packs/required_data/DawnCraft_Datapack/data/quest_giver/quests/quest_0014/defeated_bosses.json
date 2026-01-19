@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:emerald",
+  "start": {
+    "title": {
+      "text": "이미 처리했군!"
+    },
+    "description": {
+      "text": "오? 내가 지도를 주기도 전에 이미 눈의 수호자를 쓰러뜨렸단 말인가? 허... 그렇다면 그 수호자가 떨어뜨린 눈을 내게 보여주게나. 사실, 그 눈을 바닥에 한 번 떨어뜨렸다가 다시 주워보게나... 이유는 묻지 말고!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여정의 끝"
+    },
+    "description": {
+      "text": "내 친구여, 이제 내게 더 전해줄 정보는 없다네. 자네의 소명을 따르게나."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ]
+}

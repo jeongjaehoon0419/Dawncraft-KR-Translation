@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0040_01",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "또 다른 도전"
+    },
+    "description": {
+      "text": "도전할 거리를 더 찾으러 온 건가? 좋네, 또 다른 도전을 주지. 늪지대에 사는 악어라는 파충류 괴물을 사냥해서 그놈들의 인갑을 가져오게나. 조심해야 할 거야, 그놈들은 말도 안 되게 힘이 세니까 말이지."
+    }
+  }
+}

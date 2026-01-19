@@ -1,0 +1,44 @@
+{
+    "parent": "quest_giver:quest_0054_01",
+    "reputation": 5,
+    "icon": "minecraft:wheat_seeds",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "우리에게 줄 빵 2덩이를 만들어 줄 수 있는지 알려주게나. 서두를 것 없네!"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "정말 고맙네! 얼마 되지는 않지만, 지금 내가 줄 수 있는 전부라네. 부디 받아주게나."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:bread"
+        },
+        "id": "quest_giver:gift",
+        "times": 2
+    }],
+    "rewards": [{
+            "command": "/advancement grant @p only custom:trade_farmer",
+            "id": "quest_giver:command"
+        },
+        {
+            "command": "/addreputation reputation:villager @p 2",
+            "id": "quest_giver:command"
+        },
+        {
+            "item": {
+                "item": "minecraft:emerald"
+            },
+            "id": "quest_giver:item",
+            "times": 2
+        }
+    ]
+}

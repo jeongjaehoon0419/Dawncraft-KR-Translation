@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0074_01",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "자네의 $(red)스피릿 오브$()가 하나 더 필요하네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "하하... 젊은이, 자네는 너무 사람을 잘 믿는구먼. 말 몇 마디 섞어보지 않은 사람을 함부로 믿지는 말게나. 내 마음이 좀 찔려서 오브는 다시 돌려주겠네만, 이것만은 명심하게. 모든 사람이 나처럼 친절하지는 않다네."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+   "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

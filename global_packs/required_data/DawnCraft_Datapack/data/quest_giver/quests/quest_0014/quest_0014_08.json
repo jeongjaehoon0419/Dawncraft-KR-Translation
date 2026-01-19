@@ -1,0 +1,59 @@
+{
+  "parent": "quest_giver:quest_0014_07",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "경계의 기사는 수백 년 동안 '수호자의 눈(Guardian Eye)'을 지켜왔다네. 내가 아는 모험가 중 그를 넘어선 자는 아무도 없었지... 듣기로는 그가 잠든 눈을 깨울 열쇠를 쥐고 있다고 하더군."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "놀랍군. 경계의 기사조차 자네의 상대가 되지 못하다니... 이제 자네의 여정도 끝이 보여가는구먼. 기분이 어떤가? ... 어쨌든, 다음 눈의 수호자를 소환해야 할 걸세. 여기, 이 머리카락 뭉치와 소환 제단으로 가는 지도를 받게나."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:guardian_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p custom:giant_altar \"메인 퀘스트 - 화염 거인의 제단\"",
+    "id": "quest_giver:command"
+  },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster6",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p fire_giant",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:sentinel_knight_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster8 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

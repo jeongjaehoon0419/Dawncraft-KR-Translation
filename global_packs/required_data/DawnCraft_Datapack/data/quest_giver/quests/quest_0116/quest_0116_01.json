@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0116_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "제안 하나 하지"
+    },
+    "description": {
+      "text": "에메랄드 4개만 내놓는다면, 이그니스를 소환하는 데 필요한 재료를 찾을 수 있는 곳을 알려주도록 하겠네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "자, 여기 있네. 부디 그 끔찍한 흉물을 우리 마을 근처에서 소환하지는 말아주게나. 그리고 명심하게, 이 지도는 네더 차원에서 펼쳐야만 작동할 걸세. 왜 그런지는 묻지 말게... 나도 전혀 모르니까 말이야."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 4
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_2"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian3 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "낚싯대 제작"
+    },
+    "description": {
+      "text": "내 낚싯대가 거의 다 망가져 가는데... 새것으로 하나 만들어 줄 수 있겠는가? 요새 마을 제작자가 출타 중이라 부탁할 곳이 없어서 말이야..."
+    }
+  }
+}

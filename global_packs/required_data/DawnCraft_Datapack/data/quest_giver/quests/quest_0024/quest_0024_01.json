@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0024_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "다시 보게나!"
+    },
+    "description": {
+      "text": "아, 깜빡할 뻔했구먼. 종이 한 장만 좀 가져다주겠나? 그놈들의 은신처가 어디인지 지도로 표시해주겠네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여기 있네."
+    },
+    "description": {
+      "text": "여기 있네. 부디 서둘러 주게나! 그놈들이 아이를 데리고 무슨 짓을 꾸미고 있는지 알 수가 없으니 말이야."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+   "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+    "command": "/dc addWaypoint @p quest_giver:pillager_hideout \"구조 요청 - 약탈자 은신처\"",
+    "id": "quest_giver:command"
+  }, 
+    {
+      "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard1 true",
+      "id": "quest_giver:command"
+    }     
+  ]
+}

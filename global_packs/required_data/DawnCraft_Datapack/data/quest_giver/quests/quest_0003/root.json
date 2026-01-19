@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "반갑네, 여행자여. 내게 먹물 주머니와 종이를 좀 가져다줄 수 있겠나?"
+    }
+  }
+}

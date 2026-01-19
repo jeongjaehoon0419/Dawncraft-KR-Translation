@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:quest_0094_01b",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "$(red)엔네겔 파스타$()를 다 만들거든 내게 돌아오게나. 대가는 아쉽지 않게 챙겨줌세."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "이 맛은...! 마치 어머니께서 해주셨던 그 맛이로구먼... 정말 고맙네 모험가여, 자네에게 얼마나 감사한지 모를 게야. 자, 이걸 받게나. 엔더의 힘으로 벼려낸 카타나(Katana)라네. 아마 이보다 더 강력한 무기는 세상에 없을 걸세."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "enlightened_end:ennegel_pasta"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "scattered_weapons:darkkatana"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

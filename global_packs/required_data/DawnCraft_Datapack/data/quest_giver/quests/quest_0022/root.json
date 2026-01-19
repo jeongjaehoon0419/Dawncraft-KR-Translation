@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이봐 젊은이, 내게 $(red)마호가니 원목$() 한 토막만 구해다 줄 수 있겠나?"
+    }
+  }
+}

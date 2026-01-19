@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "환영하네!"
+    },
+    "description": {
+      "text": "반갑네! 우리 길드 방문은 이번이 처음인 모양이군. 자네의 첫 번째 의뢰를 한번 맡아보겠나?"
+    }
+  }
+}

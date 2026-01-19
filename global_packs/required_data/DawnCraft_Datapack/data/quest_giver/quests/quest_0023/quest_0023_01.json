@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 12,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "자네에게 '긴급 탈출' 기술을 가르쳐줄 수 있네. 수강료로 에메랄드 15개만 지불하게나."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "자, 여기 있네. 실전에서 유용하게 쓰길 바라네."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 15
+    }],
+    "rewards": [{
+        "command": "/give @p epicfight:skillbook{skill:\"epicfight:emergency_escape\"}",
+        "id": "quest_giver:command"
+    }]
+}

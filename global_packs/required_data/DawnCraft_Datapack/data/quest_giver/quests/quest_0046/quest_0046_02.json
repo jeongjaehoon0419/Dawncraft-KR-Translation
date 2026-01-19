@@ -1,0 +1,19 @@
+{
+    "parent": "quest_giver:quest_0046_02b",
+    "reputation": 15,
+    "icon": "minecraft:paper",
+    "start": {
+        "title": { "text": "안녕하신가" },
+        "description": { "text": "아직 계약을 완수하지 못한 모양이군. 아니면 임무를 잊었나? 토벌의 증거로 $(red)오크의 이빨 5개$()를 가져오게나." }
+    },
+    "complete": {
+        "title": { "text": "여기 있네." },
+        "description": { "text": "잘해주었네. 당장은 자네에게 줄 임무가 더 없구먼. 다만 사악함은 항상 주위를 맴돌고 있다는 걸 명심하고, 경계를 늦추지 말게나." }
+    },
+    "tasks": [{ "item": { "item": "orcz:orcteeth" }, "id": "quest_giver:gift", "times": 5 }],
+    "rewards": [
+        { "item": { "item": "minecraft:emerald" }, "id": "quest_giver:item", "times": 2 },
+        { "command": "/advancement grant @p only custom:trade_cleric", "id": "quest_giver:command" },
+        { "command": "/give @p potion{display:{Name:'[{\"text\":\"치유의 포션\",\"italic\":false}]'},CustomPotionEffects:[{Id:6,Duration:1,Amplifier:5}]} 1", "id": "quest_giver:command" }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능에 가까운 시련!"
+    },
+    "description": {
+      "text": "자네에게 두 가지 과업을 내리겠네. 고결한 썬버드(Sunbird)의 축복을 받고, 변종 눈 고렘(Mutant Snow Golem)을 소환해오게나. 성취한다면 '애고니'를 자네에게 넘겨주는 것을 고려해보겠네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "실로 놀랍군! 받아가게나. 이 검의 전 주인은 흉포한 짐승들에게 목숨을 잃었지... 자네의 운명은 그와 다르기를 빌겠네."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "mutantmonsters:frosty_the_snow_golem"
+    },
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "alexsmobs:alexsmobs/sunbird_blessing"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:agony"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

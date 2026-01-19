@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "모험가라고 자처한다면 나침반 하나쯤은 있어야지! $(red)나침반$()을 하나 제작해서 내게 돌아오게나."
+    }
+  }
+}

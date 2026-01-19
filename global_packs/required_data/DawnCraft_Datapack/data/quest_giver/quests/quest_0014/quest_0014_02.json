@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "눈의 수호자로 향하는 길"
+    },
+    "description": {
+      "text": "좋네, 모험을 떠날 준비가 완벽히 된 모양이군! 자, 첫 번째 눈을 찾아 나설 준비가 되었나?"
+    }
+  }
+}

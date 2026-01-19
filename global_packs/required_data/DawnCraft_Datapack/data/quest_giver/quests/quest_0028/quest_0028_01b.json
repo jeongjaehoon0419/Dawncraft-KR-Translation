@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "좋군!"
+    },
+    "description": {
+      "text": "이 세계에는 끓어오르는 샘물 위로 수증기가 피어오르고, 신비로운 안개가 산 전체를 뒤덮고 있는 지형이 있다고 하더군. 용감한 모험가여, 혹시 여행 중에 그런 곳을 발견하거든 꼭 돌아와서 그곳이 정말 어떤지 내게 들려주게나!"
+    }
+  }
+}

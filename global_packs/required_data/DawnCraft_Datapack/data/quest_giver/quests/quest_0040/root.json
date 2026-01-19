@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "반갑네, 모험가여! 자네에게 줄 도전 과제가 하나 있는데, 한번 해보겠나?"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 30개를 내놓는다면 '엔더 스텝(Ender Step)' 기술을 전수해줌세. 어떻게 하겠나?"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "이것은 전설적인 존재들인 '쌍둥이(The Twins)'로부터 전해 내려오는 기술이라네. 그들은 엔드(End)에 있다고들 하더군... 적어도 내가 듣기로는 말이야."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 30
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"wom:ender_step\"}",
+        "id": "quest_giver:command"
+    }]
+}

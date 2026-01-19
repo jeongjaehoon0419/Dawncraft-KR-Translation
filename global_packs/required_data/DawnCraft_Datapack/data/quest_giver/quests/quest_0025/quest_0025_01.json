@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0025_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "토벌 임무"
+    },
+    "description": {
+      "text": "그리핀을 처치해주게. 보상은 톡톡히 챙겨줌세... 하지만 부디 무사해야 하네."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "오, 천만다행이군, 무사히 돌아왔구먼! 자네가 너무 늦어서 혹시나 끔찍한 일이라도 당했을까 봐 가슴을 졸였다네... 무사해서 정말 다행일세. 여기 약속한 보상이라네. 다시 한번 고맙네."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:griffin_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

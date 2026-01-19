@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "불가능에 가까운 시련!"
+    },
+    "description": {
+      "text": "이 무기들을 얻고 싶다면 먼저 두 가지 과업을 완수하여 자네의 가치를 증명하게나. '폴터가이스트(Poltergeist)' 블록을 제작하고, 작은 '블로비에이터(Bloviator)'를 병에 가둬 오게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "훌륭하군! 여기 '게제츠'와 '헤르셔'라네. 바다의 권능이 깃든 이 무기들은 함께 휘두를 때 비로소 진정한 시너지 효과를 발휘할 걸세."
+    }
+  },
+  "tasks": [
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "biomemakeover:biomemakeover/poltergeist"
+    },
+    {
+    "id": "dawncraft:advancement",
+    "advancement": "cloudstorage:cloudstorage/angry_cloud_in_a_bottle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:herrscher"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "wom:gesetz"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 15개를 내놓는다면 '아드레날린(Adrenaline)' 기술을 전수해줌세. 어떻게 하겠나?"
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "나 또한 즐거운 거래였네."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 15
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"wom:adrenaline\"}",
+        "id": "quest_giver:command"
+    }]
+}

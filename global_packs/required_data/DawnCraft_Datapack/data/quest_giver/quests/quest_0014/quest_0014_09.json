@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0014_08",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "여정의 끝"
+    },
+    "description": {
+      "text": "화염 거인은 아주 오래전 이 세계에서 자취를 감췄다네. 다행히 그가 떠나기 전, 우리는 그의 머리카락 한 뭉치를 확보할 수 있었지. 대성직자들이 그 물건에 마법을 부여했으니, 이론적으로는 제단에 그것을 바쳐 거인을 다시 불러낼 수 있을 게야. 혹시라도 머리카락 뭉치를 잃어버린다면, 양조기에서 화염구와 일반 화염 저항 물약을 조합하여 다시 제작하게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "여정의 끝"
+    },
+    "description": {
+      "text": "흠, 정말 할 말이 없구먼... 드디어 때가 왔네, 모험가여. 자네는 모든 눈의 수호자들을 쓰러뜨렸어. 만약 이미 12개의 눈을 모두 손에 넣었다면, 이제 엔드로 향하는 관문을 찾게나. 신의 가호가 자네와 함께하기를."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:village @p 10",
+      "id": "quest_giver:command"
+    }
+  ]
+}

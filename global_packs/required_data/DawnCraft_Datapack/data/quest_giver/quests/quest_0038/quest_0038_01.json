@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0038_01b",
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "탐험!"
+    },
+    "description": {
+      "text": "고대의 모래, 화산 봉우리, 그리고 화이트 메사. 이 세 지형을 모두 둘러보고 내게 돌아오게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "완료했네"
+    },
+    "description": {
+      "text": "상세한 설명 고맙네. 자네의 묘사 덕분에 지도를 제대로 그릴 수 있을 것 같구먼. 여기 보상을 받게나."
+    }
+  },
+  "tasks": [
+  {
+     "id": "dawncraft:advancement",
+     "advancement": "custom:traveller"
+  }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

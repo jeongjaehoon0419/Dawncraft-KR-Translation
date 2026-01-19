@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "베틀 사용법을 배우고 싶은가? 에메랄드 10개만 있다면 내 그 비법을 전수해주겠네."
+    }
+  }
+}

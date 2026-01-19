@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "도움이 필요하네"
+    },
+    "description": {
+      "text": "자네 솜씨가 아주 좋다는 소문을 들었네. 내게 아주 희귀한 물건이 좀 필요한데, 바로 $(red)사자 가죽$()이라네. 4개 정도 필요하니, 물건을 모두 구하면 다시 찾아와주게나."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "제안 하나 하지"
+    },
+    "description": {
+      "text": "내가 네더 차원에 있을 때, 괴물 같은 골렘이 거주하는 기묘한 구조물을 발견했다네. 에메랄드 6개를 준다면 그곳이 어디인지 지도로 알려줌세."
+    }
+  }
+}

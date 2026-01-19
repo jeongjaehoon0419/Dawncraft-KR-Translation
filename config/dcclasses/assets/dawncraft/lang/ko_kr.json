@@ -1,0 +1,18 @@
+{
+    "class.dawncraft.brawler" : "격투가",
+    "class.dawncraft.astrologer" : "점성술사",
+    "class.dawncraft.ronin" : "로닌",
+    "class.dawncraft.warrior" : "전사",
+    "class.dawncraft.berserker" : "광전사",
+    "class.dawncraft.tank" : "탱커",
+    "class.dawncraft.lancer" : "랜서",
+    "class.dawncraft.roamer" : "로머",
+    "class.dawncraft.brawler.desc" : "격투가는 평균 이상의 체력과 평균적인 지구력을 지니고 있어, 끈질긴 힘을 바탕으로 근접 전투에서 무시무시한 위력을 발휘합니다.",
+    "class.dawncraft.astrologer.desc" : "체력이 낮고 지구력이 평균 이하인 점성술사의 진정한 강점은 전략적 이동을 가능케 하는 강력한 '엔더 스텝'과 마법 시전을 돕는 기초 마법서에 있습니다.",
+    "class.dawncraft.ronin.desc" : "낮은 체력과 평균적인 지구력을 가진 로닌은 카타나를 휘두르는 민첩한 전사입니다. 정교한 타격을 가하는 동시에 능숙하게 피해를 입지 않도록 기동합니다.",
+    "class.dawncraft.warrior.desc" : "평균 이상의 지구력과 체력을 겸비한 강력한 챔피언으로, 전장에서 가장 균형 잡힌 힘을 보여주는 존재입니다.",
+    "class.dawncraft.berserker.desc" : "평균적인 체력과 높은 지구력을 바탕으로 끊임없는 흉포함을 보여줍니다. 광전사는 장기전에 특화된 전용 기술들을 사용하여 지속되는 전투에서 압도적인 활약을 펼칩니다.",
+    "class.dawncraft.tank.desc" : "높은 체력과 평균 이하의 지구력을 가진 탱커는 적의 거센 공격을 견뎌내도록 설계되었습니다. 고유의 기절 저항 기술을 보유한 이들은 전장의 굴하지 않는 수호자입니다.",
+    "class.dawncraft.lancer.desc" : "평균적인 체력과 지구력을 지닌 랜서는 정교함과 민첩함의 정수를 보여줍니다. 적의 약점을 공략하는 데 능숙하며, 빠른 회피를 통해 기민한 전투 기동을 펼칩니다.",
+    "class.dawncraft.roamer.desc" : "활과 화살로 무장한 로머는 민첩성을 중시하며, 낮은 체력에 대비되는 높은 지구력을 보유하고 있습니다."
+}

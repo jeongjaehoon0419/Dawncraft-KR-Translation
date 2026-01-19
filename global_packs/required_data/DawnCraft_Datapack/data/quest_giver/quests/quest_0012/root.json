@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "반갑네! 내게 우유 한 양동이만 좀 구해다 줄 수 있겠나? 그 고소한 맛이 아주 간절히 생각나서 말이네."
+    }
+  }
+}

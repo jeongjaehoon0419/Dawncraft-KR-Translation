@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "내 손안에 전설의 검, '루인(Ruine)'이 있네. 허나 자네가 이 검을 쥘 자격이 있는지 확인하려면, 그 기개와 가치를 증명해 보여야 할 걸세."
+    }
+  }
+}

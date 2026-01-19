@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0054_01b",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "어찌 되었나?"
+    },
+    "description": {
+      "text": "철 괭이는 가져왔는가?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "오, 가져와 주었구먼... 정말 고맙네. 염치 불고하고 또 다른 부탁을 하려니 미안하네만... 혹시 빵 2덩이만 만들어 줄 수 있겠나? 알다시피 우리는 키우고 수확하는 것만 잘해서 말이네. 우리 농장에 있는 밀을 써도 상관없네!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_hoe"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

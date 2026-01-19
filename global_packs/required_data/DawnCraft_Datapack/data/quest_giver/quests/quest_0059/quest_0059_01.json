@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0059_01b",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "시간 확인"
+    },
+    "description": {
+      "text": "모래시계는 가져왔는가? 내가 언제 부탁했는지조차 기억이 가물가물하구먼. 나에겐 꼭 필요한 물건이라네. 부디 서둘러 주게나."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "고맙네!"
+    },
+    "description": {
+      "text": "좋구먼! 자, 여기 보... 잠깐, 안에 아무것도 들어있지 않군. 이걸 대체 어떻게 쓰는 건가? 흠... 혹시 $(red)레드스톤 가루$()를 좀 구해다 줄 수 있겠나? 그걸 넣어야 모래시계가 작동할 것 같네."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:hourglass"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

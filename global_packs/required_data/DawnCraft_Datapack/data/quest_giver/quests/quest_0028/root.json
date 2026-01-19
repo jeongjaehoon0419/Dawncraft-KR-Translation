@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "이보게! 자네에게 부탁하고 싶은 일이 하나 있는데... 잠시 들어보겠나?"
+    }
+  }
+}

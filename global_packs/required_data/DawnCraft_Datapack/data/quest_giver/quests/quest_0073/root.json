@@ -1,0 +1,12 @@
+{
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "반갑네!"
+    },
+    "description": {
+      "text": "반갑네! 혹시 에버브라이트나 에버던 차원에 가본 적이 있는가? 어찌 됐든, 나를 좀 도와줄 수 있겠나?"
+    }
+  }
+}

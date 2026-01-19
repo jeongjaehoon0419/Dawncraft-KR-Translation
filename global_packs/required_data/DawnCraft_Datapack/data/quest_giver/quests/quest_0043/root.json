@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가. 지도 제작대 사용법을 배워보고 싶지 않은가? 단돈 에메랄드 10개면 충분하다네!"
+    }
+  }
+}

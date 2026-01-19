@@ -1,0 +1,44 @@
+{
+    "parent": "quest_giver:quest_0052_01b",
+    "reputation": 1,
+    "icon": "minecraft:wheat_seeds",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "벌써 잊어버렸나? 걱정 말게, 다시 알려줌세. $(red)볏짚 묶음$()이 필요하다네."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "볏짚 묶음이군! 이제 우리도 새 밀짚모자를 만들 수 있겠어! 고맙네, 낯선 이여."
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "farmersdelight:straw_bale"
+        },
+        "id": "quest_giver:gift",
+        "times": 1
+    }],
+    "rewards": [{
+            "command": "/advancement grant @p only custom:trade_farmer",
+            "id": "quest_giver:command"
+        },
+        {
+            "command": "/addreputation reputation:villager @p 1",
+            "id": "quest_giver:command"
+        },
+        {
+            "item": {
+                "item": "minecraft:emerald"
+            },
+            "id": "quest_giver:item",
+            "times": 1
+        }
+    ]
+}

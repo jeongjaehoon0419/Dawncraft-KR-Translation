@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "도움 요청"
+    },
+    "description": {
+      "text": "좋구먼! $(red)독미나리$() 2묶음이 필요하다네. 대부분의 동물에게는 치명적인 독초지만, 내가 사냥하려는 그 고약한 맹수에게는 아주 좋은 미끼가 될 게야..."
+    }
+  }
+}

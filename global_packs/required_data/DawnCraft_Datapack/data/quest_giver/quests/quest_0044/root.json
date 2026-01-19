@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "안녕하신가, 혹시 $(red)거미 눈 5개$()만 좀 구해다 줄 수 있겠나?"
+    }
+  }
+}

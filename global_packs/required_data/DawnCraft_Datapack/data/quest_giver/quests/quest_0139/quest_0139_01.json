@@ -1,0 +1,32 @@
+{
+    "parent": "quest_giver:root",
+    "reputation": 15,
+    "icon": "minecraft:iron_sword",
+    "start": {
+        "title": {
+            "text": "어찌 되었나?"
+        },
+        "description": {
+            "text": "에메랄드 18개를 내놓는다면 '정교한 구르기(Precise Roll)' 기술을 전수해줌세."
+        }
+    },
+    "complete": {
+        "title": {
+            "text": "고맙네!"
+        },
+        "description": {
+            "text": "여기 있네, 모험가여!"
+        }
+    },
+    "tasks": [{
+        "item": {
+            "item": "minecraft:emerald"
+        },
+      "id": "quest_giver:gift",
+      "times": 18
+    }],
+    "rewards": [{
+        "command": "give @p epicfight:skillbook{skill:\"wom:precise_roll\"}",
+        "id": "quest_giver:command"
+    }]
+}

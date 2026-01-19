@@ -1,0 +1,12 @@
+{
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "이보게!"
+    },
+    "description": {
+      "text": "에버던 차원에서 $(red)루나 스톤$() 하나만 구해다 줄 수 있겠나? 그 석재의 품질이 어느 정도인지 영 궁금해서 말이네."
+    }
+  }
+}

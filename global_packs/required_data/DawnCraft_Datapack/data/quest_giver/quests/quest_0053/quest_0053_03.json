@@ -1,0 +1,20 @@
+{
+  "parent": "quest_giver:quest_0053_02",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": { "text": "어찌 되었나?" },
+    "description": { "text": "그래, $(red)달콤한 열매 4개$()는 가져왔는가?" }
+  },
+  "complete": {
+    "title": { "text": "고맙네!" },
+    "description": { "text": "자네 참 대단하구먼, 젊은이. 부탁 하나만 더 들어주겠나? 비트 2개가 필요하네... 약속하건대 정말 마지막 부탁이라네." }
+  },
+  "tasks": [
+    {
+      "item": { "item": "minecraft:sweet_berries" },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

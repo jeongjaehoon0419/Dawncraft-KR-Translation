@@ -1,0 +1,15 @@
+{
+  "parent": "quest_giver:quest_0046_01b",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": { "text": "안녕하신가" },
+    "description": { "text": "아직 계약을 완수하지 못한 모양이군. 아니면 계약 내용을 잊은 건가? $(red)실버 비스트 2마리$()를 처단하게나." }
+  },
+  "complete": {
+    "title": { "text": "여기 있네." },
+    "description": { "text": "잘해주었네. 사악한 힘의 진군이 잠시 멈춘 것이 느껴지는군. 하지만 그들의 정복욕은 끝이 없다네. 다른 계약을 원한다면 다시 말을 걸어주게." }
+  },
+  "tasks": [ { "entity": "bloodandmadness:silverbeast", "id": "quest_giver:kill", "times": 2 } ],
+  "rewards": [ { "item": { "item": "minecraft:emerald" }, "id": "quest_giver:item", "times": 4 }, { "command": "/addreputation reputation:villager @p 2", "id": "quest_giver:command" } ]
+}

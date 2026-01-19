@@ -1,0 +1,254 @@
+{
+	id: "456CFF8FE8F8BFAB"
+	group: "25047313B704629A"
+	order_index: 1
+	filename: "useful_commands_for_servers"
+	title: "유용한 정보"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbteams:textures/accept.png"
+			hover: ["게임 내 정보"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbteams:textures/accept.png"
+			hover: ["멀티플레이어 정보"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "orcz:textures/aaquestionmark.png"
+			hover: ["기타"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.5d
+			y: -7.0d
+			subtitle: "서버에서 팀원 간 공격(아군 오사)을 비활성화하려면?"
+			description: [
+				"1) /team add [팀이름] \\n2) /team modify [팀이름] friendlyfire false"
+				"3) /team join [팀이름] [플레이어명]"
+			]
+			id: "59F404BFA55005EA"
+			tasks: [{
+				id: "01CE05960FF752C1"
+				type: "checkmark"
+				title: "팀원 간 공격 비활성화"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			subtitle: "꼭 알아야 할 유용한 단축키 목록입니다!"
+			description: [
+				"   \"i\" 키: 마지막 사망 정보 확인"
+				"   \"h\" 키: 자신의 말 호출하기"
+				"   \"j\" 키: 자신의 말 등록하기"
+				"   \"r\" 키: 전투 모드 전환"
+				"   \"b\" 키: 배낭 열기 \\n                 (장착 중일 때)"
+				"   \"n\" 키: 화살통 열기\\n                 (장착 중일 때)"
+				"   \"k\" 키: 기술 확인 및\\n            장착 기술 선택"
+			]
+			id: "726F1FFCA2697CF6"
+			tasks: [{
+				id: "79E1E37E279C39DE"
+				type: "checkmark"
+				title: "알아두면 유용한 단축키"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "모드 가이드북 목록입니다. 제작법은 인벤토리 검색창에서 확인해 보십시오!"
+			description: [
+				"    그림자의 연대기 (Apotheosis)"
+				"    생명 백과사전 (Untamed Wilds)"
+				"      동물 사전 (Alex's Mobs)"
+				"    위대한 버터 책 (Lil' Wings)"
+				"         그림자의 서 (Hexerei)"
+				"      낡은 수첩 (Ars Nouveau)"
+				"클라우드 저장소와 당신 (Cloud Storage)"
+				"      팔라딘의 가구 (Paladin's Furniture)"
+				"      식단표 (Spice of Life)"
+			]
+			id: "5540C43EFDAE8E3B"
+			tasks: [{
+				id: "484069119F39A90C"
+				type: "checkmark"
+				title: "가이드북 목록"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			subtitle: "길드 마스터는 어디에서 찾을 수 있나요?"
+			description: [
+				"길드 마스터는 주민과 별개의 존재가 아니라, 주민이 가질 수 있는 '직업' 중 하나입니다(멍청이 주민 제외). \\n"
+				"직업 블록은 길드 하우스나 가판대에서 흔히 볼 수 있는 '종'입니다. 만약 마을에 가판대는 있지만 길드 마스터가 없다면, 주민들이 직업을 가질 수 있도록 정오까지 기다려 보십시오. \\n"
+				"또는 마인크래프트 내에서 가능한 모든 수단을 동원해 주민을 종 근처로 직접 '인도'할 수도 있습니다."
+			]
+			id: "63F0B07D20E74D61"
+			tasks: [{
+				id: "3900DF3E47ADF564"
+				type: "checkmark"
+				title: "길드 마스터"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			subtitle: "주민들이 왜 저와 상호작용하지 않나요?"
+			description: [
+				"가장 흔한 실수는 주민이 보고 있는 앞에서 자신이 설치하지 않은 상자나 보관함을 열고 약탈하는 것입니다. 이는 마을 내부의 상자에만 국한되지 않습니다. 주민이 당신의 '범죄'를 목격하면 평판이 하락합니다. \\n\\n나빠진 평판을 회복하기 위해 기부해야 할 화폐 꾸러미의 최대치는 8개이지만, 마을을 학살하지 않는 이상 대개 1~2개면 충분합니다."
+				"\\n만약 평판이 잘못 하락했다고 느껴져 0부터 다시 시작하고 싶다면, 치트를 켜고 다음 명령어를 입력하십시오: \\n/setreputation reputation:villager @p 0"
+				"\\n주민과 거래하려면 충분한 평판뿐만 아니라 **거래 계약서(Trading Scroll)**가 추가로 필요하다는 점을 유의하십시오. 거래 계약서는 주민 퀘스트를 완료하여 획득할 수 있습니다."
+			]
+			id: "1B36858C66C3C77F"
+			tasks: [{
+				id: "3FA502DE4B61335E"
+				type: "checkmark"
+				title: "평판 관리 #1"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "메인 퀘스트의 완료 여부는 어떻게 감지되나요?"
+			description: [
+				"약탈자와 고블린 왕 처치 퀘스트를 제외한 모든 메인 퀘스트는 플레이어가 특정 '엔더의 눈'을 인벤토리에 넣을 때 감지됩니다."
+				"\\n따라서 보스(눈의 수호자)를 미리 처치하고 눈을 얻었다면, 해당 아이템을 바닥에 버렸다가 다시 주우면 퀘스트가 완료됩니다."
+			]
+			id: "08F5174D848D7DF0"
+			tasks: [{
+				id: "62A75C3AC8B180D6"
+				type: "checkmark"
+				title: "퀘스트 감지 방식"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			subtitle: "어떤 셰이더를 사용하는 것이 좋습니까?"
+			description: [
+				"             최고의 성능:\\n           - Sildurs Vibrant Lite\\n"
+				"           최고의 비주얼 추천:\\n        - Complimentary Reimagined"
+				"\\n         위 셰이더들이 취향에 맞지\\n           않는다면 다른 것을 사용해 보십시오!"
+			]
+			id: "7644BDD80B6EDA44"
+			tasks: [{
+				id: "43CC8096AA6E2C33"
+				type: "checkmark"
+				title: "셰이더 추천"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			subtitle: "서버에서 제 재산을 어떻게 보호할 수 있나요?"
+			description: [
+				"'Claim Chunks' 모드를 활용해 보십시오. 이 모드는 '점유 블록(Claim Block)'이라는 새로운 블록을 추가합니다. \\n\\n청크별 권한 설정 방법은 모드 공식 페이지를 참조하십시오!"
+				"\\n*기본적으로 플레이어당 최대 8청크까지 점유할 수 있습니다."
+			]
+			id: "2294C358D1153CAE"
+			tasks: [{
+				id: "6C26B3CB7B7B5B78"
+				type: "checkmark"
+				title: "영역 점유 (Claim Chunks)"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			subtitle: "바닐라 그래픽 설정 메뉴를 어떻게 활성화하나요?"
+			description: ["         그래픽 설정 메뉴에서\\n         \"Shift\" + \"P\" 키를 누르십시오."]
+			id: "0E4410A648272A97"
+			tasks: [{
+				id: "79729BB3AB3E564D"
+				type: "checkmark"
+				title: "바닐라 그래픽 설정"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			subtitle: "ProjectMMO가 왜 제대로 작동하지 않나요?"
+			description: [
+				"  이 모드팩에서 ProjectMMO는 기존과\\n  다른 방식으로 사용됩니다. 원래의\\n  기능은 잊으셔도 좋습니다."
+				"\\n  높은 커스터마이징 기능을 활용해\\n '지식(Knowledge)'과 같은 특수 기술\\n  시스템을 만들고 아이템별 요구치\\n        설정에 사용됩니다."
+			]
+			id: "217D8862894AE01D"
+			tasks: [{
+				id: "4882C70BB6EEE851"
+				type: "checkmark"
+				title: "ProjectMMO 안내"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "탐험가 지도를 어떻게 읽나요?"
+			description: [
+				"지도 가장자리에 있는 작은 점이 플레이어의 위치입니다. 지도의 위쪽이 북쪽, 왼쪽이 서쪽을 나타냅니다."
+				"\\n가끔 바닐라 마인크래프트의 버그로 인해 지도에 X 표시가 나타나지 않을 수 있습니다. 이럴 경우 지도가 가리키는 해당 지역 주변을 직접 샅샅이 조사해야 합니다."
+			]
+			id: "10180D525A3F3D4F"
+			tasks: [{
+				id: "11DFA820F8B8E6FF"
+				type: "checkmark"
+				title: "지도 읽는 법"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			subtitle: "명령어 피드백을 어떻게 활성화하나요?"
+			description: ["/gamerule sendCommandFeedback true"]
+			id: "2E679597791BF6B8"
+			tasks: [{
+				id: "68056F1A3F76B35D"
+				type: "checkmark"
+				title: "명령어 활성화"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			subtitle: "서버에서 눈의 수호자 보스 리스폰을 어떻게 활성화하나요?"
+			description: [
+				"  /gamerule doDCBossesRespawn true"
+				"\\n     단, 메인 퀘스트를 진행 중인\\n     플레이어만이 보스를 다시\\n     소환할 수 있다는 점에 유의하십시오."
+			]
+			id: "1708A5D4E536662D"
+			tasks: [{
+				id: "4708BF5BBA73E19F"
+				type: "checkmark"
+				title: "보스 리스폰 활성화"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

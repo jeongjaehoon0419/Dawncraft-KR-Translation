@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "소소한 부탁"
+    },
+    "description": {
+      "text": "역시 좋은 사람이구먼! 어떻게든 $(red)철 나이프$() 하나만 구해다 줄 수 있겠나? 내가 쓰던 게 방금 부러져 버려서 말이네..."
+    }
+  }
+}
